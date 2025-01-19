@@ -2,6 +2,7 @@ import './App.css'
 import { useState } from 'react'
 import WordPicker from './components/WordPicker/WordPicker'
 import bVWords from '../jsonWords/b-v.json'
+import aEWords from '../jsonWords/a-e.json'
 
 function App() {
   const [selectedBox, setSelectedBox] = useState<string | null>(null);
@@ -23,7 +24,9 @@ function App() {
     { id: "diftongs", title: "Els diftongs" },
     { id: "dieres", title: "La dièresi" },
     { id: "accent", title: "L'accent diacrític" },
-  ]
+  ];
+
+  const activeBoxIds = ["b-v", "a-e"];
 
   const handleBoxClick = (boxId: string) => {
     setSelectedBox(boxId);
@@ -33,10 +36,28 @@ function App() {
     setSelectedBox(null);
   }
 
+  const getBoxData = (boxId: string) => {
+    switch (boxId) {
+      case "b-v":
+        return bVWords;
+      case "a-e":
+        return aEWords;
+      default:
+        return { words: [], rules: [], links: [] };
+    }
+  }
+
   return (
     <>
       {selectedBox ? (
-        <WordPicker words={bVWords.words} rules={bVWords.rules} onBack={handleBack} boxId={selectedBox} boxes={boxes} links={bVWords.links} />
+        <WordPicker
+          words={getBoxData(selectedBox).words}
+          rules={getBoxData(selectedBox).rules}
+          onBack={handleBack}
+          boxId={selectedBox}
+          boxes={boxes}
+          links={getBoxData(selectedBox).links}
+        />
       ) : (
         <div className="flex flex-col items-center">
           <h1 className="text-6xl font-bold text-center my-4">Ortografia Catalana</h1>
@@ -47,8 +68,8 @@ function App() {
             {boxes.map((box) => (
               <div
                 key={box.id}
-                className={`p-4 text-xl rounded-lg cursor-pointer ${box.id === "b-v" ? "bg-blue-500 text-white hover:bg-blue-700" : "bg-blue-950 text-blue-200 cursor-not-allowed"}`}
-                onClick={() => box.id === "b-v" && handleBoxClick(box.id)}
+                className={`p-4 text-xl rounded-lg cursor-pointer ${activeBoxIds.includes(box.id) ? "bg-blue-500 text-white hover:bg-blue-700" : "bg-blue-950 text-blue-200 cursor-not-allowed"}`}
+                onClick={() => activeBoxIds.includes(box.id) && handleBoxClick(box.id)}
               >
                 {box.title}
               </div>

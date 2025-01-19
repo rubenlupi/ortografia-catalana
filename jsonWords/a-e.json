@@ -1,0 +1,742 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "Els noms i adjectius femenins s'escriuen amb A final.",
+      "rule": "A -> A / _{femení}",
+      "ex": "finestra oberta, llibreta polida, taronja amarga, butaca còmoda, poma agra, línia recta, ovella negra, mongeta tendra, passa llarga, pantera ràpida"
+    },
+    {
+      "id": 2,
+      "message": "Els noms i adjectius masculins que acaben en -ma, -ta, -ista, -arca, -cida s'escriuen amb A final.",
+      "rule": "A -> A / _{ma, ta, ista, arca, cida}",
+      "ex": "tema, idioma, problema, panorama, poema, enigma, diploma, drama, programa, cinema, pirata, poeta, planeta, paleta, cometa, artista, pianista, ciclista, esportista, flautista, periodista, electricista, autista, monoteista, racista, pacifista, monarca, patriarca, homicida, suïcida, raticida, insecticida"
+    },
+    {
+      "id": 3,
+      "message": "Altres casos de noms i adjectius masculins que s'escriuen amb A final.",
+      "rule": "A -> A / _{masculí}",
+      "ex": "mapa, dia, goril·la, terreny agrícola, indígena, nòmada"
+    },
+    {
+      "id": 4,
+      "message": "Els noms i adjectius masculins s'escriuen amb E final.",
+      "rule": "E -> E / _{masculí}",
+      "ex": "home amable, arbre jove, cotxe negre, vi agre, angle recte, pebre negre"
+    },
+    {
+      "id": 5,
+      "message": "Alguns noms femenins s'escriuen amb E final.",
+      "rule": "E -> E / _{femení}",
+      "ex": "base, classe, febre, mare, torre, espècie, fase, higiene, imatge, sèrie, superfície, faringe, laringe, piràmide, llebre, frase, barbàrie, calvície"
+    },
+    {
+      "id": 6,
+      "message": "Noms i adjectius que acaben en -aire s'escriuen amb E final.",
+      "rule": "E -> E / _{aire}",
+      "ex": "cadiraire, cantaire, drapaire, boletaire, rondinaire"
+    },
+    {
+      "id": 7,
+      "message": "Alguns adjectius invariables (d’una terminació) s'escriuen amb E final.",
+      "rule": "E -> E / _{invariable}",
+      "ex": "alegre, enorme, cèlebre, jove, lliure, feble, noble, terrestre, salvatge, unànime, bilingüe"
+    },
+    {
+      "id": 8,
+      "message": "Els plurals de noms i adjectius acabats en a/e s’escriuen amb -es.",
+      "rule": "A/E -> A/E / _{plural}",
+      "ex": "taronges, arbres, platges, els pebres negres, les ovelles negres, moltes feines feixugues, les amigues inseparables, els dies alegres, mapes, atles"
+    },
+    {
+      "id": 9,
+      "message": "Alternances ortogràfiques en la formació de plurals.",
+      "rule": "ca/ga/ça/ja/gua/qua -> ques/gues/ces/ges/gües/qües / _{plural}",
+      "ex": "roca-roques, vaca-vaques, oca-oques, amiga-amigues, màniga-mànigues, tortuga-tortugues, plaça-places, pinça-pinces, peça-peces, puça-puces, raça-races, esponja-esponges, pluja-pluges, roja-roges, aigua-aigües, llengua-llengües, paraigua-paraigües, piragua-piragües, pasqua-pasqües"
+    },
+    {
+      "id": 10,
+      "message": "Escrivim A com a última lletra del verb.",
+      "rule": "A -> A / _{verb-final}",
+      "ex": "arriba, menja, passeja, cantava, perdia, vivia, sortia, patia"
+    },
+    {
+      "id": 11,
+      "message": "Formes àtones en l’arrel dels verbs: treure, jeure, néixer i péixer.",
+      "rule": "A -> A / _{verb-arrel}",
+      "ex": "traiem, traieu, trauré, trauria, jaiem, jaieu, jauré, jauria, naixem, naixeu, naixia, naixeria, nascut, naixement, naixença, paixem, paixeu, paixerà, paixeria"
+    },
+    {
+      "id": 12,
+      "message": "Formes àtones del verb FER.",
+      "rule": "A -> A / _{verb-fer}",
+      "ex": "faré, faràs, farà, farem, fareu, faran, faria, faries, faria, faríem, faríeu, farien"
+    },
+    {
+      "id": 13,
+      "message": "Escrivim E com a penúltima lletra del verb.",
+      "rule": "E -> E / _{verb-penúltima}",
+      "ex": "tenen, mires, cantaves, cantàvem, cantàveu, cantaven, perdies, perdíem, perdíeu, perdien"
+    },
+    {
+      "id": 14,
+      "message": "Infinitius acabats en -re (2a conjugació b).",
+      "rule": "E -> E / _{infinitiu-re}",
+      "ex": "rebre, caure, seure, viure, veure, treure, moure, riure, beure, creure, jeure"
+    },
+    {
+      "id": 15,
+      "message": "2a persona singular (tu) de l’imperatiu dels verbs.",
+      "rule": "E -> E / _{imperatiu-tu}",
+      "ex": "corre, vine, obre, omple"
+    },
+    {
+      "id": 16,
+      "message": "Quan la vocal neutra es troba a l’interior d’una paraula, escrivim A o E segons la paraula de la mateixa família.",
+      "rule": "A/E -> A/E / _{vocal-neutra}",
+      "ex": "glaçó-glaç, planer-pla, taulada-taula, negror-negre, premsar-premsa, teulada-teula"
+    },
+    {
+      "id": 17,
+      "message": "Paraules que s’escriuen al revés que en castellà (i que cal memoritzar).",
+      "rule": "A/E -> A/E / _{memoritzar}",
+      "ex": "afaitar-se, ambaixada, arracada, assassí, avaluar, avantatge, avaria, davall, davant, encomanar, peixateria, racó, ramat, rancor, sanefa, afegir, assemblea, càmera, disfressar, enyorar, espàrrec, malenconia, melangia, meravella, monestir, nedar, orfe, òrfena, polseguera, punxegut, ràfega, resplendor, sergent, treball, vernís, envernissar"
+    }
+  ],
+  "words": [
+    {
+      "word": "ambaixada",
+      "wrongVariants": [
+        "embaixade",
+        "embaixada"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "arracada",
+      "wrongVariants": [
+        "arracade"
+      ],
+      "level": 1,
+      "rule": 17
+    },
+    {
+      "word": "avaluar",
+      "wrongVariants": [
+        "evaluar"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "avantatge",
+      "wrongVariants": [
+        "avantaje"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "avaria",
+      "wrongVariants": [
+        "averia"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "davall",
+      "wrongVariants": [
+        "devall"
+      ],
+      "level": 1,
+      "rule": 17
+    },
+    {
+      "word": "encomanar",
+      "wrongVariants": [
+        "ancomanar"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "peixateria",
+      "wrongVariants": [
+        "peixateria"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "racó",
+      "wrongVariants": [
+        "recó"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "rancor",
+      "wrongVariants": [
+        "rencor"
+      ],
+      "level": 1,
+      "rule": 17
+    },
+    {
+      "word": "sanefa",
+      "wrongVariants": [
+        "senefa"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "butaca",
+      "wrongVariants": [
+        "butace"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "pantera",
+      "wrongVariants": [
+        "pantere"
+      ],
+      "level": 2,
+      "rule": 1
+    },
+    {
+      "word": "mongeta",
+      "wrongVariants": [
+        "mongete"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "problema",
+      "wrongVariants": [
+        "probleme"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "cinema",
+      "wrongVariants": [
+        "cineme"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "poeta",
+      "wrongVariants": [
+        "poete"
+      ],
+      "level": 1,
+      "rule": 2
+    },
+    {
+      "word": "artista",
+      "wrongVariants": [
+        "artiste"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "racista",
+      "wrongVariants": [
+        "raciste"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "patriarca",
+      "wrongVariants": [
+        "patriarce"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "homicida",
+      "wrongVariants": [
+        "homicide"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "mapa",
+      "wrongVariants": [
+        "mape"
+      ],
+      "level": 1,
+      "rule": 3
+    },
+    {
+      "word": "dia",
+      "wrongVariants": [
+        "die"
+      ],
+      "level": 1,
+      "rule": 3
+    },
+    {
+      "word": "goril·la",
+      "wrongVariants": [
+        "goril·le"
+      ],
+      "level": 1,
+      "rule": 3
+    },
+    {
+      "word": "arbre",
+      "wrongVariants": [
+        "arbra"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "cotxe",
+      "wrongVariants": [
+        "cotxa"
+      ],
+      "level": 1,
+      "rule": 4
+    },
+    {
+      "word": "pebre",
+      "wrongVariants": [
+        "pebra"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "base",
+      "wrongVariants": [
+        "basa"
+      ],
+      "level": 1,
+      "rule": 5
+    },
+    {
+      "word": "classe",
+      "wrongVariants": [
+        "clasa"
+      ],
+      "level": 2,
+      "rule": 5
+    },
+    {
+      "word": "febre",
+      "wrongVariants": [
+        "febra"
+      ],
+      "level": 1,
+      "rule": 5
+    },
+    {
+      "word": "mare",
+      "wrongVariants": [
+        "mara"
+      ],
+      "level": 2,
+      "rule": 5
+    },
+    {
+      "word": "espècie",
+      "wrongVariants": [
+        "espècia"
+      ],
+      "level": 3,
+      "rule": 5
+    },
+    {
+      "word": "piràmide",
+      "wrongVariants": [
+        "piràmida"
+      ],
+      "level": 2,
+      "rule": 5
+    },
+    {
+      "word": "cadiraire",
+      "wrongVariants": [
+        "cadiraira"
+      ],
+      "level": 3,
+      "rule": 6
+    },
+    {
+      "word": "boletaire",
+      "wrongVariants": [
+        "boletaira"
+      ],
+      "level": 3,
+      "rule": 6
+    },
+    {
+      "word": "rondinaire",
+      "wrongVariants": [
+        "rondinaira"
+      ],
+      "level": 3,
+      "rule": 6
+    },
+    {
+      "word": "alegre",
+      "wrongVariants": [
+        "alegra"
+      ],
+      "level": 1,
+      "rule": 7
+    },
+    {
+      "word": "enorme",
+      "wrongVariants": [
+        "enorma"
+      ],
+      "level": 1,
+      "rule": 7
+    },
+    {
+      "word": "cèlebre",
+      "wrongVariants": [
+        "cèlebra"
+      ],
+      "level": 2,
+      "rule": 7
+    },
+    {
+      "word": "lliure",
+      "wrongVariants": [
+        "lliura"
+      ],
+      "level": 2,
+      "rule": 7
+    },
+    {
+      "word": "bilingüe",
+      "wrongVariants": [
+        "bilingüa"
+      ],
+      "level": 2,
+      "rule": 7
+    },
+    {
+      "word": "taronges",
+      "wrongVariants": [
+        "taronjas"
+      ],
+      "level": 1,
+      "rule": 8
+    },
+    {
+      "word": "arbres",
+      "wrongVariants": [
+        "arbras"
+      ],
+      "level": 2,
+      "rule": 8
+    },
+    {
+      "word": "platges",
+      "wrongVariants": [
+        "platjas"
+      ],
+      "level": 2,
+      "rule": 8
+    },
+    {
+      "word": "vacances",
+      "wrongVariants": [
+        "vacansas"
+      ],
+      "level": 1,
+      "rule": 8
+    },
+    {
+      "word": "les ovelles",
+      "wrongVariants": [
+        "les ovellas"
+      ],
+      "level": 1,
+      "rule": 8
+    },
+    {
+      "word": "feixugues",
+      "wrongVariants": [
+        "feixugas"
+      ],
+      "level": 3,
+      "rule": 8
+    },
+    {
+      "word": "roques",
+      "wrongVariants": [
+        "rocas"
+      ],
+      "level": 2,
+      "rule": 9
+    },
+    {
+      "word": "vaques",
+      "wrongVariants": [
+        "vacas"
+      ],
+      "level": 1,
+      "rule": 9
+    },
+    {
+      "word": "oques",
+      "wrongVariants": [
+        "ocas"
+      ],
+      "level": 1,
+      "rule": 9
+    },
+    {
+      "word": "amigues",
+      "wrongVariants": [
+        "amigas"
+      ],
+      "level": 1,
+      "rule": 9
+    },
+    {
+      "word": "mànigues",
+      "wrongVariants": [
+        "mànigas"
+      ],
+      "level": 1,
+      "rule": 9
+    },
+    {
+      "word": "plaça",
+      "wrongVariants": [
+        "plasa"
+      ],
+      "level": 1,
+      "rule": 9
+    },
+    {
+      "word": "pinces",
+      "wrongVariants": [
+        "pincas"
+      ],
+      "level": 2,
+      "rule": 9
+    },
+    {
+      "word": "esponja",
+      "wrongVariants": [
+        "esponja"
+      ],
+      "level": 2,
+      "rule": 9
+    },
+    {
+      "word": "pluja",
+      "wrongVariants": [
+        "pluja"
+      ],
+      "level": 2,
+      "rule": 9
+    },
+    {
+      "word": "aigües",
+      "wrongVariants": [
+        "aiguas"
+      ],
+      "level": 3,
+      "rule": 9
+    },
+    {
+      "word": "piragües",
+      "wrongVariants": [
+        "piraguas"
+      ],
+      "level": 3,
+      "rule": 9
+    },
+    {
+      "word": "pasqües",
+      "wrongVariants": [
+        "pasquas"
+      ],
+      "level": 3,
+      "rule": 9
+    },
+    {
+      "word": "arriba",
+      "wrongVariants": [
+        "arribe"
+      ],
+      "level": 1,
+      "rule": 10
+    },
+    {
+      "word": "menja",
+      "wrongVariants": [
+        "menje"
+      ],
+      "level": 1,
+      "rule": 10
+    },
+    {
+      "word": "passeja",
+      "wrongVariants": [
+        "passeje"
+      ],
+      "level": 1,
+      "rule": 10
+    },
+    {
+      "word": "patia",
+      "wrongVariants": [
+        "patie"
+      ],
+      "level": 1,
+      "rule": 10
+    },
+    {
+      "word": "faré",
+      "wrongVariants": [
+        "fara"
+      ],
+      "level": 1,
+      "rule": 12
+    },
+    {
+      "word": "faríem",
+      "wrongVariants": [
+        "fariam"
+      ],
+      "level": 2,
+      "rule": 12
+    },
+    {
+      "word": "naixem",
+      "wrongVariants": [
+        "naixam"
+      ],
+      "level": 2,
+      "rule": 11
+    },
+    {
+      "word": "tenen",
+      "wrongVariants": [
+        "tenan"
+      ],
+      "level": 1,
+      "rule": 13
+    },
+    {
+      "word": "mires",
+      "wrongVariants": [
+        "miras"
+      ],
+      "level": 1,
+      "rule": 13
+    },
+    {
+      "word": "rebre",
+      "wrongVariants": [
+        "rebra"
+      ],
+      "level": 2,
+      "rule": 14
+    },
+    {
+      "word": "viure",
+      "wrongVariants": [
+        "viura"
+      ],
+      "level": 2,
+      "rule": 14
+    },
+    {
+      "word": "caure",
+      "wrongVariants": [
+        "caura"
+      ],
+      "level": 2,
+      "rule": 14
+    },
+    {
+      "word": "corre",
+      "wrongVariants": [
+        "corra"
+      ],
+      "level": 1,
+      "rule": 15
+    },
+    {
+      "word": "vine",
+      "wrongVariants": [
+        "vina"
+      ],
+      "level": 1,
+      "rule": 15
+    },
+    {
+      "word": "omple",
+      "wrongVariants": [
+        "ompla"
+      ],
+      "level": 1,
+      "rule": 15
+    },
+    {
+      "word": "glaçó",
+      "wrongVariants": [
+        "glasa"
+      ],
+      "level": 3,
+      "rule": 16
+    },
+    {
+      "word": "planer",
+      "wrongVariants": [
+        "plana"
+      ],
+      "level": 3,
+      "rule": 16
+    },
+    {
+      "word": "negror",
+      "wrongVariants": [
+        "negra"
+      ],
+      "level": 3,
+      "rule": 16
+    },
+    {
+      "word": "afaitar-se",
+      "wrongVariants": [
+        "afeitar-se"
+      ],
+      "level": 2,
+      "rule": 17
+    },
+    {
+      "word": "encomanar",
+      "wrongVariants": [
+        "ancomanar"
+      ],
+      "level": 2,
+      "rule": 17
+    }
+  ]
+}
