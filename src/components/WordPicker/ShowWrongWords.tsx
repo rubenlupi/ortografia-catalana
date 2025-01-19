@@ -8,6 +8,7 @@ interface ShowWrongWordsProps {
 
 const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdateWrongWords }) => {
   const [wrongWords, setWrongWords] = useState<string[]>([]);
+  const [copyMessage, setCopyMessage] = useState<string>('');
 
   useEffect(() => {
     const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${boxId}`) || '[]');
@@ -27,8 +28,16 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
     onUpdateWrongWords([]);
   };
 
+  const handleCopyPrompt = () => {
+    const prompt = `Compose a dictation in Catalan containing approximately 45 words. The dictation must include the following incorrect words: ${wrongWords.join(', ')}. Use them in meaningful sentences, ensuring they fit naturally into the context.`;
+    navigator.clipboard.writeText(prompt).then(() => {
+      setCopyMessage('Prompt copiat!');
+      setTimeout(() => setCopyMessage(''), 3000);
+    });
+  };
+
   return (
-    <div >
+    <div>
       <div>
         <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar al WordPicker</button>
         <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborrar totes les paraules incorrectes</button>
@@ -49,6 +58,11 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
             </div>
           ))}
         </div>
+        <p className="text-center text-sm text-gray-300 mt-12">
+          Fes clic per copiar un text que pots utilitzar per generar una dictat amb les paraules incorrectes.
+        </p>
+        <button onClick={handleCopyPrompt} className="mt-8 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Genera Prompt</button>
+        {copyMessage && <p className="mt-4 text-center text-green-500">{copyMessage}</p>}
       </div>
     </div>
   );
