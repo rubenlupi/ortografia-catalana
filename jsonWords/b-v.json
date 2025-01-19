@@ -1,0 +1,889 @@
+{
+  "links": [
+    {
+      "title": "La grafia v",
+      "description": "Link extern a la normativa de l'IEC.",
+      "url": "https://oiec.iec.cat/textortografia/codi/2.7.2.3"
+    },
+    {
+      "title": "La grafia b",
+      "description": "Link extern a la normativa de l'IEC.",
+      "url": "https://oiec.iec.cat/textortografia/codi/2.7.2.2"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "message": "La lletra b es manté davant de l i r, així com en mots com blanc, bleda, agradable, i altres similars.",
+      "rule": "b -> b / _{l, r}",
+      "ex": "blanc, bleda, agradable, fibló, moble"
+    },
+    {
+      "id": 2,
+      "message": "La lletra b es manté darrere de m en paraules com ambient, combat, comboi, i altres similars.",
+      "rule": "b -> b / m_",
+      "ex": "ambient, combat, comboi, també, embotit"
+    },
+    {
+      "id": 3,
+      "message": "La lletra b es manté davant de vocal quan alterna amb p entre paraules d'una mateixa família o formes d'un mateix paradigma.",
+      "rule": "b -> b / _V [p-alternation]",
+      "ex": "abella (cf. apicultura), acabar (cf. cap), saber (cf. sap), cubell (cf. cup)"
+    },
+    {
+      "id": 4,
+      "message": "La lletra b es manté a final de síl·laba en contextos com absolut, cabdell, cobdícia, i altres similars.",
+      "rule": "b -> b / _C",
+      "ex": "absolut, cabdell, cobdícia, dissabte, dubte"
+    },
+    {
+      "id": 5,
+      "message": "La lletra v es manté darrere de n en paraules com canvi, convèncer, enviar, i altres similars.",
+      "rule": "v -> v / n_",
+      "ex": "canvi, convèncer, enviar, envoltar, invent"
+    },
+    {
+      "id": 6,
+      "message": "La lletra v es manté darrere de d en paraules com advent, advers, advertir, i altres similars.",
+      "rule": "v -> v / d_",
+      "ex": "advent, advers, advertir, advocat, inadvertit"
+    },
+    {
+      "id": 7,
+      "message": "La lletra v alterna amb u davant de vocals en mots d'una mateixa família o formes d'un mateix paradigma.",
+      "rule": "v -> v / _V [u-alternation]",
+      "ex": "activa (cf. actiu), blava (cf. blau), nevar (cf. neu), nova (cf. nou)"
+    },
+    {
+      "id": 8,
+      "message": "La lletra v es manté en les terminacions de l'imperfet d'indicatiu de la primera conjugació.",
+      "rule": "v -> v / _{imperfet}",
+      "ex": "parlava, escoltaves, miràvem, tancaven"
+    },
+    {
+      "id": 9,
+      "message": "La lletra v es manté en les formes rizotòniques dels presents d'indicatiu, subjuntiu, i imperatiu del verb anar.",
+      "rule": "v -> v / _{rizotònic}",
+      "ex": "vaig, vas, va, van, vagi, vagis"
+    },
+    {
+      "id": 10,
+      "message": "La lletra v es manté en manlleus adaptats amb w en els mots originals.",
+      "rule": "v -> v / {manlleu}",
+      "ex": "grauvaca, sandvitx, valquíria, vàter, Valhalla"
+    },
+    {
+      "id": 11,
+      "message": "La lletra b es manté en paraules que comencen amb 'bi-' seguit de una consonant.",
+      "rule": "b -> b / bi_C",
+      "ex": "bicicleta, bicolor, bimensual"
+    }
+  ],
+  "words": [
+    {
+      "word": "barba",
+      "wrongVariants": [
+        "barva",
+        "varba"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "veí",
+      "wrongVariants": [
+        "beí"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "bosc",
+      "wrongVariants": [
+        "vosc"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "vent",
+      "wrongVariants": [
+        "bent"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "boca",
+      "wrongVariants": [
+        "voca"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "verd",
+      "wrongVariants": [
+        "berd"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "bombeta",
+      "wrongVariants": [
+        "bomveta",
+        "vombeta"
+      ],
+      "level": 1,
+      "rule": 2
+    },
+    {
+      "word": "valent",
+      "wrongVariants": [
+        "balent"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "braç",
+      "wrongVariants": [
+        "vraç"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "volta",
+      "wrongVariants": [
+        "bolta"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "banc",
+      "wrongVariants": [
+        "vanc"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "vacances",
+      "wrongVariants": [
+        "bacances"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "barret",
+      "wrongVariants": [
+        "varret"
+      ],
+      "level": 2,
+      "rule": 1
+    },
+    {
+      "word": "viure",
+      "wrongVariants": [
+        "biure"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "baix",
+      "wrongVariants": [
+        "vaix"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "vila",
+      "wrongVariants": [
+        "bila"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "bleda",
+      "wrongVariants": [
+        "vleda"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "vint",
+      "wrongVariants": [
+        "bint"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "biblioteca",
+      "wrongVariants": [
+        "viblioteca",
+        "bivlioteca"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "valor",
+      "wrongVariants": [
+        "balor"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "cabell",
+      "wrongVariants": [
+        "cavell"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "victòria",
+      "wrongVariants": [
+        "bictòria"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "moble",
+      "wrongVariants": [
+        "movle"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "venda",
+      "wrongVariants": [
+        "benda"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "poble",
+      "wrongVariants": [
+        "povle"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "blau",
+      "wrongVariants": [
+        "vlau"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "saber",
+      "wrongVariants": [
+        "saver"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "submarí",
+      "wrongVariants": [
+        "suvmarí"
+      ],
+      "level": 1,
+      "rule": 2
+    },
+    {
+      "word": "moviment",
+      "wrongVariants": [
+        "mobiment"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "abraçada",
+      "wrongVariants": [
+        "avraçada"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "adob",
+      "wrongVariants": [
+        "adov"
+      ],
+      "level": 1,
+      "rule": 4
+    },
+    {
+      "word": "abisme",
+      "wrongVariants": [
+        "avisme"
+      ],
+      "level": 1,
+      "rule": 4
+    },
+    {
+      "word": "brillant",
+      "wrongVariants": [
+        "vrillant"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "veritat",
+      "wrongVariants": [
+        "beritat"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "benestar",
+      "wrongVariants": [
+        "venestar"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "vist",
+      "wrongVariants": [
+        "bist"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "club",
+      "wrongVariants": [
+        "cluv"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "observació",
+      "wrongVariants": [
+        "obserbació",
+        "ovservació"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "sobre",
+      "wrongVariants": [
+        "sovre"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "abundant",
+      "wrongVariants": [
+        "avundant"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "rebre",
+      "wrongVariants": [
+        "revre"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "visió",
+      "wrongVariants": [
+        "bisió"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "canvi",
+      "wrongVariants": [
+        "canbi"
+      ],
+      "level": 1,
+      "rule": 5
+    },
+    {
+      "word": "dissabte",
+      "wrongVariants": [
+        "dissavte"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "objecte",
+      "wrongVariants": [
+        "ovjecte"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "ambició",
+      "wrongVariants": [
+        "amvició"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "nivell",
+      "wrongVariants": [
+        "nibell"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "vincle",
+      "wrongVariants": [
+        "bincle"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "brossa",
+      "wrongVariants": [
+        "vrossa"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "convent",
+      "wrongVariants": [
+        "conbent"
+      ],
+      "level": 2,
+      "rule": 5
+    },
+    {
+      "word": "brúixola",
+      "wrongVariants": [
+        "vrúixola"
+      ],
+      "level": 2,
+      "rule": 1
+    },
+    {
+      "word": "advent",
+      "wrongVariants": [
+        "adbent"
+      ],
+      "level": 1,
+      "rule": 6
+    },
+    {
+      "word": "subtil",
+      "wrongVariants": [
+        "suvtil"
+      ],
+      "level": 1,
+      "rule": 2
+    },
+    {
+      "word": "ventall",
+      "wrongVariants": [
+        "bentall"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "activa",
+      "wrongVariants": [
+        "actiba"
+      ],
+      "level": 1,
+      "rule": 7
+    },
+    {
+      "word": "veure",
+      "wrongVariants": [
+        "beure"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "bressol",
+      "wrongVariants": [
+        "vressol"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "absolut",
+      "wrongVariants": [
+        "avsolut"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "movent",
+      "wrongVariants": [
+        "mobent"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "inversemblant",
+      "wrongVariants": [
+        "inbersemblant",
+        "inversemvlant"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "esbrinar",
+      "wrongVariants": [
+        "esvrinar"
+      ],
+      "level": 1,
+      "rule": 1
+    },
+    {
+      "word": "abandonar",
+      "wrongVariants": [
+        "avandonar"
+      ],
+      "level": 2,
+      "rule": 4
+    },
+    {
+      "word": "parlava",
+      "wrongVariants": [
+        "parlaba"
+      ],
+      "level": 3,
+      "rule": 8
+    },
+    {
+      "word": "anvers",
+      "wrongVariants": [
+        "anbers"
+      ],
+      "level": 2,
+      "rule": 5
+    },
+    {
+      "word": "invertir",
+      "wrongVariants": [
+        "inbertir"
+      ],
+      "level": 1,
+      "rule": 5
+    },
+    {
+      "word": "haver",
+      "wrongVariants": [
+        "haber"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "arbre",
+      "wrongVariants": [
+        "arvre"
+      ],
+      "level": 2,
+      "rule": 1
+    },
+    {
+      "word": "renovar",
+      "wrongVariants": [
+        "renobar"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "movia",
+      "wrongVariants": [
+        "mobia"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "observador",
+      "wrongVariants": [
+        "obserbador",
+        "ovservador"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "vivenda",
+      "wrongVariants": [
+        "vibenda",
+        "bivenda"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "bavós",
+      "wrongVariants": [
+        "vavós",
+        "babós"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "minvar",
+      "wrongVariants": [
+        "minbar"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "embolic",
+      "wrongVariants": [
+        "emvolic"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "revisar",
+      "wrongVariants": [
+        "rebisar"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "covard",
+      "wrongVariants": [
+        "cobard"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "subministrar",
+      "wrongVariants": [
+        "suvministrar"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "adobar",
+      "wrongVariants": [
+        "adovar"
+      ],
+      "level": 3,
+      "rule": 4
+    },
+    {
+      "word": "nivós",
+      "wrongVariants": [
+        "nibós"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "subratllar",
+      "wrongVariants": [
+        "suvratllar"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "vibrar",
+      "wrongVariants": [
+        "bibrar",
+        "vivrar"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "sobrevolar",
+      "wrongVariants": [
+        "sovrevolar",
+        "sobrebolar"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "barricada",
+      "wrongVariants": [
+        "varricada"
+      ],
+      "level": 3,
+      "rule": 1
+    },
+    {
+      "word": "subvertir",
+      "wrongVariants": [
+        "subbertir",
+        "suvvertir"
+      ],
+      "level": 1,
+      "rule": 2
+    },
+    {
+      "word": "envejar",
+      "wrongVariants": [
+        "enbejar"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "substitució",
+      "wrongVariants": [
+        "suvstitució"
+      ],
+      "level": 3,
+      "rule": 2
+    },
+    {
+      "word": "brevitat",
+      "wrongVariants": [
+        "brebitat",
+        "vrevitat"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "viscut",
+      "wrongVariants": [
+        "biscut"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "boira",
+      "wrongVariants": [
+        "voira"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "sobtat",
+      "wrongVariants": [
+        "sovtat"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "vapor",
+      "wrongVariants": [
+        "bapor"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "viatge",
+      "wrongVariants": [
+        "biatge"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "valorós",
+      "wrongVariants": [
+        "balorós"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "subjugar",
+      "wrongVariants": [
+        "suvjugar"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "embellir",
+      "wrongVariants": [
+        "emvellir"
+      ],
+      "level": 2,
+      "rule": 2
+    },
+    {
+      "word": "sobretot",
+      "wrongVariants": [
+        "sovretot"
+      ],
+      "level": 1,
+      "rule": -1
+    },
+    {
+      "word": "aventura",
+      "wrongVariants": [
+        "abentura"
+      ],
+      "level": 3,
+      "rule": -1
+    },
+    {
+      "word": "desenvolupar",
+      "wrongVariants": [
+        "desenbolupar"
+      ],
+      "level": 2,
+      "rule": -1
+    },
+    {
+      "word": "bicicleta",
+      "wrongVariants": [
+        "vicicleta",
+        "bicicletta"
+      ],
+      "level": 1,
+      "rule": 11
+    }
+  ]
+}
