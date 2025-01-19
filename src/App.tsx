@@ -8,12 +8,13 @@ function App() {
   const [selectedBox, setSelectedBox] = useState<string | null>(null);
 
   const boxes = [
-    { id: "b-v", title: "La b i la v" },
-    { id: "a-e", title: "La a i la e" },
-    { id: "m-n", title: "La m i la n" },
+    { id: "b-v", title: "La B i la V" },
+    { id: "a-e", title: "La A i la E àtones" },
+    { id: "o-u", title: "La O i la U àtones" },
+    { id: "m-n", title: "La M i la N" },
     { id: "esses", title: "Les esses: s, ss, c, ç, z" },
-    { id: "h", title: "La h" },
-    { id: "g-j", title: "La g i la j" },
+    { id: "h", title: "La H" },
+    { id: "g-j", title: "La G i la J" },
     { id: "l-l·l", title: "La l i la l·l" },
     { id: "p-b", title: "P/B en posició final" },
     { id: "t-d", title: "T/D en posició final" },
