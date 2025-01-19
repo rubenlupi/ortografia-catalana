@@ -8,6 +8,7 @@ function App() {
 
   const boxes = [
     { id: "b-v", title: "La b i la v" },
+    { id: "a-e", title: "La a i la e" },
     { id: "m-n", title: "La m i la n" },
     { id: "esses", title: "Les esses: s, ss, c, ç, z" },
     { id: "h", title: "La h" },
@@ -42,7 +43,7 @@ function App() {
           <p className="text-center text-sm text-gray-300 mb-4">
             Escull una caixa per començar a practicar.
           </p>
-          <div className="mt-8 grid grid-cols-3 gap-8">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
             {boxes.map((box) => (
               <div
                 key={box.id}

@@ -28,22 +28,27 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <p className="text-center text-sm text-gray-300 mb-4">
-        Després de practicar, aquestes són les paraules que has escrit incorrectament.
-      </p>
-      <p className="text-center text-sm text-gray-300 mb-4">
-        Les paraules s'esborraran automàticament quan les encertis més de 3 vegades.
-      </p>
-      <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar al WordPicker</button>
-      <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborrar totes les paraules incorrectes</button>
-      <div className="mt-16 grid grid-cols-3 gap-8">
-        {wrongWords.map((word, index) => (
-          <div key={index} className="p-4 bg-red-500 text-white text-xl rounded-lg flex justify-between items-center">
-            {word}
-            <button onClick={() => handleDeleteWord(word)} className="ml-4 p-2 bg-gray-700 text-white rounded">Eliminar</button>
-          </div>
-        ))}
+    <div >
+      <div>
+        <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar al WordPicker</button>
+        <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborrar totes les paraules incorrectes</button>
+      </div>
+      <div className="flex flex-col items-center mt-12">
+        <p className="text-center text-sm text-gray-300 mb-4">
+          Després de practicar, aquestes són les paraules que has escrit incorrectament.
+        </p>
+        <p className="text-center text-sm text-gray-300 mb-4">
+          Les paraules s'esborraran automàticament quan les encertis més de 3 vegades.
+        </p>
+
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          {wrongWords.map((word, index) => (
+            <div key={index} className="p-4 bg-red-500 text-white text-xl rounded-lg flex justify-between items-center">
+              {word}
+              <button onClick={() => handleDeleteWord(word)} className="ml-4 p-2 bg-gray-700 text-white rounded">Eliminar</button>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

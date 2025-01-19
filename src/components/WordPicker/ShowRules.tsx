@@ -24,7 +24,7 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
     <div className="flex flex-col items-center">
       <h1 className="text-4xl font-bold text-center my-4">Regles Ortogràfiques</h1>
       <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar al WordPicker</button>
-      <div className="mt-16 grid grid-cols-1 gap-8">
+      <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {sortedRules.map((rule) => (
           <div key={rule.id} className="p-4 bg-gray-800 text-white text-xl rounded-lg">
             <p className="font-bold">{rule.message}</p>

@@ -26,9 +26,12 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 1rem;
 }
 
 h1 {
@@ -74,6 +77,50 @@ button:focus-visible {
 
   button:hover {
     background-color: #e0e0e0;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .absolute {
+    position: static;
+    margin-bottom: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .space-x-4 {
+    margin-bottom: 1rem;
+  }
+
+  .mt-16 {
+    margin-top: 1rem;
+  }
+
+  .mt-8 {
+    margin-top: 1rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 1rem;
+  }
+
+  .space-y-2 {
+    margin-bottom: 1rem;
   }
 }
 

@@ -178,29 +178,33 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
       ) : showRules ? (
         <ShowRules onBack={() => setShowRules(false)} rules={rules} />
       ) : (
-        <div className="flex flex-col items-center">
+        <div>
+          <div>
+            <div className="absolute top-4 left-4">
+              <button onClick={onBack} className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Tornar al menú principal</button>
+            </div>
+            <div className="absolute top-4 right-4">
+              <select id="level" value={selectedLevel} onChange={handleLevelChange} className="p-2 border rounded">
+                <option value={0}>Tots el nivells</option>
+                {[1, 2, 3, 4, 5].map(level => (
+                  <option key={level} value={level}>Nivell {level}</option>
+                ))}
+              </select>
+
+            </div>
+          </div>
           <h1 className="text-4xl font-bold text-center my-4">{boxTitle}</h1>
           <div className="mt-4 mb-8">
             <button onClick={handleViewRules} className="p-2 bg-gray-500 text-white rounded hover:bg-gray-600">Veure regles ortogràfiques</button>
           </div>
-          <p className="text-center text-sm text-gray-300 mb-4">
+          <div className="flex flex-wrap justify-center items-center ">
+            <button onClick={handleViewWrongWords} className="p-2 bg-yellow-500 text-black rounded hover:bg-yellow-600 m-2">Veure paraules incorrectes - {wrongWords.length}</button>
+            <button onClick={handleViewLearntWords} className="p-2 bg-green-500 text-black rounded hover:bg-green-600 m-2">Veure paraules apreses - {correctWords.length}</button>
+          </div>
+          <p className="text-center text-sm text-gray-300 mt-12">
             Tria la paraula correcta.
           </p>
-          <div className="absolute top-4 right-4">
-            <label htmlFor="level" className="mr-2">Escull nivell:</label>
-            <select id="level" value={selectedLevel} onChange={handleLevelChange} className="p-2 border rounded">
-              <option value={0}>Tots el nivells</option>
-              {[1, 2, 3, 4, 5].map(level => (
-                <option key={level} value={level}>Nivell {level}</option>
-              ))}
-            </select>
-          </div>
-          <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Tornar al menú principal</button>
-          <div className="absolute top-4 left-1/2 transform -translate-x-1/2 flex space-x-4">
-            <button onClick={handleViewWrongWords} className="p-2 bg-yellow-500 text-black rounded hover:bg-yellow-600">Veure paraules incorrectes - {wrongWords.length}</button>
-            <button onClick={handleViewLearntWords} className="p-2 bg-green-500 text-black rounded hover:bg-green-600">Veure paraules apreses - {correctWords.length}</button>
-          </div>
-          <div className="flex space-x-4 mt-16">
+          <div className="flex flex-wrap justify-center items-center mb-12">
             {displayedWords.map((word, index) => (
               <button
                 key={index}
@@ -210,7 +214,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
                     ? 'bg-green-500 text-white hover:bg-green-500'
                     : 'bg-red-500 text-white hover:bg-red-500'
                   : 'bg-blue-500 text-white hover:bg-blue-700'
-                  }`}
+                  } align-middle m-4`}
               >
                 {word}
               </button>
@@ -218,7 +222,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
           </div>
           <p className="mt-4 text-center text-xl">{feedback}</p>
           {ruleMessage && <p className="mt-4 text-center text-gray-400">{ruleMessage}</p>}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4">
+          <div className="flex flex-col items-center mt-8 space-y-4">
             {links.map((link, index) => (
               <button key={index} onClick={() => window.open(link.url, '_blank')} className="p-2 bg-gray-500 text-white rounded hover:bg-gray-600">
                 <p>{link.title}</p>
