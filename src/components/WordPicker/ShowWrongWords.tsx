@@ -31,7 +31,7 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
   const handleCopyPrompt = () => {
     const prompt = `Compose a dictation in Catalan containing approximately 45 words. The dictation must include the following incorrect words: ${wrongWords.join(', ')}. Use them in meaningful sentences, ensuring they fit naturally into the context.`;
     navigator.clipboard.writeText(prompt).then(() => {
-      setCopyMessage('Prompt copiat!');
+      setCopyMessage('Prompt copiat al porta-retalls!');
       setTimeout(() => setCopyMessage(''), 3000);
     });
   };
