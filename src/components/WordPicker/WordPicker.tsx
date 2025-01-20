@@ -8,6 +8,8 @@ interface Word {
   wrongVariants: string[];
   level: number;
   rule: number;
+  sentence: string;
+  meaning: string;
 }
 
 interface Rule {
@@ -186,7 +188,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
             <div className="absolute top-4 right-4">
               <select id="level" value={selectedLevel} onChange={handleLevelChange} className="p-2 border rounded">
                 <option value={0}>Tots el nivells</option>
-                {[1, 2, 3, 4, 5].map(level => (
+                {[1, 2, 3].map(level => (
                   <option key={level} value={level}>Nivell {level}</option>
                 ))}
               </select>
@@ -201,11 +203,12 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
             <button onClick={handleViewWrongWords} className="p-2 bg-yellow-500 text-black rounded hover:bg-yellow-600 m-2">Veure paraules incorrectes - {wrongWords.length}</button>
             <button onClick={handleViewLearntWords} className="p-2 bg-green-500 text-black rounded hover:bg-green-600 m-2">Veure paraules apreses - {correctWords.length}</button>
           </div>
-          <p className="text-center text-sm text-gray-300 mt-12">
+          <p className="text-center text-sm text-gray-400 mt-12">
             Tria la paraula correcta.
           </p>
-          <div className="flex flex-wrap justify-center items-center mb-12">
+          <div className="flex flex-wrap justify-center items-center mb-6">
             {displayedWords.map((word, index) => (
+
               <button
                 key={index}
                 onClick={() => handleWordClick(word)}
@@ -218,8 +221,15 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
               >
                 {word}
               </button>
+
             ))}
           </div>
+          <p className="text-center  text-gray-300">
+            {currentWord?.sentence}
+          </p>
+          <p className="text-center text-sm text-gray-400 mt-4">
+            {currentWord?.meaning}
+          </p>
           <p className="mt-4 text-center text-xl">{feedback}</p>
           {ruleMessage && <p className="mt-4 text-center text-gray-400">{ruleMessage}</p>}
           <div className="flex flex-col items-center mt-8 space-y-4">
