@@ -112,7 +112,9 @@
         "embaixada"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Lloc on treballa un ambaixador per representar el seu país en un altre.",
+      "sentence": "Van anar a l'___ per demanar un visat."
     },
     {
       "word": "arracada",
@@ -120,7 +122,9 @@
         "arracade"
       ],
       "level": 1,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Peça de joieria que es posa a les orelles.",
+      "sentence": "Porta una ___ d'or a cada orella."
     },
     {
       "word": "avaluar",
@@ -128,7 +132,9 @@
         "evaluar"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Examinar o analitzar alguna cosa per determinar-ne el valor o importància.",
+      "sentence": "El professor va ___ els treballs dels alumnes."
     },
     {
       "word": "avantatge",
@@ -136,7 +142,9 @@
         "avantaje"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Benefici o condició favorable en una situació.",
+      "sentence": "Tenir experiència és un gran ___ per aconseguir la feina."
     },
     {
       "word": "avaria",
@@ -144,7 +152,9 @@
         "averia"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Dany o problema que impedeix que alguna cosa funcioni correctament.",
+      "sentence": "L'___ del cotxe ens va fer arribar tard."
     },
     {
       "word": "davall",
@@ -152,7 +162,9 @@
         "devall"
       ],
       "level": 1,
-      "rule": 17
+      "rule": 17,
+      "meaning": "A la part inferior d'alguna cosa.",
+      "sentence": "Hi havia un riu que fluïa ___ del pont."
     },
     {
       "word": "encomanar",
@@ -160,7 +172,9 @@
         "ancomanar"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Donar una tasca a algú o transmetre una malaltia.",
+      "sentence": "L'empresa va decidir ___ el projecte a una altra companyia."
     },
     {
       "word": "peixateria",
@@ -168,7 +182,9 @@
         "peixateria"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Botiga on es ven peix fresc.",
+      "sentence": "Vaig comprar sardines fresques a la ___."
     },
     {
       "word": "racó",
@@ -176,7 +192,9 @@
         "recó"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Espai petit o apartat en un lloc.",
+      "sentence": "Va seure en un ___ tranquil de la sala."
     },
     {
       "word": "rancor",
@@ -184,7 +202,9 @@
         "rencor"
       ],
       "level": 1,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Sentiment d'odi o ressentiment cap a algú.",
+      "sentence": "Tot i la discussió, no li guardava ___."
     },
     {
       "word": "sanefa",
@@ -192,7 +212,9 @@
         "senefa"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Adorn decoratiu amb formes repetitives.",
+      "sentence": "La cortina estava decorada amb una ___ de flors."
     },
     {
       "word": "butaca",
@@ -200,7 +222,9 @@
         "butace"
       ],
       "level": 1,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Seient gran i còmode amb respatller i braços.",
+      "sentence": "Es va asseure a la ___ per llegir un llibre."
     },
     {
       "word": "pantera",
@@ -208,7 +232,9 @@
         "pantere"
       ],
       "level": 2,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Animal salvatge de color negre, similar a un lleopard.",
+      "sentence": "La ___ es movia sigilosament per la selva."
     },
     {
       "word": "mongeta",
@@ -216,7 +242,9 @@
         "mongete"
       ],
       "level": 1,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Un tipus de llegum llarg i verd que es menja cuit.",
+      "sentence": "Avui hem cuinat ___ amb patates."
     },
     {
       "word": "problema",
@@ -224,7 +252,9 @@
         "probleme"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Situació o dificultat que cal resoldre.",
+      "sentence": "Hem trobat un ___ amb el projecte."
     },
     {
       "word": "cinema",
@@ -232,7 +262,9 @@
         "cineme"
       ],
       "level": 3,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Un lloc on es projecten pel·lícules.",
+      "sentence": "Ahir vam anar al ___ a veure una comèdia."
     },
     {
       "word": "poeta",
@@ -240,7 +272,9 @@
         "poete"
       ],
       "level": 1,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Una persona que escriu poemes.",
+      "sentence": "El ___ va recitar una de les seves obres més famoses."
     },
     {
       "word": "artista",
@@ -248,7 +282,9 @@
         "artiste"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Una persona que crea obres d'art o espectacles.",
+      "sentence": "L'___ exposarà els seus quadres a la galeria."
     },
     {
       "word": "racista",
@@ -256,7 +292,9 @@
         "raciste"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Persona que discrimina altres per la seva raça o origen.",
+      "sentence": "Tothom hauria de rebutjar qualsevol actitud ___ envers els altres."
     },
     {
       "word": "patriarca",
@@ -264,7 +302,9 @@
         "patriarce"
       ],
       "level": 3,
-      "rule": 2
+      "rule": 2,
+      "meaning": "El cap o líder d'una família o comunitat.",
+      "sentence": "El ___ de la família va prendre una decisió important."
     },
     {
       "word": "homicida",
@@ -272,7 +312,9 @@
         "homicide"
       ],
       "level": 3,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Persona que ha comès un assassinat.",
+      "sentence": "La policia va detenir l'___ després d'una investigació."
     },
     {
       "word": "mapa",
@@ -280,7 +322,9 @@
         "mape"
       ],
       "level": 1,
-      "rule": 3
+      "rule": 3,
+      "meaning": "Representació gràfica d'un territori.",
+      "sentence": "Necessitem un ___ per trobar el camí correcte."
     },
     {
       "word": "dia",
@@ -288,7 +332,9 @@
         "die"
       ],
       "level": 1,
-      "rule": 3
+      "rule": 3,
+      "meaning": "Període de 24 hores.",
+      "sentence": "Avui és un ___ assolellat i perfecte per sortir."
     },
     {
       "word": "goril·la",
@@ -296,7 +342,9 @@
         "goril·le"
       ],
       "level": 1,
-      "rule": 3
+      "rule": 3,
+      "meaning": "Un animal primat gran i fort que viu a la selva.",
+      "sentence": "El ___ del zoològic és molt impressionant."
     },
     {
       "word": "arbre",
@@ -304,7 +352,9 @@
         "arbra"
       ],
       "level": 2,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Planta gran amb un tronc de fusta i branques.",
+      "sentence": "L'___ del jardí és molt alt i vell."
     },
     {
       "word": "cotxe",
@@ -312,7 +362,9 @@
         "cotxa"
       ],
       "level": 1,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Vehicle amb rodes utilitzat per al transport de persones.",
+      "sentence": "Vam agafar el ___ per anar a la platja."
     },
     {
       "word": "pebre",
@@ -320,7 +372,9 @@
         "pebra"
       ],
       "level": 2,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Espècia que s'utilitza per condimentar menjars.",
+      "sentence": "Afegir una mica de ___ negre donarà més sabor al plat."
     },
     {
       "word": "base",
@@ -328,7 +382,9 @@
         "basa"
       ],
       "level": 1,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Part inferior o fonament d'una cosa.",
+      "sentence": "La ___ de l'edifici és molt sòlida."
     },
     {
       "word": "classe",
@@ -336,7 +392,9 @@
         "clasa"
       ],
       "level": 2,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Lliçó o activitat d'ensenyament.",
+      "sentence": "Aquest matí hem fet una ___ de matemàtiques."
     },
     {
       "word": "febre",
@@ -344,7 +402,9 @@
         "febra"
       ],
       "level": 1,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Augment de la temperatura corporal.",
+      "sentence": "La Maria no ha vingut a l'escola perquè té ___."
     },
     {
       "word": "mare",
@@ -352,7 +412,9 @@
         "mara"
       ],
       "level": 2,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Dona que ha tingut un fill o filla.",
+      "sentence": "La meva ___ sempre em cuida molt bé."
     },
     {
       "word": "espècie",
@@ -360,7 +422,9 @@
         "espècia"
       ],
       "level": 3,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Un grup d'éssers vius amb característiques similars.",
+      "sentence": "Aquesta ___ d'ocells només viu a aquesta illa."
     },
     {
       "word": "piràmide",
@@ -368,7 +432,9 @@
         "piràmida"
       ],
       "level": 2,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Construcció triangular amb base quadrada o rectangular.",
+      "sentence": "Les ___ d'Egipte són molt conegudes."
     },
     {
       "word": "cadiraire",
@@ -376,7 +442,9 @@
         "cadiraira"
       ],
       "level": 3,
-      "rule": 6
+      "rule": 6,
+      "meaning": "Persona que fabrica o repara cadires.",
+      "sentence": "El ___ va arreglar la cadira trencada."
     },
     {
       "word": "boletaire",
@@ -384,7 +452,9 @@
         "boletaira"
       ],
       "level": 3,
-      "rule": 6
+      "rule": 6,
+      "meaning": "Persona que recull bolets al bosc.",
+      "sentence": "El ___ va trobar un cistell ple de rovellons."
     },
     {
       "word": "rondinaire",
@@ -392,7 +462,9 @@
         "rondinaira"
       ],
       "level": 3,
-      "rule": 6
+      "rule": 6,
+      "meaning": "Persona que es queixa sovint.",
+      "sentence": "El meu avi és un gran ___, sempre critica tot."
     },
     {
       "word": "alegre",
@@ -400,7 +472,9 @@
         "alegra"
       ],
       "level": 1,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que està feliç i content.",
+      "sentence": "La música la fa sentir molt ___."
     },
     {
       "word": "enorme",
@@ -408,7 +482,9 @@
         "enorma"
       ],
       "level": 1,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que té una mida molt gran.",
+      "sentence": "El pastís era tan ___ que no cabia a la taula."
     },
     {
       "word": "cèlebre",
@@ -416,7 +492,9 @@
         "cèlebra"
       ],
       "level": 2,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que és molt conegut o famós.",
+      "sentence": "Un escriptor ___ va visitar la ciutat."
     },
     {
       "word": "lliure",
@@ -424,7 +502,9 @@
         "lliura"
       ],
       "level": 2,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que no està presoner o limitat.",
+      "sentence": "L'ocell va ser alliberat i va tornar a ser ___."
     },
     {
       "word": "bilingüe",
@@ -432,7 +512,9 @@
         "bilingüa"
       ],
       "level": 2,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que parla dues llengües amb fluïdesa.",
+      "sentence": "És ___ perquè va créixer parlant català i castellà."
     },
     {
       "word": "taronges",
@@ -440,7 +522,9 @@
         "taronjas"
       ],
       "level": 1,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Fruites rodones i taronges amb suc dolç.",
+      "sentence": "Hem comprat un quilo de ___."
     },
     {
       "word": "arbres",
@@ -448,7 +532,9 @@
         "arbras"
       ],
       "level": 2,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Plantes grans amb tronc de fusta.",
+      "sentence": "Els ___ del bosc són molt alts."
     },
     {
       "word": "platges",
@@ -456,7 +542,9 @@
         "platjas"
       ],
       "level": 2,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Zones de sorra a la vora del mar.",
+      "sentence": "Ens agrada passejar per les ___ a l'estiu."
     },
     {
       "word": "vacances",
@@ -464,7 +552,9 @@
         "vacansas"
       ],
       "level": 1,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Període de descans o lleure.",
+      "sentence": "Aquest estiu anirem de ___ a la muntanya."
     },
     {
       "word": "les ovelles",
@@ -472,7 +562,9 @@
         "les ovellas"
       ],
       "level": 1,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Animals que solen viure en ramats i produeixen llana.",
+      "sentence": "___ pasturaven tranquil·lament al prat."
     },
     {
       "word": "feixugues",
@@ -480,7 +572,9 @@
         "feixugas"
       ],
       "level": 3,
-      "rule": 8
+      "rule": 8,
+      "meaning": "Que són pesades o difícils de portar.",
+      "sentence": "Les bosses eren tan ___ que no les podíem aixecar."
     },
     {
       "word": "roques",
@@ -488,7 +582,9 @@
         "rocas"
       ],
       "level": 2,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Masses minerals dures que formen part del sòl.",
+      "sentence": "Les ___ del penya-segat són molt antigues."
     },
     {
       "word": "vaques",
@@ -496,7 +592,9 @@
         "vacas"
       ],
       "level": 1,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Animals grans que donen llet i pasturen.",
+      "sentence": "Les ___ estaven al prat menjant herba."
     },
     {
       "word": "oques",
@@ -504,7 +602,9 @@
         "ocas"
       ],
       "level": 1,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Aus grans amb coll llarg i plomes blanques.",
+      "sentence": "Al parc hi havia moltes ___ passejant."
     },
     {
       "word": "amigues",
@@ -512,7 +612,9 @@
         "amigas"
       ],
       "level": 1,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Persones amb qui es té una relació d'amistat.",
+      "sentence": "Les meves ___ i jo hem anat al cinema."
     },
     {
       "word": "mànigues",
@@ -520,7 +622,9 @@
         "mànigas"
       ],
       "level": 1,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Parts de la roba que cobreixen els braços.",
+      "sentence": "La camisa té les ___ massa curtes."
     },
     {
       "word": "plaça",
@@ -528,7 +632,9 @@
         "plasa"
       ],
       "level": 1,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Espai obert enmig d'una ciutat o poble.",
+      "sentence": "Ens vam reunir a la ___ del poble."
     },
     {
       "word": "pinces",
@@ -536,7 +642,9 @@
         "pincas"
       ],
       "level": 2,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Objectes que serveixen per subjectar o agafar coses.",
+      "sentence": "Vaig fer servir unes ___ per estendre la roba."
     },
     {
       "word": "esponja",
@@ -544,7 +652,9 @@
         "esponja"
       ],
       "level": 2,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Material porós que absorbeix líquids.",
+      "sentence": "Amb una ___ netejo els plats cada dia."
     },
     {
       "word": "pluja",
@@ -552,7 +662,9 @@
         "pluja"
       ],
       "level": 2,
-      "rule": 9
+      "rule": 9,
+      "meaning": "L'aigua que cau del cel en forma de gotes.",
+      "sentence": "La ___ ha regat tots els camps."
     },
     {
       "word": "aigües",
@@ -560,7 +672,9 @@
         "aiguas"
       ],
       "level": 3,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Líquid transparent essencial per a la vida.",
+      "sentence": "Les ___ del riu són molt netes."
     },
     {
       "word": "piragües",
@@ -568,7 +682,9 @@
         "piraguas"
       ],
       "level": 3,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Embarcacions petites mogudes amb rems.",
+      "sentence": "Ens vam passejar amb ___ pel llac."
     },
     {
       "word": "pasqües",
@@ -576,7 +692,9 @@
         "pasquas"
       ],
       "level": 3,
-      "rule": 9
+      "rule": 9,
+      "meaning": "Festa religiosa que es celebra en primavera.",
+      "sentence": "Durant les ___ fem trobades amb la família."
     },
     {
       "word": "arriba",
@@ -584,7 +702,9 @@
         "arribe"
       ],
       "level": 1,
-      "rule": 10
+      "rule": 10,
+      "meaning": "Aconsegueix estar en un lloc després de desplaçar-se.",
+      "sentence": "Quan ___ a casa, t'envio un missatge."
     },
     {
       "word": "menja",
@@ -592,7 +712,9 @@
         "menje"
       ],
       "level": 1,
-      "rule": 10
+      "rule": 10,
+      "meaning": "Consumeix aliments per nodrir-se.",
+      "sentence": "Cada dia ___ fruita per esmorzar."
     },
     {
       "word": "passeja",
@@ -600,7 +722,9 @@
         "passeje"
       ],
       "level": 1,
-      "rule": 10
+      "rule": 10,
+      "meaning": "Camina tranquil·lament per gaudir o relaxar-se.",
+      "sentence": "Ella ___ pel parc cada tarda."
     },
     {
       "word": "patia",
@@ -608,7 +732,9 @@
         "patie"
       ],
       "level": 1,
-      "rule": 10
+      "rule": 10,
+      "meaning": "Experimentava dolor o dificultats.",
+      "sentence": "Durant el fred intens, ___ molt."
     },
     {
       "word": "faré",
@@ -616,7 +742,9 @@
         "fara"
       ],
       "level": 1,
-      "rule": 12
+      "rule": 12,
+      "meaning": "Forma del futur del verb fer.",
+      "sentence": "Demà ___ els deures després d'esmorzar."
     },
     {
       "word": "faríem",
@@ -624,7 +752,9 @@
         "fariam"
       ],
       "level": 2,
-      "rule": 12
+      "rule": 12,
+      "meaning": "Condicional del verb fer en primera persona del plural.",
+      "sentence": "Si tinguéssim temps, ___ una excursió."
     },
     {
       "word": "naixem",
@@ -632,7 +762,9 @@
         "naixam"
       ],
       "level": 2,
-      "rule": 11
+      "rule": 11,
+      "meaning": "Sortim al món per primera vegada en néixer.",
+      "sentence": "Nosaltres ___ al mateix hospital."
     },
     {
       "word": "tenen",
@@ -640,7 +772,9 @@
         "tenan"
       ],
       "level": 1,
-      "rule": 13
+      "rule": 13,
+      "meaning": "Posseïxen o disposen d'alguna cosa.",
+      "sentence": "Ells ___ moltes joguines."
     },
     {
       "word": "mires",
@@ -648,7 +782,9 @@
         "miras"
       ],
       "level": 1,
-      "rule": 13
+      "rule": 13,
+      "meaning": "Fixes la vista en alguna cosa.",
+      "sentence": "Quan ___ el cel, veus les estrelles."
     },
     {
       "word": "rebre",
@@ -656,7 +792,9 @@
         "rebra"
       ],
       "level": 2,
-      "rule": 14
+      "rule": 14,
+      "meaning": "Acceptar alguna cosa que algú t'envia o et dona.",
+      "sentence": "Estic esperant ___ una carta important."
     },
     {
       "word": "viure",
@@ -664,7 +802,9 @@
         "viura"
       ],
       "level": 2,
-      "rule": 14
+      "rule": 14,
+      "meaning": "Estar viu o habitar en algun lloc.",
+      "sentence": "M'agradaria ___ en una casa prop del mar."
     },
     {
       "word": "caure",
@@ -672,7 +812,9 @@
         "caura"
       ],
       "level": 2,
-      "rule": 14
+      "rule": 14,
+      "meaning": "Perdre l'equilibri i tocar el terra.",
+      "sentence": "Vaig veure com la pilota començava a ___ de la taula."
     },
     {
       "word": "corre",
@@ -680,7 +822,9 @@
         "corra"
       ],
       "level": 1,
-      "rule": 15
+      "rule": 15,
+      "meaning": "Moure's ràpidament amb les cames.",
+      "sentence": "Si no ___ més, arribaràs tard a classe."
     },
     {
       "word": "vine",
@@ -688,7 +832,9 @@
         "vina"
       ],
       "level": 1,
-      "rule": 15
+      "rule": 15,
+      "meaning": "Moviment per acostar-se a un lloc o persona.",
+      "sentence": "___ ràpid, que ja comença la pel·lícula!"
     },
     {
       "word": "omple",
@@ -696,7 +842,9 @@
         "ompla"
       ],
       "level": 1,
-      "rule": 15
+      "rule": 15,
+      "meaning": "Ficar alguna cosa en un espai buit fins que estigui ple.",
+      "sentence": "___ el got d'aigua, si us plau."
     },
     {
       "word": "glaçó",
@@ -704,7 +852,9 @@
         "glasa"
       ],
       "level": 3,
-      "rule": 16
+      "rule": 16,
+      "meaning": "Tros petit de gel que es posa en begudes.",
+      "sentence": "Posa un ___ a la llimonada perquè estigui més freda."
     },
     {
       "word": "planer",
@@ -712,7 +862,9 @@
         "plana"
       ],
       "level": 3,
-      "rule": 16
+      "rule": 16,
+      "meaning": "Que no té desnivells ni pujades.",
+      "sentence": "Aquest camí és molt ___ i fàcil de caminar."
     },
     {
       "word": "negror",
@@ -720,7 +872,9 @@
         "negra"
       ],
       "level": 3,
-      "rule": 16
+      "rule": 16,
+      "meaning": "Condició de ser molt fosc o de color negre.",
+      "sentence": "La ___ del cel indicava que s'acostava una tempesta."
     },
     {
       "word": "afaitar-se",
@@ -728,7 +882,9 @@
         "afeitar-se"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Treure's el pèl de la cara o altres parts del cos.",
+      "sentence": "El meu pare sol ___ cada matí."
     },
     {
       "word": "encomanar",
@@ -736,7 +892,9 @@
         "ancomanar"
       ],
       "level": 2,
-      "rule": 17
+      "rule": 17,
+      "meaning": "Passar una malaltia o fer que algú adopti un hàbit o estat d'ànim.",
+      "sentence": "Va intentar ___ el seu entusiasme a tot el grup."
     }
   ]
 }

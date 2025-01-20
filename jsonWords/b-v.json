@@ -14,68 +14,68 @@
   "rules": [
     {
       "id": 1,
-      "message": "La lletra b es manté davant de l i r, així com en mots com blanc, bleda, agradable, i altres similars.",
-      "rule": "b -> b / _{l, r}",
+      "message": "Sempre escrivim b davant de les lletres l o r. Exemples: blanc, bleda, agradable, moble.",
+      "rule": "b -> b davant de l o r",
       "ex": "blanc, bleda, agradable, fibló, moble"
     },
     {
       "id": 2,
-      "message": "La lletra b es manté darrere de m en paraules com ambient, combat, comboi, i altres similars.",
-      "rule": "b -> b / m_",
+      "message": "Sempre escrivim b després de la lletra m. Exemples: ambient, combat, també.",
+      "rule": "b -> b després de m",
       "ex": "ambient, combat, comboi, també, embotit"
     },
     {
       "id": 3,
-      "message": "La lletra b es manté davant de vocal quan alterna amb p entre paraules d'una mateixa família o formes d'un mateix paradigma.",
-      "rule": "b -> b / _V [p-alternation]",
-      "ex": "abella (cf. apicultura), acabar (cf. cap), saber (cf. sap), cubell (cf. cup)"
+      "message": "Ecrivim b davant d’una vocal en paraules que també poden tenir p en altres formes. Exemples: abella (apicultura), acabar (cap).",
+      "rule": "b -> b davant de vocals (canvi amb p)",
+      "ex": "abella (cf. apicultura), acabar (cf. cap), saber (cf. sap)"
     },
     {
       "id": 4,
-      "message": "La lletra b es manté a final de síl·laba en contextos com absolut, cabdell, cobdícia, i altres similars.",
-      "rule": "b -> b / _C",
+      "message": "Ecrivim b al final d'una síl·laba. Exemples: absolut, dissabte, dubte.",
+      "rule": "b -> b al final de síl·laba",
       "ex": "absolut, cabdell, cobdícia, dissabte, dubte"
     },
     {
       "id": 5,
-      "message": "La lletra v es manté darrere de n en paraules com canvi, convèncer, enviar, i altres similars.",
-      "rule": "v -> v / n_",
+      "message": "Ecrivim v després de la lletra n. Exemples: canvi, enviar, invent.",
+      "rule": "v -> v després de n",
       "ex": "canvi, convèncer, enviar, envoltar, invent"
     },
     {
       "id": 6,
-      "message": "La lletra v es manté darrere de d en paraules com advent, advers, advertir, i altres similars.",
-      "rule": "v -> v / d_",
+      "message": "Ecrivim v després de la lletra d. Exemples: advent, advertir, advocat.",
+      "rule": "v -> v després de d",
       "ex": "advent, advers, advertir, advocat, inadvertit"
     },
     {
       "id": 7,
-      "message": "La lletra v alterna amb u davant de vocals en mots d'una mateixa família o formes d'un mateix paradigma.",
-      "rule": "v -> v / _V [u-alternation]",
-      "ex": "activa (cf. actiu), blava (cf. blau), nevar (cf. neu), nova (cf. nou)"
+      "message": "Ecrivim v davant d’una vocal si la paraula pot tenir u en altres formes. Exemples: activa (actiu), nevar (neu).",
+      "rule": "v -> v davant de vocals (canvi amb u)",
+      "ex": "activa (cf. actiu), blava (cf. blau), nevar (cf. neu)"
     },
     {
       "id": 8,
-      "message": "La lletra v es manté en les terminacions de l'imperfet d'indicatiu de la primera conjugació.",
-      "rule": "v -> v / _{imperfet}",
+      "message": "Ecrivim v al final de les paraules en passat (imperfet). Exemples: parlava, miràvem.",
+      "rule": "v -> v al final de passat",
       "ex": "parlava, escoltaves, miràvem, tancaven"
     },
     {
       "id": 9,
-      "message": "La lletra v es manté en les formes rizotòniques dels presents d'indicatiu, subjuntiu, i imperatiu del verb anar.",
-      "rule": "v -> v / _{rizotònic}",
+      "message": "Ecrivim v en algunes formes del verb anar. Exemples: vaig, vas, va, vagi.",
+      "rule": "v -> v en formes del verb anar",
       "ex": "vaig, vas, va, van, vagi, vagis"
     },
     {
       "id": 10,
-      "message": "La lletra v es manté en manlleus adaptats amb w en els mots originals.",
-      "rule": "v -> v / {manlleu}",
+      "message": "Ecrivim v en paraules que vénen d’altres idiomes i tenen una w original. Exemples: vàter, sandvitx.",
+      "rule": "v -> v en paraules manllevades amb w",
       "ex": "grauvaca, sandvitx, valquíria, vàter, Valhalla"
     },
     {
       "id": 11,
-      "message": "La lletra b es manté en paraules que comencen amb 'bi-' seguit de una consonant.",
-      "rule": "b -> b / bi_C",
+      "message": "Ecrivim b en paraules que comencen amb 'bi-' i després tenen una altra consonant. Exemples: bicicleta, bimensual.",
+      "rule": "b -> b en paraules amb 'bi-' inicial",
       "ex": "bicicleta, bicolor, bimensual"
     }
   ],
@@ -86,48 +86,60 @@
         "barva",
         "varba"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "El pèl que creix a la cara dels homes, sota la boca.",
+      "sentence": "El meu pare s'ha afaitat la ___."
     },
     {
       "word": "veí",
       "wrongVariants": [
         "beí"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Una persona que viu al costat o prop de casa teva.",
+      "sentence": "El meu ___ m'ha ajudat a arreglar la bicicleta."
     },
     {
       "word": "bosc",
       "wrongVariants": [
         "vosc"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un lloc ple d'arbres i plantes.",
+      "sentence": "Ahir vam passejar pel ___."
     },
     {
       "word": "vent",
       "wrongVariants": [
         "bent"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "El moviment de l'aire.",
+      "sentence": "El ___ feia moure les fulles dels arbres."
     },
     {
       "word": "boca",
       "wrongVariants": [
         "voca"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "La part del cos que utilitzem per parlar i menjar.",
+      "sentence": "La Maria va obrir la ___ per cantar."
     },
     {
       "word": "verd",
       "wrongVariants": [
         "berd"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "El color de les fulles dels arbres.",
+      "sentence": "El prat estava ple d'herba ___."
     },
     {
       "word": "bombeta",
@@ -136,7 +148,9 @@
         "vombeta"
       ],
       "level": 1,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Un objecte que fa llum quan està encès.",
+      "sentence": "La ___ de l'habitació s'ha fos."
     },
     {
       "word": "valent",
@@ -144,7 +158,9 @@
         "balent"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Una persona que no té por.",
+      "sentence": "El cavaller era molt ___."
     },
     {
       "word": "braç",
@@ -152,15 +168,19 @@
         "vraç"
       ],
       "level": 1,
-      "rule": 1
+      "rule": 1,
+      "meaning": "La part del cos que utilitzem per agafar coses.",
+      "sentence": "Vaig aixecar el ___ per cridar l'atenció."
     },
     {
       "word": "volta",
       "wrongVariants": [
         "bolta"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un moviment que fa algú o alguna cosa per anar al voltant d'alguna cosa.",
+      "sentence": "Vam donar una ___ pel parc abans de tornar a casa."
     },
     {
       "word": "banc",
@@ -168,7 +188,9 @@
         "vanc"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Un lloc on les persones guarden els seus diners o un seient llarg.",
+      "sentence": "Vaig al ___ per treure diners."
     },
     {
       "word": "vacances",
@@ -176,7 +198,9 @@
         "bacances"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Un període de temps per descansar o fer activitats divertides.",
+      "sentence": "Aquest any anirem a la platja durant les ___."
     },
     {
       "word": "barret",
@@ -184,7 +208,9 @@
         "varret"
       ],
       "level": 2,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Una peça de roba que es posa al cap.",
+      "sentence": "Quan fa sol, porto un ___ per protegir-me."
     },
     {
       "word": "viure",
@@ -192,7 +218,9 @@
         "biure"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Passar el temps en un lloc o estar viu.",
+      "sentence": "M'agradaria ___ en una casa al costat del mar."
     },
     {
       "word": "baix",
@@ -200,7 +228,9 @@
         "vaix"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Alguna cosa que no és alta.",
+      "sentence": "El sostre d'aquesta habitació és molt ___."
     },
     {
       "word": "vila",
@@ -208,7 +238,9 @@
         "bila"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Un poble petit o una ciutat.",
+      "sentence": "La meva àvia viu en una petita ___."
     },
     {
       "word": "bleda",
@@ -216,7 +248,9 @@
         "vleda"
       ],
       "level": 1,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Una planta que es fa servir per cuinar.",
+      "sentence": "Per dinar hem fet un plat de ___."
     },
     {
       "word": "vint",
@@ -224,7 +258,9 @@
         "bint"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "El número que ve després del dinou.",
+      "sentence": "He comptat fins a ___ abans de començar a jugar."
     },
     {
       "word": "biblioteca",
@@ -233,39 +269,49 @@
         "bivlioteca"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Un lloc on pots llegir o agafar llibres prestats.",
+      "sentence": "Vaig a la ___ per estudiar i buscar informació."
     },
     {
       "word": "valor",
       "wrongVariants": [
         "balor"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 2,
+      "rule": -1,
+      "meaning": "La qualitat de ser valent o l'importància d'alguna cosa.",
+      "sentence": "El noi va mostrar molt ___ ajudant el seu amic."
     },
     {
       "word": "cabell",
       "wrongVariants": [
         "cavell"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Els pèls que creixen al cap de les persones.",
+      "sentence": "La nena va pentinar el seu ___."
     },
     {
       "word": "victòria",
       "wrongVariants": [
         "bictòria"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Quan algú guanya una competició o supera un repte.",
+      "sentence": "L'equip va celebrar la seva gran ___."
     },
     {
       "word": "moble",
       "wrongVariants": [
         "movle"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Un objecte que es fa servir per moblar una casa, com ara una taula o una cadira.",
+      "sentence": "Hem comprat un nou ___ per la sala d'estar."
     },
     {
       "word": "venda",
@@ -273,7 +319,9 @@
         "benda"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "L'acció de vendre alguna cosa o un objecte que cobreix una ferida.",
+      "sentence": "L'oferta inclou la ___ de diversos productes."
     },
     {
       "word": "poble",
@@ -281,7 +329,9 @@
         "povle"
       ],
       "level": 1,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Un lloc petit on viuen persones, sovint amb menys habitants que una ciutat.",
+      "sentence": "Aquest ___ està envoltat de muntanyes."
     },
     {
       "word": "blau",
@@ -289,15 +339,19 @@
         "vlau"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Un color com el del cel quan fa bon temps.",
+      "sentence": "El seu vestit és de color ___."
     },
     {
       "word": "saber",
       "wrongVariants": [
         "saver"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Tenir coneixement sobre alguna cosa.",
+      "sentence": "M'agradaria ___ més sobre els planetes."
     },
     {
       "word": "submarí",
@@ -305,7 +359,9 @@
         "suvmarí"
       ],
       "level": 1,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Un vehicle que es mou sota l'aigua.",
+      "sentence": "El ___ va explorar les profunditats de l'oceà."
     },
     {
       "word": "moviment",
@@ -313,7 +369,9 @@
         "mobiment"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "El canvi de posició d'una cosa o persona.",
+      "sentence": "El vent va provocar el ___ de les fulles."
     },
     {
       "word": "abraçada",
@@ -321,39 +379,49 @@
         "avraçada"
       ],
       "level": 3,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Quan envoltes algú amb els braços per mostrar afecte.",
+      "sentence": "Vaig donar-li una gran ___ després de la seva victòria."
     },
     {
       "word": "adob",
       "wrongVariants": [
         "adov"
       ],
-      "level": 1,
-      "rule": 4
+      "level": 3,
+      "rule": 4,
+      "meaning": "Substància utilitzada per millorar la fertilitat de la terra.",
+      "sentence": "L'agricultor va escampar ___ als camps."
     },
     {
       "word": "abisme",
       "wrongVariants": [
         "avisme"
       ],
-      "level": 1,
-      "rule": 4
+      "level": 3,
+      "rule": 4,
+      "meaning": "Un lloc profund i perillós, com una gran vall o forat.",
+      "sentence": "Es va quedar mirant fixament l'___ davant seu."
     },
     {
       "word": "brillant",
       "wrongVariants": [
         "vrillant"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Que brilla o reflecteix molta llum.",
+      "sentence": "El sol era tan ___ que no podia obrir els ulls."
     },
     {
       "word": "veritat",
       "wrongVariants": [
         "beritat"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Allò que és real i cert.",
+      "sentence": "Sempre diu la ___."
     },
     {
       "word": "benestar",
@@ -361,23 +429,29 @@
         "venestar"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Estat de comoditat i tranquil·litat.",
+      "sentence": "L'activitat física millora el ___."
     },
     {
       "word": "vist",
       "wrongVariants": [
         "bist"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Participi passat del verb 'veure'.",
+      "sentence": "He ___ un ocell volant al cel."
     },
     {
       "word": "club",
       "wrongVariants": [
         "cluv"
       ],
-      "level": 2,
-      "rule": 4
+      "level": 1,
+      "rule": 4,
+      "meaning": "Associació de persones amb interessos comuns.",
+      "sentence": "Vaig apuntar-me al ___ d'escacs."
     },
     {
       "word": "observació",
@@ -386,15 +460,19 @@
         "ovservació"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Acció de mirar amb atenció per analitzar o aprendre alguna cosa.",
+      "sentence": "L'estudiant va fer una ___ acurada del cel nocturn."
     },
     {
       "word": "sobre",
       "wrongVariants": [
         "sovre"
       ],
-      "level": 2,
-      "rule": 4
+      "level": 1,
+      "rule": 4,
+      "meaning": "Part superior d'alguna cosa o embolcall per cartes.",
+      "sentence": "El llibre estava damunt del ___."
     },
     {
       "word": "abundant",
@@ -402,23 +480,29 @@
         "avundant"
       ],
       "level": 2,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Que n'hi ha molt.",
+      "sentence": "La collita d'aquest any ha estat molt ___."
     },
     {
       "word": "rebre",
       "wrongVariants": [
         "revre"
       ],
-      "level": 2,
-      "rule": 4
+      "level": 1,
+      "rule": 4,
+      "meaning": "Agafar o acceptar alguna cosa que es dona.",
+      "sentence": "Vaig ___ una carta del meu amic."
     },
     {
       "word": "visió",
       "wrongVariants": [
         "bisió"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Acció o capacitat de veure.",
+      "sentence": "La meva ___ ha millorat després de posar-me ulleres."
     },
     {
       "word": "canvi",
@@ -426,15 +510,19 @@
         "canbi"
       ],
       "level": 1,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Alteració o modificació d'alguna cosa.",
+      "sentence": "El ___ d'horari no m'ha afectat gaire."
     },
     {
       "word": "dissabte",
       "wrongVariants": [
         "dissavte"
       ],
-      "level": 2,
-      "rule": 4
+      "level": 1,
+      "rule": 4,
+      "meaning": "El sisè dia de la setmana.",
+      "sentence": "Aquest ___ anirem al parc."
     },
     {
       "word": "objecte",
@@ -442,7 +530,9 @@
         "ovjecte"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Cosa concreta que es pot veure i tocar.",
+      "sentence": "L'___ estava sobre la taula."
     },
     {
       "word": "ambició",
@@ -450,39 +540,49 @@
         "amvició"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Desig intens de fer o aconseguir alguna cosa.",
+      "sentence": "Té molta ___ per arribar a ser científic."
     },
     {
       "word": "nivell",
       "wrongVariants": [
         "nibell"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Altura o grau d'intensitat d'alguna cosa.",
+      "sentence": "Aquest exercici és del mateix ___ que el d'ahir."
     },
     {
       "word": "vincle",
       "wrongVariants": [
         "bincle"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 2,
+      "rule": -1,
+      "meaning": "Relació o connexió entre persones o coses.",
+      "sentence": "La família és el ___ més fort que tenim."
     },
     {
       "word": "brossa",
       "wrongVariants": [
         "vrossa"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Residus o escombraries.",
+      "sentence": "Hem de llençar la ___ al contenidor."
     },
     {
       "word": "convent",
       "wrongVariants": [
         "conbent"
       ],
-      "level": 2,
-      "rule": 5
+      "level": 1,
+      "rule": 5,
+      "meaning": "Lloc on viuen comunitats religioses.",
+      "sentence": "El ___ és un lloc molt tranquil."
     },
     {
       "word": "brúixola",
@@ -490,23 +590,29 @@
         "vrúixola"
       ],
       "level": 2,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Instrument que serveix per orientar-se segons els punts cardinals.",
+      "sentence": "Per no perdre'ns, hem utilitzat una ___."
     },
     {
       "word": "advent",
       "wrongVariants": [
         "adbent"
       ],
-      "level": 1,
-      "rule": 6
+      "level": 3,
+      "rule": 6,
+      "meaning": "Període abans de Nadal en algunes tradicions cristianes.",
+      "sentence": "Durant l'___ preparem les decoracions de Nadal."
     },
     {
       "word": "subtil",
       "wrongVariants": [
         "suvtil"
       ],
-      "level": 1,
-      "rule": 2
+      "level": 3,
+      "rule": 2,
+      "meaning": "Que no es veu o no es nota fàcilment.",
+      "sentence": "El perfum té una aroma molt ___."
     },
     {
       "word": "ventall",
@@ -514,7 +620,9 @@
         "bentall"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Objecte que es fa servir per moure aire i refrescar-se.",
+      "sentence": "Vaig portar un ___ perquè feia molta calor."
     },
     {
       "word": "activa",
@@ -522,23 +630,29 @@
         "actiba"
       ],
       "level": 1,
-      "rule": 7
+      "rule": 7,
+      "meaning": "Que està en moviment o funciona amb energia.",
+      "sentence": "És una persona molt ___."
     },
     {
-      "word": "veure",
+      "word": "veure (mirar)",
       "wrongVariants": [
         "beure"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Percibir amb la vista.",
+      "sentence": "M'agrada ___ les estrelles a la nit."
     },
     {
       "word": "bressol",
       "wrongVariants": [
         "vressol"
       ],
-      "level": 3,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Llit petit per als nadons.",
+      "sentence": "El nadó dormia tranquil·lament al ___."
     },
     {
       "word": "absolut",
@@ -546,15 +660,19 @@
         "avsolut"
       ],
       "level": 2,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Que no té limitacions ni condicions.",
+      "sentence": "Va donar-li un suport ___."
     },
     {
       "word": "movent",
       "wrongVariants": [
         "mobent"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 2,
+      "rule": -1,
+      "meaning": "Acció d'estar en moviment.",
+      "sentence": "Estava ___ les cadires per fer espai."
     },
     {
       "word": "inversemblant",
@@ -562,16 +680,20 @@
         "inbersemblant",
         "inversemvlant"
       ],
-      "level": 1,
-      "rule": -1
+      "level": 3,
+      "rule": -1,
+      "meaning": "Que sembla impossible de creure.",
+      "sentence": "La història que va explicar era totalment ___."
     },
     {
       "word": "esbrinar",
       "wrongVariants": [
         "esvrinar"
       ],
-      "level": 1,
-      "rule": 1
+      "level": 2,
+      "rule": 1,
+      "meaning": "Descobrir o trobar la resposta d'alguna cosa.",
+      "sentence": "Va intentar ___ què havia passat."
     },
     {
       "word": "abandonar",
@@ -579,23 +701,29 @@
         "avandonar"
       ],
       "level": 2,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Deixar alguna cosa o algú sense cura ni suport.",
+      "sentence": "Va haver de ___ la cursa per problemes mecànics."
     },
     {
       "word": "parlava",
       "wrongVariants": [
         "parlaba"
       ],
-      "level": 3,
-      "rule": 8
+      "level": 1,
+      "rule": 8,
+      "meaning": "Acció de comunicar-se amb paraules en passat.",
+      "sentence": "Sempre ___ molt amb els seus amics."
     },
     {
       "word": "anvers",
       "wrongVariants": [
         "anbers"
       ],
-      "level": 2,
-      "rule": 5
+      "level": 3,
+      "rule": 5,
+      "meaning": "Part frontal d'un objecte, com una moneda.",
+      "sentence": "L'___ de la moneda mostrava la cara del rei."
     },
     {
       "word": "invertir",
@@ -603,39 +731,49 @@
         "inbertir"
       ],
       "level": 1,
-      "rule": 5
+      "rule": 5,
+      "meaning": "Destinar recursos, com diners o temps, per obtenir un benefici.",
+      "sentence": "Va decidir ___ en un nou projecte."
     },
     {
       "word": "haver",
       "wrongVariants": [
         "haber"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Verb auxiliar utilitzat per formar temps compostos.",
+      "sentence": "Podríem ___ anat al parc si no hagués plogut."
     },
     {
       "word": "arbre",
       "wrongVariants": [
         "arvre"
       ],
-      "level": 2,
-      "rule": 1
+      "level": 1,
+      "rule": 1,
+      "meaning": "Planta gran amb tronc de fusta.",
+      "sentence": "Hi havia un ___ molt alt al mig del jardí."
     },
     {
       "word": "renovar",
       "wrongVariants": [
         "renobar"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Tornar a fer nou o modernitzar.",
+      "sentence": "Han decidit ___ la decoració de la sala."
     },
     {
       "word": "movia",
       "wrongVariants": [
         "mobia"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Estar en moviment o fer moure alguna cosa.",
+      "sentence": "La porta es ___ amb el vent."
     },
     {
       "word": "observador",
@@ -644,7 +782,9 @@
         "ovservador"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Persona que presta molta atenció als detalls.",
+      "sentence": "L'___ va descobrir un petit error en el plànol."
     },
     {
       "word": "vivenda",
@@ -653,7 +793,9 @@
         "bivenda"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Lloc on viu una persona o una família.",
+      "sentence": "La seva ___ està situada al centre del poble."
     },
     {
       "word": "bavós",
@@ -661,8 +803,10 @@
         "vavós",
         "babós"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 3,
+      "rule": -1,
+      "meaning": "Que produeix o té molta saliva.",
+      "sentence": "El cargol deixa un rastre ___ quan es mou."
     },
     {
       "word": "minvar",
@@ -670,15 +814,19 @@
         "minbar"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Fer-se més petit o disminuir.",
+      "sentence": "El nivell de l'aigua del riu comença a ___."
     },
     {
       "word": "embolic",
       "wrongVariants": [
         "emvolic"
       ],
-      "level": 3,
-      "rule": 2
+      "level": 2,
+      "rule": 2,
+      "meaning": "Situació complicada o confusa.",
+      "sentence": "Vam haver de resoldre un gran ___ a l'escola."
     },
     {
       "word": "revisar",
@@ -686,7 +834,9 @@
         "rebisar"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Examinar amb atenció per assegurar-se que tot està correcte.",
+      "sentence": "El professor va voler ___ els deures abans d'entregar-los."
     },
     {
       "word": "covard",
@@ -694,7 +844,9 @@
         "cobard"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Persona que té por o no afronta situacions difícils.",
+      "sentence": "No siguis ___ i explica el que ha passat."
     },
     {
       "word": "subministrar",
@@ -702,7 +854,9 @@
         "suvministrar"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Proveir o donar el que es necessita.",
+      "sentence": "L'empresa s'encarrega de ___ material escolar."
     },
     {
       "word": "adobar",
@@ -710,23 +864,29 @@
         "adovar"
       ],
       "level": 3,
-      "rule": 4
+      "rule": 4,
+      "meaning": "Preparar o arreglar alguna cosa.",
+      "sentence": "Hem de ___ el terra abans de plantar les llavors."
     },
     {
       "word": "nivós",
       "wrongVariants": [
         "nibós"
       ],
-      "level": 1,
-      "rule": -1
+      "level": 3,
+      "rule": -1,
+      "meaning": "Relatiu a la neu.",
+      "sentence": "El paisatge ___ era espectacular després de la tempesta."
     },
     {
       "word": "subratllar",
       "wrongVariants": [
         "suvratllar"
       ],
-      "level": 3,
-      "rule": 2
+      "level": 2,
+      "rule": 2,
+      "meaning": "Marcar una línia sota una paraula per destacar-la.",
+      "sentence": "He hagut de ___ les paraules importants del text."
     },
     {
       "word": "vibrar",
@@ -735,7 +895,9 @@
         "vivrar"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Moure's ràpidament amunt i avall o endavant i enrere.",
+      "sentence": "El telèfon mòbil va començar a ___ damunt la taula."
     },
     {
       "word": "sobrevolar",
@@ -743,8 +905,10 @@
         "sovrevolar",
         "sobrebolar"
       ],
-      "level": 2,
-      "rule": -1
+      "level": 1,
+      "rule": -1,
+      "meaning": "Passar volant per sobre d'un lloc.",
+      "sentence": "L'avió va ___ la ciutat al vespre."
     },
     {
       "word": "barricada",
@@ -752,7 +916,9 @@
         "varricada"
       ],
       "level": 3,
-      "rule": 1
+      "rule": 1,
+      "meaning": "Construcció feta per impedir el pas.",
+      "sentence": "Els manifestants van aixecar una ___ al carrer principal."
     },
     {
       "word": "subvertir",
@@ -760,24 +926,30 @@
         "subbertir",
         "suvvertir"
       ],
-      "level": 1,
-      "rule": 2
+      "level": 3,
+      "rule": 2,
+      "meaning": "Alterar o canviar completament una cosa.",
+      "sentence": "Va intentar ___ l'ordre establert."
     },
     {
       "word": "envejar",
       "wrongVariants": [
         "enbejar"
       ],
-      "level": 3,
-      "rule": -1
+      "level": 2,
+      "rule": -1,
+      "meaning": "Sentir desig per alguna cosa que té una altra persona.",
+      "sentence": "No cal ___ el que tenen els altres."
     },
     {
       "word": "substitució",
       "wrongVariants": [
         "suvstitució"
       ],
-      "level": 3,
-      "rule": 2
+      "level": 2,
+      "rule": 2,
+      "meaning": "Acció de posar una cosa o persona en lloc d'una altra.",
+      "sentence": "La ___ del jugador lesionat va ser immediata."
     },
     {
       "word": "brevitat",
@@ -785,8 +957,10 @@
         "brebitat",
         "vrevitat"
       ],
-      "level": 1,
-      "rule": -1
+      "level": 3,
+      "rule": -1,
+      "meaning": "Qualitat de ser breu o concís.",
+      "sentence": "La ___ del discurs va ser apreciada per tothom."
     },
     {
       "word": "viscut",
@@ -794,7 +968,9 @@
         "biscut"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Participi passat del verb 'viure'.",
+      "sentence": "Ha ___ moltes experiències interessants al llarg de la seva vida."
     },
     {
       "word": "boira",
@@ -802,7 +978,9 @@
         "voira"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Massa de vapor d'aigua suspesa a l'aire que dificulta la visibilitat.",
+      "sentence": "Aquest matí la carretera estava coberta de ___."
     },
     {
       "word": "sobtat",
@@ -810,7 +988,9 @@
         "sovtat"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Que passa de forma inesperada.",
+      "sentence": "Un soroll ___ va espantar el gat."
     },
     {
       "word": "vapor",
@@ -818,7 +998,9 @@
         "bapor"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Gas que es produeix en escalfar un líquid o una substància.",
+      "sentence": "El got es va omplir de ___ quan l'aigua bullia."
     },
     {
       "word": "viatge",
@@ -826,7 +1008,9 @@
         "biatge"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Desplaçament d'una persona d'un lloc a un altre.",
+      "sentence": "Van preparar un ___ llarg per conèixer altres països."
     },
     {
       "word": "valorós",
@@ -834,15 +1018,19 @@
         "balorós"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Que té un gran valor o importància.",
+      "sentence": "Va fer una aportació molt ___ al projecte."
     },
     {
       "word": "subjugar",
       "wrongVariants": [
         "suvjugar"
       ],
-      "level": 2,
-      "rule": 2
+      "level": 3,
+      "rule": 2,
+      "meaning": "Dominar o sotmetre algú o alguna cosa.",
+      "sentence": "Va intentar ___ la voluntat del grup amb els seus arguments."
     },
     {
       "word": "embellir",
@@ -850,7 +1038,9 @@
         "emvellir"
       ],
       "level": 2,
-      "rule": 2
+      "rule": 2,
+      "meaning": "Fer que alguna cosa sembli més bonica.",
+      "sentence": "Han decidit ___ el jardí amb més flors."
     },
     {
       "word": "sobretot",
@@ -858,7 +1048,9 @@
         "sovretot"
       ],
       "level": 1,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Principalment o especialment.",
+      "sentence": "Li agraden molt els animals, ___ els gats."
     },
     {
       "word": "aventura",
@@ -866,7 +1058,9 @@
         "abentura"
       ],
       "level": 3,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Activitat o experiència emocionant i sovint inesperada.",
+      "sentence": "Van viure una gran ___ explorant les muntanyes."
     },
     {
       "word": "desenvolupar",
@@ -874,7 +1068,9 @@
         "desenbolupar"
       ],
       "level": 2,
-      "rule": -1
+      "rule": -1,
+      "meaning": "Fer créixer o millorar una cosa.",
+      "sentence": "Han de ___ noves eines per fer la feina més fàcil."
     },
     {
       "word": "bicicleta",
@@ -883,7 +1079,629 @@
         "bicicletta"
       ],
       "level": 1,
-      "rule": 11
+      "rule": 11,
+      "meaning": "Vehicle de dues rodes que es mou pedalant.",
+      "sentence": "Li agrada anar en ___ pels camins del bosc."
+    },
+    {
+      "word": "branca",
+      "wrongVariants": [
+        "vranca"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Part d'un arbre que surt del tronc.",
+      "sentence": "L'ocell es va posar en una ___ de l'arbre."
+    },
+    {
+      "word": "vaca",
+      "wrongVariants": [
+        "baca"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un animal gran que dona llet.",
+      "sentence": "La ___ estava pasturant al prat verd."
+    },
+    {
+      "word": "biberó",
+      "wrongVariants": [
+        "viveró"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Recipient que s'utilitza per alimentar els nadons.",
+      "sentence": "El nadó va beure la llet del seu ___."
+    },
+    {
+      "word": "vent",
+      "wrongVariants": [
+        "bent"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "El moviment de l'aire.",
+      "sentence": "El ___ bufava molt fort al vespre."
+    },
+    {
+      "word": "cabana",
+      "wrongVariants": [
+        "cavana"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Una construcció senzilla feta de fusta o altres materials.",
+      "sentence": "Ens vam refugiar en una ___ al bosc."
+    },
+    {
+      "word": "vi",
+      "wrongVariants": [
+        "bi"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Una beguda alcohòlica feta amb raïm.",
+      "sentence": "El celler produeix un ___ de molt bona qualitat."
+    },
+    {
+      "word": "banda",
+      "wrongVariants": [
+        "vanda"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un grup de persones que toquen música o fan alguna activitat juntes.",
+      "sentence": "La ___ va tocar una melodia molt animada."
+    },
+    {
+      "word": "valor",
+      "wrongVariants": [
+        "balor"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "La qualitat d'una cosa que la fa important o útil.",
+      "sentence": "Aquesta joia té un gran ___ sentimental."
+    },
+    {
+      "word": "brillantor",
+      "wrongVariants": [
+        "vrillantor"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "La qualitat de brillar o reflectir molta llum.",
+      "sentence": "La ___ del diamant captivava tothom."
+    },
+    {
+      "word": "verdor",
+      "wrongVariants": [
+        "berdor"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "L'aspecte verd d'un paisatge o d'una planta.",
+      "sentence": "La ___ del prat ens va sorprendre després de la pluja."
+    },
+    {
+      "word": "botó",
+      "wrongVariants": [
+        "votó"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Peça petita per cordar o adornar la roba.",
+      "sentence": "El meu jersei ha perdut un ___."
+    },
+    {
+      "word": "vessant",
+      "wrongVariants": [
+        "bessant"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "La part inclinada d'una muntanya.",
+      "sentence": "El riu baixa per la ___ més empinada."
+    },
+    {
+      "word": "boca",
+      "wrongVariants": [
+        "voca"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Part del cos que s'utilitza per parlar i menjar.",
+      "sentence": "La meva germana va obrir la ___ per cridar."
+    },
+    {
+      "word": "viver",
+      "wrongVariants": [
+        "biver"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Un lloc on es crien plantes o peixos.",
+      "sentence": "El ___ de plantes és al costat del jardí."
+    },
+    {
+      "word": "banda",
+      "wrongVariants": [
+        "vanda"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Costat o grup de persones.",
+      "sentence": "La ___ dreta del camí està plena de flors."
+    },
+    {
+      "word": "venda",
+      "wrongVariants": [
+        "benda"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Tira de roba per cobrir ferides o l'acte de vendre alguna cosa.",
+      "sentence": "Li van posar una ___ al braç per curar la ferida."
+    },
+    {
+      "word": "brasa",
+      "wrongVariants": [
+        "vrasa"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Carbó o llenya encesa sense flama.",
+      "sentence": "Vam cuinar la carn a les ___."
+    },
+    {
+      "word": "ventada",
+      "wrongVariants": [
+        "bentada"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un fort cop de vent.",
+      "sentence": "La ___ va fer caure les fulles dels arbres."
+    },
+    {
+      "word": "sabata",
+      "wrongVariants": [
+        "savata"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Una peça que cobreix i protegeix el peu.",
+      "sentence": "He perdut una ___ quan corria."
+    },
+    {
+      "word": "bancal",
+      "wrongVariants": [
+        "vancal"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Terreny elevat destinat al cultiu.",
+      "sentence": "El pagès treballava al ___ d'oliveres."
+    },
+    {
+      "word": "verb",
+      "wrongVariants": [
+        "berb"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Una paraula que expressa accions o estats.",
+      "sentence": "L'alumne no recordava com conjugar el ___."
+    },
+    {
+      "word": "branqueta",
+      "wrongVariants": [
+        "vranqueta"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Una branca petita d'un arbre.",
+      "sentence": "L'ocell va construir el niu amb una ___."
+    },
+    {
+      "word": "vila",
+      "wrongVariants": [
+        "bila"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Un poble petit o una ciutat.",
+      "sentence": "La ___ és coneguda per les seves festes populars."
+    },
+    {
+      "word": "esborrar",
+      "wrongVariants": [
+        "esvorrar"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Fer desaparèixer alguna cosa escrita o dibuixada.",
+      "sentence": "Vaig haver d'___ el dibuix per començar de nou."
+    },
+    {
+      "word": "baralla",
+      "wrongVariants": [
+        "varalla"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Discussió o lluita entre persones.",
+      "sentence": "Els nens van tenir una ___ per una joguina."
+    },
+    {
+      "word": "vinguda",
+      "wrongVariants": [
+        "binguda"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "L'arribada d'una persona a un lloc.",
+      "sentence": "La seva ___ va alegrar tota la família."
+    },
+    {
+      "word": "vianda",
+      "wrongVariants": [
+        "bianda"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Menjar, especialment carn o altres aliments cuinats.",
+      "sentence": "La sopa de ___ estava deliciosa."
+    },
+    {
+      "word": "besada",
+      "wrongVariants": [
+        "vesada"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Acció de besar algú.",
+      "sentence": "Li va donar una gran ___ abans de marxar."
+    },
+    {
+      "word": "barretina",
+      "wrongVariants": [
+        "varretina"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Peça de roba tradicional catalana per cobrir el cap.",
+      "sentence": "Va posar-se una ___ durant la festa major."
+    },
+    {
+      "word": "buc",
+      "wrongVariants": [
+        "vuc"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Caixa per a les abelles o compartiment d'un armari.",
+      "sentence": "El rusc era ple d'abelles i mel al ___."
+    },
+    {
+      "word": "vessament",
+      "wrongVariants": [
+        "bessament"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Acció de vessar o fer caure un líquid.",
+      "sentence": "Hi va haver un ___ d'aigua al terra de la cuina."
+    },
+    {
+      "word": "benvinguda",
+      "wrongVariants": [
+        "venvinguda"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Salutació que es fa a algú que arriba.",
+      "sentence": "Li van donar una càlida ___ quan va arribar al poble."
+    },
+    {
+      "word": "baixada",
+      "wrongVariants": [
+        "vaixada"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Acció de baixar o lloc inclinat cap avall.",
+      "sentence": "La ___ era molt pronunciada i relliscosa."
+    },
+    {
+      "word": "verinós",
+      "wrongVariants": [
+        "berinós"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Que conté verí o és tòxic.",
+      "sentence": "Alguns animals tenen una picada ___."
+    },
+    {
+      "word": "sabater",
+      "wrongVariants": [
+        "savater"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Persona que fa o repara sabates.",
+      "sentence": "Va portar les botes al ___ per arreglar-les."
+    },
+    {
+      "word": "voluntari",
+      "wrongVariants": [
+        "boluntari"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Persona que ofereix el seu temps i ajuda sense rebre res a canvi.",
+      "sentence": "El ___ va col·laborar amb l'organització benèfica."
+    },
+    {
+      "word": "brutícia",
+      "wrongVariants": [
+        "vrutícia"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Cosa bruta o plena de brutor.",
+      "sentence": "El carrer estava ple de ___ després de la festa."
+    },
+    {
+      "word": "veritat",
+      "wrongVariants": [
+        "beritat"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Allò que és real o cert.",
+      "sentence": "Sempre diu la ___ quan li pregunten."
+    },
+    {
+      "word": "baralla",
+      "wrongVariants": [
+        "varalla"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Discussió o enfrontament físic entre persones.",
+      "sentence": "Van tenir una ___ durant el partit."
+    },
+    {
+      "word": "veïnat",
+      "wrongVariants": [
+        "beïnat"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Conjunt de persones que viuen a prop.",
+      "sentence": "El ___ va decidir fer una festa conjunta."
+    },
+    {
+      "word": "bufanda",
+      "wrongVariants": [
+        "vufanda"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Peça de roba que es posa al coll per abrigar-se.",
+      "sentence": "Quan fa fred, sempre porto una ___."
+    },
+    {
+      "word": "vacil·lar",
+      "wrongVariants": [
+        "bacil·lar"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Dubtar o no estar segur d'alguna cosa.",
+      "sentence": "Va començar a ___ quan li van fer la pregunta."
+    },
+    {
+      "word": "cabana",
+      "wrongVariants": [
+        "cavana"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Construcció senzilla feta amb fusta o altres materials.",
+      "sentence": "Es van refugiar en una ___ durant la pluja."
+    },
+    {
+      "word": "vigilant",
+      "wrongVariants": [
+        "bigilant"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Persona que cuida o vigila un lloc.",
+      "sentence": "El ___ no va deixar entrar ningú sense permís."
+    },
+    {
+      "word": "bastó",
+      "wrongVariants": [
+        "vastó"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Objecte llarg i prim que serveix de suport per caminar.",
+      "sentence": "L'avi sempre porta un ___ quan surt a passejar."
+    },
+    {
+      "word": "violí",
+      "wrongVariants": [
+        "biolí"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Instrument musical de corda.",
+      "sentence": "Va tocar una melodia preciosa amb el ___."
+    },
+    {
+      "word": "bocí",
+      "wrongVariants": [
+        "vocí"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Porció petita d'una cosa.",
+      "sentence": "Va menjar un petit ___ de pa per esmorzar."
+    },
+    {
+      "word": "bastida",
+      "wrongVariants": [
+        "vastida"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Estructura utilitzada per sostenir treballadors i materials durant la construcció.",
+      "sentence": "Han muntat una ___ per reparar la façana."
+    },
+    {
+      "word": "vulnerable",
+      "wrongVariants": [
+        "bulnerable"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Que pot ser fàcilment danyat o afectat.",
+      "sentence": "Els animals petits són més ___ als depredadors."
+    },
+    {
+      "word": "subministrament",
+      "wrongVariants": [
+        "suvministrament"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Procés de proporcionar recursos o materials.",
+      "sentence": "El ___ d'aigua va ser interromput per una avaria."
+    },
+    {
+      "word": "embarcació",
+      "wrongVariants": [
+        "emvarcació"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Vehicle que es fa servir per navegar a l'aigua.",
+      "sentence": "L'___ es dirigia cap al port."
+    },
+    {
+      "word": "adversari",
+      "wrongVariants": [
+        "adbersari"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Persona o grup que s'oposa en una competició o disputa.",
+      "sentence": "L'___ era molt fort, però no vam perdre l'esperança."
+    },
+    {
+      "word": "vaporós",
+      "wrongVariants": [
+        "baporós"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Que sembla fet de vapor o és lleuger i suau.",
+      "sentence": "El vestit era tan ___ que semblava flotar."
+    },
+    {
+      "word": "balancí",
+      "wrongVariants": [
+        "valancí"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Cadira que es mou cap endavant i cap enrere.",
+      "sentence": "Va seure al ___ per relaxar-se."
+    },
+    {
+      "word": "verificador",
+      "wrongVariants": [
+        "berificador"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Persona o cosa que comprova si alguna cosa és correcta.",
+      "sentence": "El sistema ___ no va trobar errors."
+    },
+    {
+      "word": "submarinista",
+      "wrongVariants": [
+        "suvmarinista"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Persona que practica busseig sota l'aigua.",
+      "sentence": "El ___ va explorar les profunditats del mar."
+    },
+    {
+      "word": "invisible",
+      "wrongVariants": [
+        "inbisible"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Que no es pot veure.",
+      "sentence": "El vent és ___, però en podem sentir la força."
+    },
+    {
+      "word": "brunzit",
+      "wrongVariants": [
+        "vrunzit"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "So continu i suau, com el de les abelles.",
+      "sentence": "Se sentia el ___ d'un insecte a l'habitació."
+    },
+    {
+      "word": "viaducte",
+      "wrongVariants": [
+        "biaducte"
+      ],
+      "level": 3,
+      "rule": -1,
+      "meaning": "Estructura que permet que una carretera o un tren passi per sobre d'un terreny baix.",
+      "sentence": "El tren va travessar el llarg ___."
+    },
+    {
+      "word": "abundància",
+      "wrongVariants": [
+        "avundància"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Quantitat gran d'alguna cosa.",
+      "sentence": "El mercat estava ple de fruites en gran ___."
+    },
+    {
+      "word": "vessament",
+      "wrongVariants": [
+        "bessament"
+      ],
+      "level": 2,
+      "rule": -1,
+      "meaning": "Acció de vessar un líquid.",
+      "sentence": "Hi va haver un ___ d'oli al terra."
+    },
+    {
+      "word": "barrera",
+      "wrongVariants": [
+        "varrera"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Objecte que impedeix el pas.",
+      "sentence": "Van col·locar una ___ per evitar accidents."
     }
   ]
 }
