@@ -737,16 +737,6 @@
       "sentence": "Durant el fred intens, ___ molt."
     },
     {
-      "word": "faré",
-      "wrongVariants": [
-        "fara"
-      ],
-      "level": 1,
-      "rule": 12,
-      "meaning": "Forma del futur del verb fer.",
-      "sentence": "Demà ___ els deures després d'esmorzar."
-    },
-    {
       "word": "faríem",
       "wrongVariants": [
         "fariam"
@@ -759,7 +749,7 @@
     {
       "word": "naixem",
       "wrongVariants": [
-        "naixam"
+        "neixem"
       ],
       "level": 2,
       "rule": 11,
@@ -847,29 +837,9 @@
       "sentence": "___ el got d'aigua, si us plau."
     },
     {
-      "word": "glaçó",
-      "wrongVariants": [
-        "glasa"
-      ],
-      "level": 3,
-      "rule": 16,
-      "meaning": "Tros petit de gel que es posa en begudes.",
-      "sentence": "Posa un ___ a la llimonada perquè estigui més freda."
-    },
-    {
-      "word": "planer",
-      "wrongVariants": [
-        "plana"
-      ],
-      "level": 3,
-      "rule": 16,
-      "meaning": "Que no té desnivells ni pujades.",
-      "sentence": "Aquest camí és molt ___ i fàcil de caminar."
-    },
-    {
       "word": "negror",
       "wrongVariants": [
-        "negra"
+        "nagror"
       ],
       "level": 3,
       "rule": 16,
@@ -895,6 +865,428 @@
       "rule": 17,
       "meaning": "Passar una malaltia o fer que algú adopti un hàbit o estat d'ànim.",
       "sentence": "Va intentar ___ el seu entusiasme a tot el grup."
+    },
+    {
+      "word": "espessa",
+      "wrongVariants": [
+        "espesse"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Que té molta densitat o consistència.",
+      "sentence": "La sopa estava tan ___ que costava menjar-la."
+    },
+    {
+      "word": "escletxa",
+      "wrongVariants": [
+        "escletxe"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Obertura estreta i allargada en una superfície.",
+      "sentence": "Hi havia una ___ per on entrava la llum del sol."
+    },
+    {
+      "word": "balança",
+      "wrongVariants": [
+        "balançe"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Instrument per mesurar el pes.",
+      "sentence": "Va utilitzar una ___ per pesar els ingredients."
+    },
+    {
+      "word": "conversa",
+      "wrongVariants": [
+        "converse"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Intercanvi de paraules entre dues o més persones.",
+      "sentence": "La seva ___ era molt interessant."
+    },
+    {
+      "word": "esquerre",
+      "wrongVariants": [
+        "esquerra"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Relatiu al costat esquerre del cos.",
+      "sentence": "Va aixecar la mà ___."
+    },
+    {
+      "word": "bandera",
+      "wrongVariants": [
+        "bandere"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Tros de tela amb colors o símbols representatius d'un país o grup.",
+      "sentence": "La ___ onejava al vent."
+    },
+    {
+      "word": "baixesa",
+      "wrongVariants": [
+        "baixese"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Qualitat de ser baix o petit en estatura o moral.",
+      "sentence": "La seva ___ d’esperit va decebre a molts."
+    },
+    {
+      "word": "esperança",
+      "wrongVariants": [
+        "asperança",
+        "esperançe"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Confiança en un futur millor.",
+      "sentence": "Té molta ___ en què tot sortirà bé."
+    },
+    {
+      "word": "trompeta",
+      "wrongVariants": [
+        "trompete"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Instrument musical de vent.",
+      "sentence": "Va tocar la ___ durant tot el concert."
+    },
+    {
+      "word": "carreta",
+      "wrongVariants": [
+        "carrete"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Vehicle de dues rodes tirat per animals.",
+      "sentence": "Van carregar la ___ amb fenc."
+    },
+    {
+      "word": "finestra",
+      "wrongVariants": [
+        "finestre"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Obertura en una paret que permet el pas de llum i aire.",
+      "sentence": "Va mirar a través de la ___."
+    },
+    {
+      "word": "dentista",
+      "wrongVariants": [
+        "dentiste"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Professional que tracta les dents.",
+      "sentence": "El ___ em va posar un empastament."
+    },
+    {
+      "word": "vegetal",
+      "wrongVariants": [
+        "vagetal"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Relatiu a les plantes.",
+      "sentence": "Aquest producte està fet amb oli ___."
+    },
+    {
+      "word": "tenebra",
+      "wrongVariants": [
+        "tanebra"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Foscor profunda.",
+      "sentence": "Les ___ de la nit feien por als nens."
+    },
+    {
+      "word": "entendre",
+      "wrongVariants": [
+        "antendra",
+        "entendra"
+      ],
+      "level": 2,
+      "rule": 14,
+      "meaning": "Comprendre el significat d'alguna cosa.",
+      "sentence": "Costa ___ la seva explicació."
+    },
+    {
+      "word": "maneta",
+      "wrongVariants": [
+        "manete"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Part d’un objecte que permet manipular-lo.",
+      "sentence": "La ___ de la porta està trencada."
+    },
+    {
+      "word": "senyal",
+      "wrongVariants": [
+        "sanyal"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Indicació que serveix per guiar o advertir.",
+      "sentence": "El cotxe va parar quan va veure el ___ de stop."
+    },
+    {
+      "word": "mena",
+      "wrongVariants": [
+        "mene"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Tipus o varietat d’una cosa.",
+      "sentence": "Hi ha diferents ___ de fruita al mercat."
+    },
+    {
+      "word": "cambra",
+      "wrongVariants": [
+        "cambre"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Habitació d’una casa.",
+      "sentence": "La ___ dels nens és molt gran."
+    },
+    {
+      "word": "espasa",
+      "wrongVariants": [
+        "espase"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Arma blanca llarga i afilada.",
+      "sentence": "El cavaller portava una ___ molt llarga."
+    },
+    {
+      "word": "careta",
+      "wrongVariants": [
+        "carete"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Mascara que cobreix la cara.",
+      "sentence": "Els nens portaven ___ per Carnestoltes."
+    },
+    {
+      "word": "barrera",
+      "wrongVariants": [
+        "barrere"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Element que impedeix el pas.",
+      "sentence": "Van posar una ___ a l’entrada del camí."
+    },
+    {
+      "word": "cadena",
+      "wrongVariants": [
+        "cadene"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Conjunt d'anelles unides.",
+      "sentence": "Vaig posar una ___ a la bicicleta per assegurar-la."
+    },
+    {
+      "word": "gelada",
+      "wrongVariants": [
+        "gelade"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Fenomen de congelació per baixes temperatures.",
+      "sentence": "Durant la nit hi va haver una forta ___."
+    },
+    {
+      "word": "esperança",
+      "wrongVariants": [
+        "esperànce"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Confiança que alguna cosa bona passarà.",
+      "sentence": "Tinc ___ que tot anirà bé."
+    },
+    {
+      "word": "sabata",
+      "wrongVariants": [
+        "sabate"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Peça de calçat que cobreix el peu.",
+      "sentence": "Vaig comprar una ___ nova ahir."
+    },
+    {
+      "word": "cadira",
+      "wrongVariants": [
+        "cadire"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Moble amb respatller per seure.",
+      "sentence": "Va asseure’s a la ___ de la cuina."
+    },
+    {
+      "word": "platja",
+      "wrongVariants": [
+        "platje"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Extensió de sorra al costat del mar.",
+      "sentence": "Ens agrada passejar per la ___ al capvespre."
+    },
+    {
+      "word": "bossa",
+      "wrongVariants": [
+        "bosse"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Recipient flexible per portar objectes.",
+      "sentence": "Portava una ___ plena de llibres."
+    },
+    {
+      "word": "paraula",
+      "wrongVariants": [
+        "paraule"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Unitat lingüística amb significat.",
+      "sentence": "Va dir una ___ molt bonica."
+    },
+    {
+      "word": "granera",
+      "wrongVariants": [
+        "granere"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Eina per escombrar.",
+      "sentence": "Va agafar la ___ i va netejar el terra."
+    },
+    {
+      "word": "esperit",
+      "wrongVariants": [
+        "asparit"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Ànima o essència d'una persona.",
+      "sentence": "El seu ___ lliure no acceptava restriccions."
+    },
+    {
+      "word": "tempesta",
+      "wrongVariants": [
+        "tampesta"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Fenomen meteorològic amb pluja, vent i llamps.",
+      "sentence": "La ___ va fer caure molts arbres."
+    },
+    {
+      "word": "passatge",
+      "wrongVariants": [
+        "passatja"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Camí o espai de pas entre llocs.",
+      "sentence": "El ___ connectava els dos edificis."
+    },
+    {
+      "word": "desig",
+      "wrongVariants": [
+        "dasig"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Voluntat o aspiració per alguna cosa.",
+      "sentence": "Té un gran ___ de viatjar arreu del món."
+    },
+    {
+      "word": "baralla",
+      "wrongVariants": [
+        "beralla"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Conflicte físic o verbal entre persones.",
+      "sentence": "La ___ va començar per un malentès."
+    },
+    {
+      "word": "finestral",
+      "wrongVariants": [
+        "finastral"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Obertura gran en una paret amb vidre.",
+      "sentence": "El ___ deixava entrar molta llum al saló."
+    },
+    {
+      "word": "petjada",
+      "wrongVariants": [
+        "patjada"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Marca que deixa un peu en el sòl.",
+      "sentence": "La ___ al fang era molt clara."
+    },
+    {
+      "word": "escala",
+      "wrongVariants": [
+        "ascala"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Conjunt de graons per pujar o baixar.",
+      "sentence": "L’___ era de fusta i molt antiga."
+    },
+    {
+      "word": "pany",
+      "wrongVariants": [
+        "peny"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Dispositiu per tancar portes amb clau.",
+      "sentence": "El ___ de la porta estava trencat."
+    },
+    {
+      "word": "pàgina",
+      "wrongVariants": [
+        "pàgine"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Full escrit o imprès d’un llibre.",
+      "sentence": "Va girar la ___ per continuar llegint."
+    },
+    {
+      "word": "mena",
+      "wrongVariants": [
+        "mene"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Tipus o varietat.",
+      "sentence": "Hi ha diferents ___ de flors en aquest jardí."
     }
   ]
 }
