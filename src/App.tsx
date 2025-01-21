@@ -3,6 +3,7 @@ import { useState } from 'react'
 import WordPicker from './components/WordPicker/WordPicker'
 import bVWords from '../jsonWords/b-v.json'
 import aEWords from '../jsonWords/a-e.json'
+import oUWords from '../jsonWords/o-u.json'
 
 function App() {
   const [selectedBox, setSelectedBox] = useState<string | null>(null);
@@ -43,6 +44,8 @@ function App() {
         return bVWords;
       case "a-e":
         return aEWords;
+      case "o-u":
+        return oUWords;
       default:
         return { words: [], rules: [], links: [] };
     }

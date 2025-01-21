@@ -1,0 +1,515 @@
+{
+  "links": [
+    {
+      "title": "Resum regles o-u àtones",
+      "description": "Link extern a recurs de gencat.",
+      "url": "https://aplicacions.llengua.gencat.cat/itineraris-aprenentatge/intermedi/icl/icl5/icl52b/icl52_02_28.htm"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "message": "Substantius masculins singulars acabats amb -o s'escriuen amb o. Excepció: mots que acaben amb diftong com correu, palau...",
+      "rule": "o -> o / _{masculins-singulars}",
+      "ex": "ferro, carro, lloro. Excepcions: correu, palau."
+    },
+    {
+      "id": 2,
+      "message": "Els plurals masculins amb -os s'escriuen amb o.",
+      "rule": "o -> o / _{plurals-masculins}",
+      "ex": "boscos, bojos, peixos, passos."
+    },
+    {
+      "id": 3,
+      "message": "En verbs, la 1a persona del present d'indicatiu s'escriu amb o final.",
+      "rule": "o -> o / _{verbs-present-1a-persona}",
+      "ex": "parlo, canto, segueixo."
+    },
+    {
+      "id": 4,
+      "message": "Enmig de paraula, per saber si s'escriu u/o, cal cercar una paraula de la mateixa família on la mateixa síl·laba sigui tònica.",
+      "rule": "u/o -> depèn / _{família-tònica}",
+      "ex": "posàvem > posa, buscaves > busca, mosqueta > mosca."
+    },
+    {
+      "id": 5,
+      "message": "Els verbs sortir, collir, cosir, tossir, escopir i els seus derivats s'escriuen amb o en formes àtones.",
+      "rule": "o -> o / _{verbs-àtones}",
+      "ex": "Tòniques: surto, culls, tusso. Àtones: sortim, collit, tossint."
+    },
+    {
+      "id": 6,
+      "message": "Els verbs poder i voler s'escriuen amb o en totes les formes excepte el present de subjuntiu i l'imperatiu.",
+      "rule": "o -> o / _{verbs-poder-voler}",
+      "ex": "podem > puguem, voleu > vulgueu."
+    },
+    {
+      "id": 7,
+      "message": "Cal recordar els mots següents, a causa de la divergència que hi ha entre el català i altres llengües romàniques",
+      "rule": "o -> o / _{divergència}",
+      "ex": "brúixola, capítol, cònsol, embotir, joventut"
+    }
+  ],
+  "words": [
+    {
+      "word": "ferro",
+      "wrongVariants": [
+        "ferru"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Un metall molt resistent usat per fer eines i estructures.",
+      "sentence": "El pont està fet de ___."
+    },
+    {
+      "word": "boscos",
+      "wrongVariants": [
+        "boscus"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Llocs plens d'arbres i vegetació.",
+      "sentence": "Els ___ són essencials per al medi ambient."
+    },
+    {
+      "word": "parlo",
+      "wrongVariants": [
+        "parlu"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Expressar-se amb paraules.",
+      "sentence": "Cada vegada que ___ em sento millor."
+    },
+    {
+      "word": "sortim",
+      "wrongVariants": [
+        "surtim"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Anar fora d'un lloc.",
+      "sentence": "Nosaltres ___ del cinema a les deu."
+    },
+    {
+      "word": "puguem",
+      "wrongVariants": [
+        "poguem"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Primera persona del plural del present de subjuntiu de poder.",
+      "sentence": "Esperem que ___ ajudar-vos."
+    },
+    {
+      "word": "brúixola",
+      "wrongVariants": [
+        "brúixula"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Instrument per orientar-se.",
+      "sentence": "La ___ ajuda a trobar el nord."
+    },
+    {
+      "word": "capítol",
+      "wrongVariants": [
+        "capitul"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Part d'un llibre.",
+      "sentence": "Aquest ___ explica el tema."
+    },
+    {
+      "word": "cònsol",
+      "wrongVariants": [
+        "consul"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Representant diplomàtic.",
+      "sentence": "El ___ va arribar a temps."
+    },
+    {
+      "word": "embotir",
+      "wrongVariants": [
+        "embutir"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Farçir.",
+      "sentence": "Van ___ embotits."
+    },
+    {
+      "word": "joventut",
+      "wrongVariants": [
+        "juventut"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Etapa inicial.",
+      "sentence": "Viatgen a la ___."
+    },
+    {
+      "word": "rètol",
+      "wrongVariants": [
+        "retul"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Cartell informatiu.",
+      "sentence": "Llegeix el ___."
+    },
+    {
+      "word": "sospir",
+      "wrongVariants": [
+        "suspir"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Exhalar.",
+      "sentence": "Va deixar un ___ llarg."
+    },
+    {
+      "word": "títol",
+      "wrongVariants": [
+        "titul"
+      ],
+      "level": 1,
+      "rule": -1,
+      "meaning": "Encapçalament.",
+      "sentence": "Llegeix el ___."
+    },
+    {
+      "word": "bufetada",
+      "wrongVariants": [
+        "bofetada"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Cops amb la mà a la cara.",
+      "sentence": "Va rebre una gran ___."
+    },
+    {
+      "word": "muntar",
+      "wrongVariants": [
+        "montar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Posar parts juntes per construir alguna cosa.",
+      "sentence": "Van ___ la tenda de campanya."
+    },
+    {
+      "word": "muntanya",
+      "wrongVariants": [
+        "montanya"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Elevació natural del terreny.",
+      "sentence": "Van escalar la ___."
+    },
+    {
+      "word": "ritu",
+      "wrongVariants": [
+        "rito"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Conjunt de cerimònies.",
+      "sentence": "El ___ era sagrat per ells."
+    },
+    {
+      "word": "suborn",
+      "wrongVariants": [
+        "soborn"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Acció de corrompre algú amb diners.",
+      "sentence": "El polític va acceptar un ___."
+    },
+    {
+      "word": "subornar",
+      "wrongVariants": [
+        "sobornar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Donar diners per aconseguir un favor il·lícit.",
+      "sentence": "Van intentar ___ al testimoni."
+    },
+    {
+      "word": "sufocar",
+      "wrongVariants": [
+        "sofocar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Impedeix respirar o controlar emocions fortes.",
+      "sentence": "El fum va ___ l'habitació."
+    },
+    {
+      "word": "superb",
+      "wrongVariants": [
+        "soberv"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Que té una actitud d’orgull excessiu.",
+      "sentence": "Era una persona molt ___."
+    },
+    {
+      "word": "supèrbia",
+      "wrongVariants": [
+        "sobèrvia"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Actitud d’arrogància i superioritat.",
+      "sentence": "La seva ___ era evident en cada paraula."
+    },
+    {
+      "word": "suport",
+      "wrongVariants": [
+        "soport"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Element que sosté alguna cosa.",
+      "sentence": "El llibre descansa sobre un ___."
+    },
+    {
+      "word": "suportar",
+      "wrongVariants": [
+        "soportar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Tolerar alguna cosa o algú.",
+      "sentence": "No puc ___ més aquesta situació."
+    },
+    {
+      "word": "trofeu",
+      "wrongVariants": [
+        "trofeo"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Premi rebut per una victòria.",
+      "sentence": "Va guanyar un ___ per ser el primer."
+    },
+    {
+      "word": "turmell",
+      "wrongVariants": [
+        "tormell"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Articulació entre el peu i la cama.",
+      "sentence": "Es va torçar el ___ jugant a futbol."
+    },
+    {
+      "word": "carro",
+      "wrongVariants": [
+        "carru"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Vehicle amb rodes utilitzat per transportar coses.",
+      "sentence": "El ___ estava carregat de mercaderies."
+    },
+    {
+      "word": "lloro",
+      "wrongVariants": [
+        "lloru"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Ocell exòtic que pot imitar sons i paraules.",
+      "sentence": "El ___ repeteix tot el que dius."
+    },
+    {
+      "word": "correu",
+      "wrongVariants": [
+        "correu"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Sistema per enviar i rebre cartes i paquets.",
+      "sentence": "He enviat una carta pel ___."
+    },
+    {
+      "word": "palau",
+      "wrongVariants": [
+        "palao"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Edifici gran i luxós, sovint residència d'un rei o noble.",
+      "sentence": "El rei viu en un gran ___."
+    },
+    {
+      "word": "bojos",
+      "wrongVariants": [
+        "boixus"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Persones que han perdut la raó o fan coses extravagants.",
+      "sentence": "Els nens corrien com uns ___."
+    },
+    {
+      "word": "peixos",
+      "wrongVariants": [
+        "peixus"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Animals aquàtics vertebrats amb aletes.",
+      "sentence": "Hi ha molts ___ al riu."
+    },
+    {
+      "word": "passos",
+      "wrongVariants": [
+        "passus"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Moviments que es fan caminant o corrent.",
+      "sentence": "Vaig sentir els seus ___ al passadís."
+    },
+    {
+      "word": "canto",
+      "wrongVariants": [
+        "cantu"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Acció d’emetre sons musicals amb la veu.",
+      "sentence": "Cada matí ___ una cançó alegre."
+    },
+    {
+      "word": "segueixo",
+      "wrongVariants": [
+        "segueixu"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Continua fent alguna cosa o seguint algú.",
+      "sentence": "Si us plau, ___ aquest camí fins al final."
+    },
+    {
+      "word": "surto",
+      "wrongVariants": [
+        "surtu"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Acció de sortir d’un lloc.",
+      "sentence": "Cada dia ___ de casa a les vuit."
+    },
+    {
+      "word": "collir",
+      "wrongVariants": [
+        "cullir"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Acció de recollir fruita, flors o altres elements.",
+      "sentence": "Sempre ___ les flors més boniques del jardí."
+    },
+    {
+      "word": "tusso",
+      "wrongVariants": [
+        "tussu"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Acció de fer sorolls amb la gola per expulsar aire bruscament.",
+      "sentence": "Quan tinc la gola seca, sempre ___."
+    },
+    {
+      "word": "tossint",
+      "wrongVariants": [
+        "tussint"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Acció d’expulsar aire dels pulmons amb força, de manera repetida.",
+      "sentence": "Va passar tota la nit ___."
+    },
+    {
+      "word": "posàvem",
+      "wrongVariants": [
+        "pusàvem"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Acció de col·locar alguna cosa en un lloc determinat (en passat).",
+      "sentence": "Ahir ___ les flors al gerro."
+    },
+    {
+      "word": "buscaves",
+      "wrongVariants": [
+        "boscaves"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Acció de cercar alguna cosa (en passat).",
+      "sentence": "Em pregunto què ___ amb tanta insistència."
+    },
+    {
+      "word": "mosqueta",
+      "wrongVariants": [
+        "musqueta"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Planta del gènere Rosa, coneguda per les seves propietats medicinals.",
+      "sentence": "L'oli de ___ és molt utilitzat en cosmètica."
+    },
+    {
+      "word": "podem",
+      "wrongVariants": [
+        "pudem"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Tenim la capacitat o possibilitat de fer alguna cosa (present d'indicatiu).",
+      "sentence": "Avui ___ anar a caminar si vols."
+    },
+    {
+      "word": "puguem",
+      "wrongVariants": [
+        "pogem"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Tinguem la capacitat o possibilitat de fer alguna cosa (present de subjuntiu).",
+      "sentence": "Espero que ___ acabar la feina a temps."
+    },
+    {
+      "word": "voleu",
+      "wrongVariants": [
+        "vuleu"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Teniu el desig o la intenció de fer alguna cosa (present d'indicatiu).",
+      "sentence": "Què ___ fer aquest cap de setmana?"
+    },
+    {
+      "word": "vulgueu",
+      "wrongVariants": [
+        "volgueu"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Tingueu el desig o la intenció de fer alguna cosa (present de subjuntiu).",
+      "sentence": "És important que ___ venir puntuals."
+    }
+  ]
+}
