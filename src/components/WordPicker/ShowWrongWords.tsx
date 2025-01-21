@@ -39,8 +39,8 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
   return (
     <div>
       <div>
-        <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar al WordPicker</button>
-        <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborrar totes les paraules incorrectes</button>
+        <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar</button>
+        <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborra tot</button>
       </div>
       <div className="flex flex-col items-center mt-12">
         <p className="text-center text-sm text-gray-300 mb-4">
