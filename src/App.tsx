@@ -1,12 +1,14 @@
 import './App.css'
 import { useState } from 'react'
 import WordPicker from './components/WordPicker/WordPicker'
+import WordSummary from './components/WordPicker/WordSummary'
 import bVWords from '../jsonWords/b-v.json'
 import aEWords from '../jsonWords/a-e.json'
 import oUWords from '../jsonWords/o-u.json'
 
 function App() {
   const [selectedBox, setSelectedBox] = useState<string | null>(null);
+  const [showSummary, setShowSummary] = useState<boolean>(false);
 
   const boxes = [
     { id: "b-v", title: "La B i la V" },
@@ -36,6 +38,7 @@ function App() {
 
   const handleBack = () => {
     setSelectedBox(null);
+    setShowSummary(false);
   }
 
   const getBoxData = (boxId: string) => {
@@ -62,6 +65,8 @@ function App() {
           boxes={boxes}
           links={getBoxData(selectedBox).links}
         />
+      ) : showSummary ? (
+        <WordSummary boxes={boxes} onBack={handleBack} />
       ) : (
         <div className="flex flex-col items-center">
           <h1 className="text-6xl font-bold text-center my-4">Ortografia Catalana</h1>
@@ -79,6 +84,7 @@ function App() {
               </div>
             ))}
           </div>
+          <button onClick={() => setShowSummary(true)} className="mt-8 p-2 bg-gray-500 text-white rounded hover:bg-gray-600">Paraules encertades i fallades</button>
         </div>
       )}
     </>
