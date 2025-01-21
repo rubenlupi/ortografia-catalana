@@ -28,7 +28,7 @@ function App() {
     { id: "accent", title: "L'accent diacrític" },
   ];
 
-  const activeBoxIds = ["b-v", "a-e"];
+  const activeBoxIds = ["b-v", "a-e", "o-u"];
 
   const handleBoxClick = (boxId: string) => {
     setSelectedBox(boxId);
