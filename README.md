@@ -52,6 +52,8 @@ The project uses a JSON file to store orthographic rules and word examples. The 
   - `wrongVariants`: An array of incorrect variants of the word.
   - `level`: The difficulty level of the word.
   - `rule`: The ID of the rule that applies to the word.
+  - `meaning`: A brief definition of the word, explaining its usage or significance.
+  - `sentence`: An example sentence showcasing the correct usage of the word in context.
 
 ### Possibilities for Modifications
 
