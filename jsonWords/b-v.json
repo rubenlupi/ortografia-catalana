@@ -87,7 +87,7 @@
         "varba"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "El pèl que creix a la cara dels homes, sota la boca.",
       "sentence": "El meu pare s'ha afaitat la ___."
     },
@@ -208,7 +208,7 @@
         "varret"
       ],
       "level": 2,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Una peça de roba que es posa al cap.",
       "sentence": "Quan fa sol, porto un ___ per protegir-me."
     },
@@ -289,7 +289,7 @@
         "cavell"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Els pèls que creixen al cap de les persones.",
       "sentence": "La nena va pentinar el seu ___."
     },
@@ -916,7 +916,7 @@
         "varricada"
       ],
       "level": 3,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Construcció feta per impedir el pas.",
       "sentence": "Els manifestants van aixecar una ___ al carrer principal."
     },
@@ -1079,7 +1079,7 @@
         "bicicletta"
       ],
       "level": 1,
-      "rule": 11,
+      "rule": -1,
       "meaning": "Vehicle de dues rodes que es mou pedalant.",
       "sentence": "Li agrada anar en ___ pels camins del bosc."
     },
@@ -1109,7 +1109,7 @@
         "viveró"
       ],
       "level": 2,
-      "rule": 11,
+      "rule": -1,
       "meaning": "Recipient que s'utilitza per alimentar els nadons.",
       "sentence": "El nadó va beure la llet del seu ___."
     },
@@ -1129,7 +1129,7 @@
         "cavana"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Una construcció senzilla feta de fusta o altres materials.",
       "sentence": "Ens vam refugiar en una ___ al bosc."
     },
@@ -1319,7 +1319,7 @@
         "esvorrar"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Fer desaparèixer alguna cosa escrita o dibuixada.",
       "sentence": "Vaig haver d'___ el dibuix per començar de nou."
     },
@@ -1329,7 +1329,7 @@
         "varalla"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Discussió o lluita entre persones.",
       "sentence": "Els nens van tenir una ___ per una joguina."
     },
@@ -1359,7 +1359,7 @@
         "vesada"
       ],
       "level": 2,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Acció de besar algú.",
       "sentence": "Li va donar una gran ___ abans de marxar."
     },
@@ -1369,7 +1369,7 @@
         "varretina"
       ],
       "level": 2,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Peça de roba tradicional catalana per cobrir el cap.",
       "sentence": "Va posar-se una ___ durant la festa major."
     },
@@ -1399,7 +1399,7 @@
         "venvinguda"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": 5,
       "meaning": "Salutació que es fa a algú que arriba.",
       "sentence": "Li van donar una càlida ___ quan va arribar al poble."
     },
@@ -1469,7 +1469,7 @@
         "varalla"
       ],
       "level": 2,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Discussió o enfrontament físic entre persones.",
       "sentence": "Van tenir una ___ durant el partit."
     },
@@ -1489,7 +1489,7 @@
         "vufanda"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Peça de roba que es posa al coll per abrigar-se.",
       "sentence": "Quan fa fred, sempre porto una ___."
     },
@@ -1509,7 +1509,7 @@
         "cavana"
       ],
       "level": 3,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Construcció senzilla feta amb fusta o altres materials.",
       "sentence": "Es van refugiar en una ___ durant la pluja."
     },
@@ -1529,7 +1529,7 @@
         "vastó"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Objecte llarg i prim que serveix de suport per caminar.",
       "sentence": "L'avi sempre porta un ___ quan surt a passejar."
     },
@@ -1559,7 +1559,7 @@
         "vastida"
       ],
       "level": 3,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Estructura utilitzada per sostenir treballadors i materials durant la construcció.",
       "sentence": "Han muntat una ___ per reparar la façana."
     },
@@ -1619,7 +1619,7 @@
         "valancí"
       ],
       "level": 2,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Cadira que es mou cap endavant i cap enrere.",
       "sentence": "Va seure al ___ per relaxar-se."
     },
@@ -1699,7 +1699,7 @@
         "varrera"
       ],
       "level": 1,
-      "rule": 1,
+      "rule": -1,
       "meaning": "Objecte que impedeix el pas.",
       "sentence": "Van col·locar una ___ per evitar accidents."
     }
