@@ -59,7 +59,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
   useEffect(() => {
     if (words.length > 0) {
       const filteredWords = selectedLevel === 0 ? words : words.filter(word => word.level === selectedLevel);
-      const weightedWords = filteredWords.flatMap(word => wrongWords.includes(word.word) ? [word, word, word] : [word]);
+      const weightedWords = filteredWords.flatMap(word => wrongWords.includes(word.word) ? [word, word, word, word] : [word]);
       const randomWordObj = weightedWords[Math.floor(Math.random() * weightedWords.length)];
       const allWords = [randomWordObj.word, ...randomWordObj.wrongVariants].sort(() => 0.5 - Math.random());
       setDisplayedWords(allWords.slice(0, 3));
@@ -117,7 +117,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
 
   const selectNewWord = () => {
     const filteredWords = selectedLevel === 0 ? words : words.filter(word => word.level === selectedLevel);
-    const weightedWords = filteredWords.flatMap(word => wrongWords.includes(word.word) ? [word, word, word] : [word]);
+    const weightedWords = filteredWords.flatMap(word => wrongWords.includes(word.word) ? [word, word, word, word] : [word]);
     const randomWordObj = weightedWords[Math.floor(Math.random() * weightedWords.length)];
     const allWords = [randomWordObj.word, ...randomWordObj.wrongVariants].sort(() => 0.5 - Math.random());
     setDisplayedWords(allWords.slice(0, 3));
