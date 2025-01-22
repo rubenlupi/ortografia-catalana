@@ -1,13 +1,11 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState, useEffect } from 'react';
 
 interface ShowWrongWordsProps {
   onBack: () => void;
   boxId: string;
-  onUpdateWrongWords: (updatedWrongWords: string[]) => void;
 }
 
-const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdateWrongWords }) => {
+const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId }) => {
   const [wrongWords, setWrongWords] = useState<string[]>([]);
   const [copyMessage, setCopyMessage] = useState<string>('');
   const [failCounts, setFailCounts] = useState<{ [key: string]: number }>({});
@@ -19,25 +17,7 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
     setFailCounts(storedFailCounts);
   }, [boxId]);
 
-  const handleDeleteWord = (word: string) => {
-    const updatedWrongWords = wrongWords.filter(w => w !== word);
-    setWrongWords(updatedWrongWords);
-    localStorage.setItem(`wrongWords-${boxId}`, JSON.stringify(updatedWrongWords));
-    onUpdateWrongWords(updatedWrongWords);
 
-    const updatedFailCounts = { ...failCounts };
-    delete updatedFailCounts[word];
-    setFailCounts(updatedFailCounts);
-    localStorage.setItem(`failCounts-${boxId}`, JSON.stringify(updatedFailCounts));
-  };
-
-  const handleClearWrongWords = () => {
-    setWrongWords([]);
-    localStorage.removeItem(`wrongWords-${boxId}`);
-    onUpdateWrongWords([]);
-    setFailCounts({});
-    localStorage.removeItem(`failCounts-${boxId}`);
-  };
 
   const handleCopyPrompt = () => {
     const prompt = `Compose a dictation in Catalan containing approximately 45 words. The dictation must include the following incorrect words: ${wrongWords.join(', ')}. Use them in meaningful sentences, ensuring they fit naturally into the context.`;

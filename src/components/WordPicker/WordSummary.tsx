@@ -59,7 +59,7 @@ const WordSummary: React.FC<WordSummaryProps> = ({ boxes, onBack }) => {
   return (
     <>
       {showWrongWords ? (
-        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={selectedBox!} onUpdateWrongWords={() => { }} />
+        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={selectedBox!} />
       ) : showLearntWords ? (
         <ShowLearntWords onBack={() => setShowLearntWords(false)} boxId={selectedBox!} onUpdateLearntWords={() => { }} />
       ) : (

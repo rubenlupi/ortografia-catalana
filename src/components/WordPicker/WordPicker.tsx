@@ -174,14 +174,10 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
     setShowRules(true);
   };
 
-  const handleUpdateWrongWords = (updatedWrongWords: string[]) => {
-    setWrongWords(updatedWrongWords);
-  };
-
   return (
     <>
       {showWrongWords ? (
-        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={boxId} onUpdateWrongWords={handleUpdateWrongWords} />
+        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={boxId} />
       ) : showLearntWords ? (
         <ShowLearntWords onBack={() => setShowLearntWords(false)} boxId={boxId} onUpdateLearntWords={setCorrectWords} />
       ) : showRules ? (
