@@ -3,7 +3,7 @@ import ShowWrongWords from './ShowWrongWords';
 import ShowLearntWords from './ShowLearntWords';
 import ShowRules from './ShowRules';
 
-interface Word {
+export interface Word {
   word: string;
   wrongVariants: string[];
   level: number;
@@ -12,19 +12,19 @@ interface Word {
   meaning: string;
 }
 
-interface Rule {
+export interface Rule {
   id: number;
   message: string;
   rule: string;
   ex: string;
 }
 
-interface Box {
+export interface Box {
   id: string;
   title: string;
 }
 
-interface Link {
+export interface Link {
   title: string;
   description: string;
   url: string;

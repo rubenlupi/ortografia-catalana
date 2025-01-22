@@ -5,6 +5,7 @@ import WordSummary from './components/WordPicker/WordSummary'
 import bVWords from '../jsonWords/b-v.json'
 import aEWords from '../jsonWords/a-e.json'
 import oUWords from '../jsonWords/o-u.json'
+import type { Word, Rule, Link } from './components/WordPicker/WordPicker'
 
 function App() {
   const [selectedBox, setSelectedBox] = useState<string | null>(null);
@@ -50,7 +51,7 @@ function App() {
       case "o-u":
         return oUWords;
       default:
-        return { words: [], rules: [], links: [] };
+        return { words: [] as Word[], rules: [] as Rule[], links: [] as Link[] };
     }
   }
 
