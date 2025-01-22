@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState, useEffect } from 'react';
 
 interface ShowWrongWordsProps {
@@ -50,23 +51,28 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
     <div>
       <div>
         <button onClick={onBack} className="absolute top-4 left-4 p-2 bg-gray-500 text-white rounded">Tornar</button>
-        <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborra tot</button>
+        {/* <button onClick={handleClearWrongWords} className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded">Esborra tot</button> */}
       </div>
       <div className="flex flex-col items-center mt-12">
         <p className="text-center text-sm text-gray-300 mb-4">
-          Després de practicar, aquestes són les paraules que has escrit incorrectament.
+          Després de practicar, aquestes són les paraules que has seleccionat incorrectament.
+        </p>
+        <p className="text-center text-sm text-gray-300 mb-4">
+          Entre parèntesi pots veure el nombre de vegades que has seleccionat incorrectament cada paraula.
         </p>
         <p className="text-center text-sm text-gray-300 mb-4">
           Les paraules s'esborraran automàticament quan les encertis més de 3 vegades.
         </p>
 
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {wrongWords.map((word, index) => (
-            <div key={index} className="p-4 bg-red-500 text-white text-xl rounded-lg flex justify-between items-center">
-              {word} (Errors: {failCounts[word] || 0})
-              <button onClick={() => handleDeleteWord(word)} className="ml-4 p-2 bg-gray-700 text-white rounded">Eliminar</button>
-            </div>
-          ))}
+          {wrongWords
+            .sort((a, b) => (failCounts[b] || 0) - (failCounts[a] || 0))
+            .map((word, index) => (
+              <div key={index} className="p-4 bg-red-500 text-white text-xl rounded-lg flex justify-between items-center">
+                {word} ({failCounts[word] || 0})
+                {/* <button onClick={() => handleDeleteWord(word)} className="ml-4 p-2 bg-gray-700 text-white rounded">Eliminar</button> */}
+              </div>
+            ))}
         </div>
         <p className="text-center text-sm text-gray-300 mt-12">
           Fes clic per copiar un text que pots utilitzar per generar una dictat amb les paraules incorrectes.
