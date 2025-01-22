@@ -1912,8 +1912,7 @@
       "word": "canvi",
       "wrongVariants": [
         "canbi",
-        "camvi",
-        "cambi"
+        "camvi"
       ],
       "level": 1,
       "rule": 5,
@@ -1924,8 +1923,7 @@
       "word": "enviar",
       "wrongVariants": [
         "embiar",
-        "emviar",
-        "enbiar"
+        "emviar"
       ],
       "level": 1,
       "rule": 5,
@@ -1936,8 +1934,7 @@
       "word": "invent",
       "wrongVariants": [
         "imbent",
-        "imvent",
-        "inbent"
+        "imvent"
       ],
       "level": 1,
       "rule": 5,
@@ -2253,8 +2250,7 @@
       "word": "sandvitx",
       "wrongVariants": [
         "sandwitch",
-        "sanvitx",
-        "sandbich"
+        "sanvitx"
       ],
       "level": 1,
       "rule": 10,

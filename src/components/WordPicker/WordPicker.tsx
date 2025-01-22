@@ -48,6 +48,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
   const [selectedLevel, setSelectedLevel] = useState<number>(0);
   const [wrongWords, setWrongWords] = useState<string[]>([]);
   const [correctCount, setCorrectCount] = useState<{ [key: string]: number }>({});
+  const [failCounts, setFailCounts] = useState<{ [key: string]: number }>({});
   const [showWrongWords, setShowWrongWords] = useState<boolean>(false);
   const [showLearntWords, setShowLearntWords] = useState<boolean>(false);
   const [showRules, setShowRules] = useState<boolean>(false);
@@ -71,6 +72,8 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
     setWrongWords(storedWrongWords);
     const storedCorrectCount = JSON.parse(localStorage.getItem(`correctCount-${boxId}`) || '{}');
     setCorrectCount(storedCorrectCount);
+    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${boxId}`) || '{}');
+    setFailCounts(storedFailCounts);
     const storedCorrectWords = JSON.parse(localStorage.getItem(`learntWords-${boxId}`) || '[]');
     setCorrectWords(storedCorrectWords);
   }, [boxId]);
@@ -80,6 +83,10 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
     const uniqueWrongWords = Array.from(new Set(updatedWrongWords));
     setWrongWords(uniqueWrongWords);
     localStorage.setItem(`wrongWords-${boxId}`, JSON.stringify(uniqueWrongWords));
+
+    const updatedFailCounts = { ...failCounts, [word]: (failCounts[word] || 0) + 1 };
+    setFailCounts(updatedFailCounts);
+    localStorage.setItem(`failCounts-${boxId}`, JSON.stringify(updatedFailCounts));
   };
 
   const updateCorrectWords = (word: string) => {

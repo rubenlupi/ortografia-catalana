@@ -9,10 +9,13 @@ interface ShowWrongWordsProps {
 const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdateWrongWords }) => {
   const [wrongWords, setWrongWords] = useState<string[]>([]);
   const [copyMessage, setCopyMessage] = useState<string>('');
+  const [failCounts, setFailCounts] = useState<{ [key: string]: number }>({});
 
   useEffect(() => {
     const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${boxId}`) || '[]');
     setWrongWords(storedWrongWords);
+    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${boxId}`) || '{}');
+    setFailCounts(storedFailCounts);
   }, [boxId]);
 
   const handleDeleteWord = (word: string) => {
@@ -20,12 +23,19 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
     setWrongWords(updatedWrongWords);
     localStorage.setItem(`wrongWords-${boxId}`, JSON.stringify(updatedWrongWords));
     onUpdateWrongWords(updatedWrongWords);
+
+    const updatedFailCounts = { ...failCounts };
+    delete updatedFailCounts[word];
+    setFailCounts(updatedFailCounts);
+    localStorage.setItem(`failCounts-${boxId}`, JSON.stringify(updatedFailCounts));
   };
 
   const handleClearWrongWords = () => {
     setWrongWords([]);
     localStorage.removeItem(`wrongWords-${boxId}`);
     onUpdateWrongWords([]);
+    setFailCounts({});
+    localStorage.removeItem(`failCounts-${boxId}`);
   };
 
   const handleCopyPrompt = () => {
@@ -53,7 +63,7 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, onUpdate
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           {wrongWords.map((word, index) => (
             <div key={index} className="p-4 bg-red-500 text-white text-xl rounded-lg flex justify-between items-center">
-              {word}
+              {word} (Errors: {failCounts[word] || 0})
               <button onClick={() => handleDeleteWord(word)} className="ml-4 p-2 bg-gray-700 text-white rounded">Eliminar</button>
             </div>
           ))}
