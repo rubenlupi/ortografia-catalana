@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import toastr from 'toastr';
+import 'toastr/build/toastr.min.css';
 
 interface Rule {
   id: number;
@@ -15,6 +17,7 @@ interface ShowRulesProps {
 const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
   const [sortedRules, setSortedRules] = useState<Rule[]>([]);
   const [learntRules, setLearntRules] = useState<Rule[]>([]);
+  const [lastTap, setLastTap] = useState<number>(0);
 
   useEffect(() => {
     const sorted = [...rules].sort((a, b) => a.id - b.id);
@@ -22,13 +25,26 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
   }, [rules]);
 
   const handleDoubleClick = (rule: Rule) => {
+    console.log('double click', rule);
     if (learntRules.includes(rule)) {
+      console.log('includes');
       setLearntRules(learntRules.filter(r => r.id !== rule.id));
       setSortedRules([...sortedRules, rule].sort((a, b) => a.id - b.id));
+      toastr.info(`La regla "${rule.message}" s'ha mogut a "Regles per aprendre".`);
     } else {
       setLearntRules([...learntRules, rule]);
       setSortedRules(sortedRules.filter(r => r.id !== rule.id));
+      toastr.success(`La regla "${rule.message}" s'ha mogut a "Regles apreses".`);
     }
+  };
+
+  const handleTouch = (rule: Rule) => {
+    const currentTime = new Date().getTime();
+    const tapLength = currentTime - lastTap;
+    if (tapLength < 500 && tapLength > 0) {
+      handleDoubleClick(rule);
+    }
+    setLastTap(currentTime);
   };
 
   return (
@@ -44,6 +60,7 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
               key={rule.id}
               className="p-4 bg-gray-800 text-white text-xl rounded-lg cursor-pointer"
               onDoubleClick={() => handleDoubleClick(rule)}
+              onTouchEnd={() => handleTouch(rule)}
             >
               <p className="font-bold">{rule.message}</p>
               <p className="text-gray-400">{rule.ex}</p>
@@ -59,6 +76,7 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
               key={rule.id}
               className="p-4 bg-green-500 text-black text-xl rounded-lg cursor-pointer"
               onDoubleClick={() => handleDoubleClick(rule)}
+              onTouchEnd={() => handleTouch(rule)}
             >
               <p className="font-bold">{rule.message}</p>
               <p className="text-gray-800">{rule.ex}</p>

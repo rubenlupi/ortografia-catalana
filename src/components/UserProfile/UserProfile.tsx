@@ -13,7 +13,7 @@ interface UserProfileProps {
   users: User[];
 }
 
-const avatars = ['🐉', '🤡', '🦄', '🐯', '🐸', '🐵', '🐧', '🐼', '🐨', '🐰', '🦊', '🦁', '🐮', '🐷', '🐭', '🐹', '🐻', '🐔', '🦉'];
+const avatars = ['🐉', '🤡', '🦄', '🐯', '🐸', '🐵', '🐧', '🐼', '🐨', '🐰', '🦊', '🦁', '🐮', '🐷', '🐭', '🐹', '🐻', '🐔', '🦉', '🧟'];
 
 const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, onUserDelete, users }) => {
   const [newUserName, setNewUserName] = useState<string>('');
@@ -60,17 +60,18 @@ const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, o
           placeholder="Nom del nou usuari"
           className="p-2 border rounded mb-4 w-full"
         />
-        <div className="flex justify-center mb-4">
+        <div className={`grid gap-4 mb-4 ${window.innerWidth < 768 ? 'grid-cols-4' : 'grid-cols-10'}`}>
           {avatars.map((avatar, index) => (
             <span
               key={index}
-              className={`text-4xl cursor-pointer mx-2 p-2 rounded ${selectedAvatar === avatar ? 'bg-blue-500 text-white' : 'hover:bg-gray-200'}`}
+              className={`text-4xl cursor-pointer p-2 rounded ${selectedAvatar === avatar ? 'bg-blue-500 text-white' : 'hover:bg-gray-200'}`}
               onClick={() => setSelectedAvatar(avatar)}
             >
               {avatar}
             </span>
           ))}
         </div>
+
         <button onClick={handleCreateUser} className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Crear Usuari</button>
       </div>
     </div>
