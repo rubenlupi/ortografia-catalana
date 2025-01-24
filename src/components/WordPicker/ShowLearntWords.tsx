@@ -1,29 +1,31 @@
 import { useState, useEffect } from 'react';
+import { User } from './WordPicker';
 
 interface ShowLearntWordsProps {
   onBack: () => void;
   boxId: string;
   onUpdateLearntWords: (updatedLearntWords: string[]) => void;
+  user: User;
 }
 
-const ShowLearntWords: React.FC<ShowLearntWordsProps> = ({ onBack, boxId, onUpdateLearntWords }) => {
+const ShowLearntWords: React.FC<ShowLearntWordsProps> = ({ onBack, boxId, onUpdateLearntWords, user }) => {
   const [learntWords, setLearntWords] = useState<string[]>([]);
 
   useEffect(() => {
-    const storedLearntWords = JSON.parse(localStorage.getItem(`learntWords-${boxId}`) || '[]');
+    const storedLearntWords = JSON.parse(localStorage.getItem(`learntWords-${user.name}-${boxId}`) || '[]');
     setLearntWords(storedLearntWords);
-  }, [boxId]);
+  }, [boxId, user.name]);
 
   const handleDeleteWord = (word: string) => {
     const updatedLearntWords = learntWords.filter(w => w !== word);
     setLearntWords(updatedLearntWords);
-    localStorage.setItem(`learntWords-${boxId}`, JSON.stringify(updatedLearntWords));
+    localStorage.setItem(`learntWords-${user.name}-${boxId}`, JSON.stringify(updatedLearntWords));
     onUpdateLearntWords(updatedLearntWords);
   };
 
   const handleClearLearntWords = () => {
     setLearntWords([]);
-    localStorage.removeItem(`learntWords-${boxId}`);
+    localStorage.removeItem(`learntWords-${user.name}-${boxId}`);
     onUpdateLearntWords([]);
   };
 
@@ -35,7 +37,7 @@ const ShowLearntWords: React.FC<ShowLearntWordsProps> = ({ onBack, boxId, onUpda
       </div>
       <div className="flex flex-col items-center mt-12">
         <p className="text-center text-sm text-gray-300 mb-4">
-          Paraules que has après.
+          {user.name}, aquestes són les paraules que has après.
         </p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">

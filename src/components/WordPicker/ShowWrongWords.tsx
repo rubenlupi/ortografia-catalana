@@ -1,23 +1,24 @@
 import { useState, useEffect } from 'react';
+import { User } from './WordPicker';
+
 
 interface ShowWrongWordsProps {
   onBack: () => void;
   boxId: string;
+  user: User;
 }
 
-const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId }) => {
+const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId, user }) => {
   const [wrongWords, setWrongWords] = useState<string[]>([]);
   const [copyMessage, setCopyMessage] = useState<string>('');
   const [failCounts, setFailCounts] = useState<{ [key: string]: number }>({});
 
   useEffect(() => {
-    const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${boxId}`) || '[]');
+    const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${user.name}-${boxId}`) || '[]');
     setWrongWords(storedWrongWords);
-    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${boxId}`) || '{}');
+    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${user.name}-${boxId}`) || '{}');
     setFailCounts(storedFailCounts);
-  }, [boxId]);
-
-
+  }, [boxId, user.name]);
 
   const handleCopyPrompt = () => {
     const prompt = `Compose a dictation in Catalan containing approximately 45 words. The dictation must include the following incorrect words: ${wrongWords.join(', ')}. Use them in meaningful sentences, ensuring they fit naturally into the context.`;
@@ -35,7 +36,7 @@ const ShowWrongWords: React.FC<ShowWrongWordsProps> = ({ onBack, boxId }) => {
       </div>
       <div className="flex flex-col items-center mt-12">
         <p className="text-center text-sm text-gray-300 mb-4">
-          Després de practicar, aquestes són les paraules que has seleccionat incorrectament.
+          {user.name}, després de practicar, aquestes són les paraules que has seleccionat incorrectament.
         </p>
         <p className="text-center text-sm text-gray-300 mb-4">
           Entre parèntesi pots veure el nombre de vegades que has seleccionat incorrectament cada paraula.

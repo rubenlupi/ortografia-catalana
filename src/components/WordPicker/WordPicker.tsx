@@ -30,6 +30,10 @@ export interface Link {
   url: string;
 }
 
+export interface User {
+  name: string;
+}
+
 interface WordPickerProps {
   words: Word[];
   rules: Rule[];
@@ -37,9 +41,10 @@ interface WordPickerProps {
   onBack: () => void;
   boxId: string;
   boxes: Box[];
+  user: User;
 }
 
-const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, boxId, boxes }) => {
+const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, boxId, boxes, user }) => {
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<string>('');
   const [ruleMessage, setRuleMessage] = useState<string>('');
@@ -68,51 +73,51 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
   }, [words, selectedLevel]);
 
   useEffect(() => {
-    const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${boxId}`) || '[]');
+    const storedWrongWords = JSON.parse(localStorage.getItem(`wrongWords-${user.name}-${boxId}`) || '[]');
     setWrongWords(storedWrongWords);
-    const storedCorrectCount = JSON.parse(localStorage.getItem(`correctCount-${boxId}`) || '{}');
+    const storedCorrectCount = JSON.parse(localStorage.getItem(`correctCount-${user.name}-${boxId}`) || '{}');
     setCorrectCount(storedCorrectCount);
-    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${boxId}`) || '{}');
+    const storedFailCounts = JSON.parse(localStorage.getItem(`failCounts-${user.name}-${boxId}`) || '{}');
     setFailCounts(storedFailCounts);
-    const storedCorrectWords = JSON.parse(localStorage.getItem(`learntWords-${boxId}`) || '[]');
+    const storedCorrectWords = JSON.parse(localStorage.getItem(`learntWords-${user.name}-${boxId}`) || '[]');
     setCorrectWords(storedCorrectWords);
-  }, [boxId]);
+  }, [boxId, user.name]);
 
   const updateWrongWords = (word: string) => {
     const updatedWrongWords = [...wrongWords, word];
     const uniqueWrongWords = Array.from(new Set(updatedWrongWords));
     setWrongWords(uniqueWrongWords);
-    localStorage.setItem(`wrongWords-${boxId}`, JSON.stringify(uniqueWrongWords));
+    localStorage.setItem(`wrongWords-${user.name}-${boxId}`, JSON.stringify(uniqueWrongWords));
 
     const updatedFailCounts = { ...failCounts, [word]: (failCounts[word] || 0) + 1 };
     setFailCounts(updatedFailCounts);
-    localStorage.setItem(`failCounts-${boxId}`, JSON.stringify(updatedFailCounts));
+    localStorage.setItem(`failCounts-${user.name}-${boxId}`, JSON.stringify(updatedFailCounts));
   };
 
   const updateCorrectWords = (word: string) => {
     const updatedCorrectWords = [...correctWords, word];
     const uniqueCorrectWords = Array.from(new Set(updatedCorrectWords));
     setCorrectWords(uniqueCorrectWords);
-    localStorage.setItem(`learntWords-${boxId}`, JSON.stringify(uniqueCorrectWords));
+    localStorage.setItem(`learntWords-${user.name}-${boxId}`, JSON.stringify(uniqueCorrectWords));
   }
 
   const updateCorrectCount = (word: string) => {
     const newCorrectCount = { ...correctCount, [word]: (correctCount[word] || 0) + 1 };
     setCorrectCount(newCorrectCount);
-    localStorage.setItem(`correctCount-${boxId}`, JSON.stringify(newCorrectCount));
+    localStorage.setItem(`correctCount-${user.name}-${boxId}`, JSON.stringify(newCorrectCount));
     return newCorrectCount;
   };
 
   const removeWordFromWrongWords = (word: string) => {
     const updatedWrongWords = wrongWords.filter(w => w !== word);
     setWrongWords(updatedWrongWords);
-    localStorage.setItem(`wrongWords-${boxId}`, JSON.stringify(updatedWrongWords));
+    localStorage.setItem(`wrongWords-${user.name}-${boxId}`, JSON.stringify(updatedWrongWords));
   };
 
   const addWordToLearntWords = (word: string) => {
-    const storedLearntWords = JSON.parse(localStorage.getItem(`learntWords-${boxId}`) || '[]');
+    const storedLearntWords = JSON.parse(localStorage.getItem(`learntWords-${user.name}-${boxId}`) || '[]');
     const updatedLearntWords = [...storedLearntWords, word];
-    localStorage.setItem(`learntWords-${boxId}`, JSON.stringify(updatedLearntWords));
+    localStorage.setItem(`learntWords-${user.name}-${boxId}`, JSON.stringify(updatedLearntWords));
   };
 
   const selectNewWord = () => {
@@ -127,14 +132,14 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
   const handleWordClick = (word: string) => {
     setSelectedWord(word);
     if (currentWord && word === currentWord.word) {
-      setFeedback('Correcta!');
+      setFeedback(`Correcta ${user.name}!`);
       setRuleMessage('');
       const newCorrectCount = updateCorrectCount(currentWord.word);
       if (newCorrectCount[currentWord.word] > 4) {
         removeWordFromWrongWords(currentWord.word);
         addWordToLearntWords(currentWord.word);
         delete newCorrectCount[currentWord.word];
-        localStorage.setItem(`correctCount-${boxId}`, JSON.stringify(newCorrectCount));
+        localStorage.setItem(`correctCount-${user.name}-${boxId}`, JSON.stringify(newCorrectCount));
       }
       updateCorrectWords(currentWord.word);
       setTimeout(() => {
@@ -177,9 +182,9 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
   return (
     <>
       {showWrongWords ? (
-        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={boxId} />
+        <ShowWrongWords onBack={() => setShowWrongWords(false)} boxId={boxId} user={user} />
       ) : showLearntWords ? (
-        <ShowLearntWords onBack={() => setShowLearntWords(false)} boxId={boxId} onUpdateLearntWords={setCorrectWords} />
+        <ShowLearntWords onBack={() => setShowLearntWords(false)} boxId={boxId} onUpdateLearntWords={setCorrectWords} user={user} />
       ) : showRules ? (
         <ShowRules onBack={() => setShowRules(false)} rules={rules} />
       ) : (
