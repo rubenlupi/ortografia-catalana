@@ -128,14 +128,14 @@ function App() {
         ) : showSummary ? (
           <WordSummary boxes={boxes} onBack={handleBack} user={currentUser} />
         ) : (
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-24 md:mt-0">
             <h1 className="text-6xl font-bold text-center my-4">Ortografia Catalana</h1>
             <p className="text-center text-sm text-gray-300 mb-4">
               {currentUser.name}, escull una caixa per començar a practicar.
             </p>
-            <div className="absolute top-4 right-4 flex items-center">
+            <div className="absolute top-4 right-4 flex flex-col items-center md:flex-row md:space-x-4">
               <p className="text-4xl">{currentUser.avatar}</p>
-              <p className="text-white mr-4">{currentUser.name}</p>
+              <p className="text-white">{currentUser.name}</p>
               <button onClick={handleUserChange} className="p-2 bg-gray-500 text-white rounded hover:bg-gray-600">Canvia Usuari</button>
             </div>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
