@@ -28,6 +28,7 @@ const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, o
 
   return (
     <div className="flex flex-col items-center">
+
       <h1 className="text-4xl font-bold text-center my-4">Selecciona usuari per començar o crea un nou usuari</h1>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         {users.map((user, index) => (
