@@ -22,18 +22,23 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
   useEffect(() => {
     const sorted = [...rules].sort((a, b) => a.id - b.id);
     setSortedRules(sorted);
+
+    const storedLearntRules = JSON.parse(localStorage.getItem('learntRules') || '[]');
+    setLearntRules(storedLearntRules);
   }, [rules]);
 
   const handleDoubleClick = (rule: Rule) => {
-    console.log('double click', rule);
     if (learntRules.includes(rule)) {
-      console.log('includes');
-      setLearntRules(learntRules.filter(r => r.id !== rule.id));
+      const updatedLearntRules = learntRules.filter(r => r.id !== rule.id);
+      setLearntRules(updatedLearntRules);
       setSortedRules([...sortedRules, rule].sort((a, b) => a.id - b.id));
+      localStorage.setItem('learntRules', JSON.stringify(updatedLearntRules));
       toastr.info(`La regla "${rule.message}" s'ha mogut a "Regles per aprendre".`);
     } else {
-      setLearntRules([...learntRules, rule]);
+      const updatedLearntRules = [...learntRules, rule];
+      setLearntRules(updatedLearntRules);
       setSortedRules(sortedRules.filter(r => r.id !== rule.id));
+      localStorage.setItem('learntRules', JSON.stringify(updatedLearntRules));
       toastr.success(`La regla "${rule.message}" s'ha mogut a "Regles apreses".`);
     }
   };
