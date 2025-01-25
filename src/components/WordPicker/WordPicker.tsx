@@ -211,7 +211,7 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
             <button onClick={handleViewWrongWords} className="p-2 bg-yellow-500 text-black rounded hover:bg-yellow-600 m-2">Veure paraules incorrectes - {wrongWords.length}</button>
             <button onClick={handleViewLearntWords} className="p-2 bg-green-500 text-black rounded hover:bg-green-600 m-2">Veure paraules apreses - {correctWords.length}</button>
           </div>
-          <p className="text-center text-sm text-gray-400 mt-12">
+          <p className="text-center text-sm text-gray-500 mt-12">
             Tria la paraula correcta.
           </p>
           <div className="flex flex-wrap justify-center items-center mb-6">
@@ -232,14 +232,14 @@ const WordPicker: React.FC<WordPickerProps> = ({ words, rules, links, onBack, bo
 
             ))}
           </div>
-          <p className="text-center  text-gray-300">
+          <p className="text-center  text-gray-500">
             {currentWord?.sentence}
           </p>
-          <p className="text-center text-sm text-gray-400 mt-4">
+          <p className="text-center text-sm text-gray-500 mt-4">
             {currentWord?.meaning}
           </p>
           <p className="mt-4 text-center text-xl">{feedback}</p>
-          {ruleMessage && <p className="mt-4 text-center text-gray-400">{ruleMessage}</p>}
+          {ruleMessage && <p className="mt-4 text-center text-gray-500">{ruleMessage}</p>}
           <div className="flex flex-col items-center mt-8 space-y-4">
             {links.map((link, index) => (
               <button key={index} onClick={() => window.open(link.url, '_blank')} className="p-2 bg-gray-500 text-white rounded hover:bg-gray-600">

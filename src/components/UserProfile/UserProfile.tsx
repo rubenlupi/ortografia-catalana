@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import toastr from 'toastr';
 
 interface User {
   name: string;
@@ -22,13 +23,18 @@ const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, o
   const handleCreateUser = () => {
     if (newUserName.trim()) {
       onUserCreate({ name: newUserName, avatar: selectedAvatar, createdAt: new Date().toLocaleString() });
+      toastr.success(`Usuari "${newUserName}" creat amb èxit.`);
       setNewUserName('');
+      onUserSelect({ name: newUserName, avatar: selectedAvatar, createdAt: new Date().toLocaleString() });
     }
+  };
+
+  const handleDeleteUser = (user: User) => {
+    onUserDelete(user);
   };
 
   return (
     <div className="flex flex-col items-center">
-
       <h1 className="text-4xl font-bold text-center my-4">Selecciona usuari per començar o crea un nou usuari</h1>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         {users.map((user, index) => (
@@ -42,7 +48,7 @@ const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, o
               <p className="text-sm text-white">{user.createdAt}</p>
               <p>
                 <button
-                  onClick={() => onUserDelete(user)}
+                  onClick={() => handleDeleteUser(user)}
                   className=" p-2 m-2 bg-red-500 text-white rounded hover:bg-red-600"
                 >
                   Eliminar
@@ -71,7 +77,6 @@ const UserProfile: React.FC<UserProfileProps> = ({ onUserSelect, onUserCreate, o
             </span>
           ))}
         </div>
-
         <button onClick={handleCreateUser} className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Crear Usuari</button>
       </div>
     </div>

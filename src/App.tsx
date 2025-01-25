@@ -1,5 +1,7 @@
 import './App.css'
 import { useState, useEffect } from 'react'
+import toastr from 'toastr'
+import 'toastr/build/toastr.min.css'
 import WordPicker from './components/WordPicker/WordPicker'
 import WordSummary from './components/WordPicker/WordSummary'
 import UserProfile from './components/UserProfile/UserProfile'
@@ -60,6 +62,7 @@ function App() {
       setShowDeleteConfirmation(false);
       setConfirmationText('');
       setErrorMessage('');
+      toastr.info(`Usuari "${userToDelete?.name}" eliminat.`);
       if (currentUser?.name === userToDelete?.name) {
         setCurrentUser(null);
       }

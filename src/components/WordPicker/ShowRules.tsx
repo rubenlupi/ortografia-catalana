@@ -68,7 +68,7 @@ const ShowRules: React.FC<ShowRulesProps> = ({ onBack, rules }) => {
               onTouchEnd={() => handleTouch(rule)}
             >
               <p className="font-bold">{rule.message}</p>
-              <p className="text-gray-400">{rule.ex}</p>
+              <p className="text-gray-500">{rule.ex}</p>
             </div>
           ))}
         </div>
