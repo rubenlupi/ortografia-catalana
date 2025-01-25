@@ -8,6 +8,7 @@ import UserProfile from './components/UserProfile/UserProfile'
 import bVWords from '../jsonWords/b-v.json'
 import aEWords from '../jsonWords/a-e.json'
 import oUWords from '../jsonWords/o-u.json'
+import mNWords from '../jsonWords/m-n.json'
 import type { Word, Rule, Link } from './components/WordPicker/WordPicker'
 
 interface User {
@@ -91,7 +92,7 @@ function App() {
     { id: "accent", title: "L'accent diacrític" },
   ];
 
-  const activeBoxIds = ["b-v", "a-e", "o-u"];
+  const activeBoxIds = ["b-v", "a-e", "o-u", "m-n"];
 
   const handleBoxClick = (boxId: string) => {
     setSelectedBox(boxId);
@@ -110,6 +111,8 @@ function App() {
         return aEWords;
       case "o-u":
         return oUWords;
+      case "m-n":
+        return mNWords;
       default:
         return { words: [] as Word[], rules: [] as Rule[], links: [] as Link[] };
     }

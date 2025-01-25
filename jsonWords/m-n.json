@@ -1,0 +1,1698 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "Ecrivim M davant de B. Exemples: cambra, rambla, ambre.",
+      "rule": "m -> m davant de b",
+      "ex": "cambra, rambla, ambre"
+    },
+    {
+      "id": 2,
+      "message": "Ecrivim M davant de P. Exemples: company, compra, ampli. Excepcions: Compostos amb ben- (benparlat, benplantat, benaurat).",
+      "rule": "m -> m davant de p",
+      "ex": "company, compra, ampli"
+    },
+    {
+      "id": 3,
+      "message": "Ecrivim M davant de M (so geminat). Exemples: Immaculat, gamma, gemma. Excepcions: Compostos amb tan-, gran-, en-: tanmateix, granment, enmig",
+      "rule": "m -> m davant de m (so geminat)",
+      "ex": "Immaculat, gamma, gemma"
+    },
+    {
+      "id": 4,
+      "message": "Ecrivim M davant de F. Exemples: simfonia, amfitrió, triomf, xamfrà. Excepcions: Paraules amb prefixos con-, en-, in- (conferència, enfrontar, infermer) i altres (fanfarró).",
+      "rule": "m -> m davant de f",
+      "ex": "simfonia, amfitrió, triomf, xamfrà"
+    },
+    {
+      "id": 5,
+      "message": "Ecrivim M en derivats de circum-. Exemples: circumferència, circumscripció, circumval·lació.",
+      "rule": "m -> m en derivats de circum-",
+      "ex": "circumferència, circumscripció, circumval·lació"
+    },
+    {
+      "id": 6,
+      "message": "Ecrivim M en algunes paraules específiques. Exemples: somriure, premsa, empremta, somnàmbul, mnemotècnic.",
+      "rule": "m -> m en paraules específiques",
+      "ex": "somriure, premsa, empremta, somnàmbul, mnemotècnic"
+    },
+    {
+      "id": 7,
+      "message": "Ecrivim N davant de V. Exemples: convit, invent, canvi. Excepcions: tramvia, triumvirat, circumval·lació.",
+      "rule": "n -> n davant de v",
+      "ex": "convit, invent, canvi"
+    },
+    {
+      "id": 8,
+      "message": "Ecrivim N davant de N (so geminat). Exemples: Anna, innat, annex, innocent.",
+      "rule": "n -> n davant de n (so geminat)",
+      "ex": "Anna, innat, annex, innocent"
+    },
+    {
+      "id": 9,
+      "message": "Ecrivim N en paraules amb significats diferents segons el context. Exemples: conte, comte, compte.",
+      "rule": "n -> n en paraules amb múltiples significats",
+      "ex": "conte, comte, compte"
+    },
+    {
+      "id": 10,
+      "message": "La P dels grups -MP- és muda. Exemples: compte, temps, temptació.",
+      "rule": "p -> p muda en grups -mp-",
+      "ex": "compte, temps, temptació"
+    },
+    {
+      "id": 11,
+      "message": "La P dels grups -MPC- és muda. Exemples: redempció, assumpció, presumpció.",
+      "rule": "p -> p muda en grups -mpc-",
+      "ex": "redempció, assumpció, presumpció"
+    }
+  ],
+  "words": [
+    {
+      "word": "cambra",
+      "wrongVariants": [
+        "canvra",
+        "camvra"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Una habitació o sala en una casa.",
+      "sentence": "Vaig deixar el llibre a la ___ del costat."
+    },
+    {
+      "word": "rambla",
+      "wrongVariants": [
+        "ranbla",
+        "ramvla"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Un passeig ample sovint envoltat d'arbres.",
+      "sentence": "La ___ estava plena de gent passejant."
+    },
+    {
+      "word": "ambre",
+      "wrongVariants": [
+        "anbre",
+        "amvre"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Una resina fòssil utilitzada sovint en joieria.",
+      "sentence": "L'anell tenia una pedra d'___."
+    },
+    {
+      "word": "combinació",
+      "wrongVariants": [
+        "conbinació",
+        "comvinació"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "L'acció d'ajuntar coses diferents per formar un tot.",
+      "sentence": "La ___ de colors en el quadre era magnífica."
+    },
+    {
+      "word": "tambor",
+      "wrongVariants": [
+        "tanbor",
+        "tamvor"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Instrument de percussió amb una membrana que sona en colpejar-la.",
+      "sentence": "El so del ___ es va sentir en tota la sala."
+    },
+    {
+      "word": "ambaixador",
+      "wrongVariants": [
+        "anbaixador",
+        "amvassador"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Representant oficial d'un país en un altre.",
+      "sentence": "L'___ va ser rebut amb honors al país estranger."
+    },
+    {
+      "word": "rumb",
+      "wrongVariants": [
+        "runb",
+        "rump"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "La direcció que segueix algú o alguna cosa.",
+      "sentence": "El vaixell seguia un ___ nord-est."
+    },
+    {
+      "word": "lambada",
+      "wrongVariants": [
+        "lanbada",
+        "lamvada"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Un tipus de dansa originària del Brasil.",
+      "sentence": "La ___ es balla amb moviments ràpids i coordinats."
+    },
+    {
+      "word": "emblema",
+      "wrongVariants": [
+        "enblema",
+        "emvlema"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Un símbol que representa una organització o idea.",
+      "sentence": "L'___ de l'equip està brodat a la samarreta."
+    },
+    {
+      "word": "sombrilla",
+      "wrongVariants": [
+        "sonbrilla",
+        "somvrilla"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Objecte que protegeix del sol.",
+      "sentence": "Vam portar una ___ a la platja per tenir ombra."
+    },
+    {
+      "word": "bombeta",
+      "wrongVariants": [
+        "bomveta",
+        "bonveta"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Un objecte que fa llum quan està encès.",
+      "sentence": "La ___ de l'habitació es va fondre."
+    },
+    {
+      "word": "ambició",
+      "wrongVariants": [
+        "anbició",
+        "amvició"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Desig intens de fer o aconseguir alguna cosa.",
+      "sentence": "Té molta ___ per assolir els seus objectius."
+    },
+    {
+      "word": "tombar",
+      "wrongVariants": [
+        "tonbar",
+        "tomvar"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Fer caure o inclinar alguna cosa.",
+      "sentence": "Vaig haver de ___ la cadira per passar."
+    },
+    {
+      "word": "ombra",
+      "wrongVariants": [
+        "onbra",
+        "omvra"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Una àrea fosca creada quan la llum és bloquejada.",
+      "sentence": "Ens vam asseure sota l'___ per descansar."
+    },
+    {
+      "word": "embrecar",
+      "wrongVariants": [
+        "enbrecar",
+        "emvrecar"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Accionar el fre d'un vehicle.",
+      "sentence": "Cal ___ suaument quan la carretera està mullada."
+    },
+    {
+      "word": "embrecar",
+      "wrongVariants": [
+        "enbrecar",
+        "emvrecar"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Accionar el fre d'un vehicle.",
+      "sentence": "Cal ___ suaument quan la carretera està mullada."
+    },
+    {
+      "word": "embrutar",
+      "wrongVariants": [
+        "enbrutar",
+        "emvrutar"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Fer que alguna cosa es torni bruta.",
+      "sentence": "Els nens no volien ___ les seves sabates noves."
+    },
+    {
+      "word": "emblema",
+      "wrongVariants": [
+        "enblema",
+        "emvlema"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Un símbol que representa una idea o organització.",
+      "sentence": "El seu ___ està gravat a la porta principal."
+    },
+    {
+      "word": "rumba",
+      "wrongVariants": [
+        "runba",
+        "rumva"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Un estil de dansa i música originària de Cuba.",
+      "sentence": "Vam ballar una ___ animada durant la festa."
+    },
+    {
+      "word": "company",
+      "wrongVariants": [
+        "conpany"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Una persona amb qui tens una relació amistosa o professional.",
+      "sentence": "El meu ___ de feina m'ha ajudat amb el projecte."
+    },
+    {
+      "word": "compra",
+      "wrongVariants": [
+        "conpra"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "L'acte d'adquirir alguna cosa amb diners.",
+      "sentence": "Vaig fer una ___ al supermercat abans de tornar a casa."
+    },
+    {
+      "word": "ampli",
+      "wrongVariants": [
+        "anpli"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que té molt espai o abast.",
+      "sentence": "El nou saló és molt més ___ que l'antic."
+    },
+    {
+      "word": "emprendre",
+      "wrongVariants": [
+        "enprendre"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Començar una tasca o projecte.",
+      "sentence": "Va decidir ___ un nou negoci."
+    },
+    {
+      "word": "impuls",
+      "wrongVariants": [
+        "inpuls"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Una força o estímul que provoca un moviment o acció.",
+      "sentence": "El vent va donar un ___ al vaixell."
+    },
+    {
+      "word": "compost",
+      "wrongVariants": [
+        "conpost"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Una barreja de substàncies, sovint utilitzada com a fertilitzant.",
+      "sentence": "Hem utilitzat ___ natural per a les plantes."
+    },
+    {
+      "word": "amplitud",
+      "wrongVariants": [
+        "anplitud"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "La qualitat de ser ample o extens.",
+      "sentence": "La ___ de la sala permet organitzar esdeveniments grans."
+    },
+    {
+      "word": "complir",
+      "wrongVariants": [
+        "conplir"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Dur a terme una obligació o una promesa.",
+      "sentence": "Vaig ___ amb tots els terminis establerts."
+    },
+    {
+      "word": "empleat",
+      "wrongVariants": [
+        "enpleat"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Una persona que treballa per a una empresa o organització.",
+      "sentence": "L'___ de l'oficina va ser molt amable amb mi."
+    },
+    {
+      "word": "ample",
+      "wrongVariants": [
+        "anple"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que té més extensió d'una banda a l'altra.",
+      "sentence": "El carrer principal és molt ___."
+    },
+    {
+      "word": "implementar",
+      "wrongVariants": [
+        "inplementar"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Posar en pràctica o executar un pla o sistema.",
+      "sentence": "L'empresa vol ___ noves estratègies per augmentar les vendes."
+    },
+    {
+      "word": "emplear",
+      "wrongVariants": [
+        "enplear"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Utilitzar alguna cosa per a un propòsit específic.",
+      "sentence": "Vaig ___ aquesta eina per arreglar la porta."
+    },
+    {
+      "word": "complaure",
+      "wrongVariants": [
+        "conplaure"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Fer alguna cosa per agradar a algú.",
+      "sentence": "Va intentar ___ a tothom amb el seu discurs."
+    },
+    {
+      "word": "emportar",
+      "wrongVariants": [
+        "enportar"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Portar alguna cosa amb un mateix.",
+      "sentence": "Vaig ___ el llibre de la biblioteca a casa."
+    },
+    {
+      "word": "compensar",
+      "wrongVariants": [
+        "conpensar"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Equilibrar o recompensar una cosa.",
+      "sentence": "Li va donar un regal per ___ l'error."
+    },
+    {
+      "word": "importar",
+      "wrongVariants": [
+        "inportar"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Ser significatiu o tenir valor.",
+      "sentence": "No sé si això li pot ___ tant com a tu."
+    },
+    {
+      "word": "amplet",
+      "wrongVariants": [
+        "anplet"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Una extensió més petita o estreta.",
+      "sentence": "El camí tenia un ___ més reduït que abans."
+    },
+    {
+      "word": "implant",
+      "wrongVariants": [
+        "inplant"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Un objecte introduït en el cos per substituir o reforçar una part.",
+      "sentence": "L'___ dental és molt comú avui dia."
+    },
+    {
+      "word": "emplec",
+      "wrongVariants": [
+        "enplec"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Ocupació o feina.",
+      "sentence": "Està buscant un nou ___ en el sector tecnològic."
+    },
+    {
+      "word": "complet",
+      "wrongVariants": [
+        "conplet"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que té totes les parts o està acabat.",
+      "sentence": "El projecte està gairebé ___."
+    },
+    {
+      "word": "immaculat",
+      "wrongVariants": [
+        "imaculat"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Que és pur, net i sense defectes.",
+      "sentence": "El llenç estava ___ després de ser netejat."
+    },
+    {
+      "word": "gamma",
+      "wrongVariants": [
+        "gama"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Un conjunt o una sèrie de coses d'un mateix tipus.",
+      "sentence": "L'empresa ofereix una àmplia ___ de productes."
+    },
+    {
+      "word": "gemma",
+      "wrongVariants": [
+        "gema"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Una pedra preciosa tallada i polida.",
+      "sentence": "La ___ del collaret brillava amb intensitat."
+    },
+    {
+      "word": "commemorar",
+      "wrongVariants": [
+        "comemorar"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Recordar públicament un esdeveniment important.",
+      "sentence": "El poble es reuneix cada any per ___ aquesta data."
+    },
+    {
+      "word": "immens",
+      "wrongVariants": [
+        "imens"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Molt gran o d'una mida extraordinària.",
+      "sentence": "El paisatge era tan ___ que ens va deixar sense paraules."
+    },
+    {
+      "word": "gemmoteràpia",
+      "wrongVariants": [
+        "gemoteràpia"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Teràpia basada en l'ús de parts de les plantes, especialment els brots.",
+      "sentence": "La ___ s'utilitza com a medicina alternativa."
+    },
+    {
+      "word": "immutable",
+      "wrongVariants": [
+        "imutable"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Que no es pot canviar o alterar.",
+      "sentence": "La seva decisió era ferma i ___."
+    },
+    {
+      "word": "commutació",
+      "wrongVariants": [
+        "comutació"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Intercanvi o substitució d'una cosa per una altra.",
+      "sentence": "La ___ dels cables va solucionar el problema elèctric."
+    },
+    {
+      "word": "tanmateix",
+      "wrongVariants": [
+        "tanmaiteix"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Expressió que significa 'malgrat això' o 'no obstant això'.",
+      "sentence": "Estava cansat; ___, va continuar treballant."
+    },
+    {
+      "word": "enmig",
+      "wrongVariants": [
+        "emig"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Al centre o entre dues coses.",
+      "sentence": "El riu passa ___ de les dues muntanyes."
+    },
+    {
+      "word": "granment",
+      "wrongVariants": [
+        "granent"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "En gran mesura o intensament.",
+      "sentence": "La seva ajuda va ser ___ apreciada per tots."
+    },
+    {
+      "word": "immobilitzar",
+      "wrongVariants": [
+        "imobilitzar"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Fer que alguna cosa no es mogui.",
+      "sentence": "Van haver de ___ el pacient per evitar més lesions."
+    },
+    {
+      "word": "gemmòleg",
+      "wrongVariants": [
+        "gemòleg"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Expert en l'estudi i classificació de gemmes.",
+      "sentence": "El ___ va certificar l'autenticitat del diamant."
+    },
+    {
+      "word": "immensitat",
+      "wrongVariants": [
+        "imensitat"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Qualitat de ser immens o extremadament gran.",
+      "sentence": "L'___ del desert era impressionant."
+    },
+    {
+      "word": "commutador",
+      "wrongVariants": [
+        "comutador"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Un dispositiu que permet alternar entre diferents circuits.",
+      "sentence": "El ___ va fallar durant la tempesta elèctrica."
+    },
+    {
+      "word": "immaterial",
+      "wrongVariants": [
+        "imaterial"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Que no és físic o tangible.",
+      "sentence": "La idea del projecte era completament ___."
+    },
+    {
+      "word": "immortal",
+      "wrongVariants": [
+        "imortal"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Que no pot morir o desaparèixer.",
+      "sentence": "Els herois de la mitologia són sovint considerats ___."
+    },
+    {
+      "word": "immensurable",
+      "wrongVariants": [
+        "imensurable"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Que no es pot mesurar per la seva gran magnitud.",
+      "sentence": "L'impacte de l'esdeveniment és ___."
+    },
+    {
+      "word": "commemorable",
+      "wrongVariants": [
+        "comemorable"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Que mereix ser recordat.",
+      "sentence": "Aquest dia és ___ per la seva importància històrica."
+    },
+    {
+      "word": "simfonia",
+      "wrongVariants": [
+        "sinfonia"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Composició musical per a orquestra, sovint amb diversos moviments.",
+      "sentence": "L'orquestra va interpretar una ___ espectacular."
+    },
+    {
+      "word": "amfitrió",
+      "wrongVariants": [
+        "anfitrió"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Persona que rep convidats i els ofereix hospitalitat.",
+      "sentence": "L'___ va organitzar un sopar magnífic."
+    },
+    {
+      "word": "triomf",
+      "wrongVariants": [
+        "trionf"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Èxit o victòria en una competició o situació.",
+      "sentence": "El seu ___ va ser celebrat per tota l'equip."
+    },
+    {
+      "word": "xamfrà",
+      "wrongVariants": [
+        "xanfrà"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Cantonada d'un edifici o carrer amb un angle tallat.",
+      "sentence": "La farmàcia es troba al ___ de la plaça."
+    },
+    {
+      "word": "èmfasi",
+      "wrongVariants": [
+        "énfasi"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Força o insistència que es posa en alguna cosa.",
+      "sentence": "Va posar molta ___ en la importància de l'educació."
+    },
+    {
+      "word": "pamflet",
+      "wrongVariants": [
+        "panflet"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Escrit breu, sovint amb caràcter crític o propagandístic.",
+      "sentence": "El ___ criticava les polítiques del govern."
+    },
+    {
+      "word": "xamflean",
+      "wrongVariants": [
+        "xanflean"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Acció d'esmussar o tallar un angle.",
+      "sentence": "Van ___ les vores del moble per suavitzar-lo."
+    },
+    {
+      "word": "amfiteatre",
+      "wrongVariants": [
+        "anfiteatre"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Construcció rodona o ovalada amb graderies, usada antigament per espectacles.",
+      "sentence": "El coliseu romà és un famós ___."
+    },
+    {
+      "word": "amfibis",
+      "wrongVariants": [
+        "anfibis"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Animals que poden viure tant a l'aigua com a terra.",
+      "sentence": "Els granotes són un exemple d'___."
+    },
+    {
+      "word": "amfòra",
+      "wrongVariants": [
+        "anfòra"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Recipient de ceràmica amb dues nanses, usat a l'antiguitat.",
+      "sentence": "Van trobar una ___ antiga al jaciment arqueològic."
+    },
+    {
+      "word": "triomfant",
+      "wrongVariants": [
+        "trionfant"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Que aconsegueix la victòria o l'èxit.",
+      "sentence": "L'equip va sortir ___ després del partit."
+    },
+    {
+      "word": "amfibi",
+      "wrongVariants": [
+        "anfibi"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Vehicle o animal capaç de moure's per aigua i terra.",
+      "sentence": "L'exèrcit va utilitzar un ___ per creuar el riu."
+    },
+    {
+      "word": "emfatitzar",
+      "wrongVariants": [
+        "enfatitzar"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Donar importància o èmfasi a alguna cosa.",
+      "sentence": "El professor va ___ la necessitat de llegir més."
+    },
+    {
+      "word": "amfipròdic",
+      "wrongVariants": [
+        "anfipròdic"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Que té característiques tant àcides com bàsiques.",
+      "sentence": "Aquest compost químic és ___."
+    },
+    {
+      "word": "triomfador",
+      "wrongVariants": [
+        "trionfador"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Persona que aconsegueix èxits o victòries.",
+      "sentence": "El ___ va rebre un premi pel seu esforç."
+    },
+    {
+      "word": "simfònic",
+      "wrongVariants": [
+        "sinfònic"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Relatiu a una simfonia o a una orquestra simfònica.",
+      "sentence": "El concert ___ va ser un èxit rotund."
+    },
+    {
+      "word": "amfòric",
+      "wrongVariants": [
+        "anfòric"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Relatiu a les propietats acústiques d'una amfora o d'un espai tancat.",
+      "sentence": "El so ___ era clar i ressonant."
+    },
+    {
+      "word": "triomfantment",
+      "wrongVariants": [
+        "trionfantment"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Amb un aire o actitud de triomf.",
+      "sentence": "Va entrar a la sala ___ després de l'èxit."
+    },
+    {
+      "word": "xamfranat",
+      "wrongVariants": [
+        "xanfranat"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Que té les cantonades tallades o suavitzades.",
+      "sentence": "El vidre ___ li donava un toc elegant al moble."
+    },
+    {
+      "word": "circumferència",
+      "wrongVariants": [
+        "circuferència"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Línia corba que envolta un cercle.",
+      "sentence": "La ___ del cercle es calcula amb la fórmula 2πr."
+    },
+    {
+      "word": "circumscripció",
+      "wrongVariants": [
+        "circuscripció"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Divisió territorial per a finalitats administratives o polítiques.",
+      "sentence": "El candidat es presenta a la ___ de Barcelona."
+    },
+    {
+      "word": "circumval·lació",
+      "wrongVariants": [
+        "circuval·lació"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Carretera que envolta una ciutat o un nucli urbà.",
+      "sentence": "La ___ permet evitar el trànsit del centre de la ciutat."
+    },
+    {
+      "word": "circumstància",
+      "wrongVariants": [
+        "circustància"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Condició o situació que afecta un esdeveniment.",
+      "sentence": "Les ___ actuals fan difícil prendre una decisió."
+    },
+    {
+      "word": "circumflex",
+      "wrongVariants": [
+        "circuflex"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Accent que es col·loca sobre algunes lletres en diverses llengües.",
+      "sentence": "L'accent ___ és comú en el francès."
+    },
+    {
+      "word": "circumpolar",
+      "wrongVariants": [
+        "circupolar"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Relatiu a les regions properes als pols de la Terra.",
+      "sentence": "Les estrelles ___ es veuen durant tot l'any des de l'hemisferi nord."
+    },
+    {
+      "word": "circumsolar",
+      "wrongVariants": [
+        "circusolar"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Que envolta el sol o que està al voltant d'ell.",
+      "sentence": "Els planetes segueixen una trajectòria ___ al voltant del sol."
+    },
+    {
+      "word": "circumnavegar",
+      "wrongVariants": [
+        "circunavegar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Navegar al voltant d'un lloc, especialment al voltant del món.",
+      "sentence": "Magalhães va ser el primer a ___ la Terra."
+    },
+    {
+      "word": "circumdat",
+      "wrongVariants": [
+        "circudat"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que està envoltat per alguna cosa.",
+      "sentence": "El castell està ___ per un gran fossar."
+    },
+    {
+      "word": "circumcidar",
+      "wrongVariants": [
+        "circucidar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Practicar la circumcisió.",
+      "sentence": "La cerimònia incloïa el ritual de ___ als nens."
+    },
+    {
+      "word": "circumfluir",
+      "wrongVariants": [
+        "circufluir"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Fluir al voltant d'alguna cosa.",
+      "sentence": "Les aigües del riu semblaven ___ la petita illa."
+    },
+    {
+      "word": "circumferencial",
+      "wrongVariants": [
+        "circuferencial"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Relatiu a la circumferència o situat al voltant d'ella.",
+      "sentence": "Els carrers ___ faciliten l'accés als barris perifèrics."
+    },
+    {
+      "word": "circumvolar",
+      "wrongVariants": [
+        "circuvolar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Voltar o girar al voltant d'alguna cosa.",
+      "sentence": "L'ocell va començar a ___ l'arbre abans d'aturar-se en una branca."
+    },
+    {
+      "word": "circumscriptible",
+      "wrongVariants": [
+        "circuscriptible"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que pot ser delimitat o definit dins d'uns límits.",
+      "sentence": "Aquest problema és perfectament ___ dins d'un context científic."
+    },
+    {
+      "word": "circumferent",
+      "wrongVariants": [
+        "circuferent"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que envolta o està al voltant.",
+      "sentence": "Les muntanyes ___ protegien el petit poble."
+    },
+    {
+      "word": "circumspecte",
+      "wrongVariants": [
+        "circuspecte"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que actua amb prudència i cautela.",
+      "sentence": "El jutge es va mostrar ___ en la seva declaració."
+    },
+    {
+      "word": "circumstanciar",
+      "wrongVariants": [
+        "circustanciar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Descriure amb detall totes les circumstàncies.",
+      "sentence": "Va intentar ___ cada moment del seu viatge."
+    },
+    {
+      "word": "circumretallar",
+      "wrongVariants": [
+        "circuretallar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Tallat amb forma al voltant d'un objecte o figura.",
+      "sentence": "El marc estava ___ amb gran precisió."
+    },
+    {
+      "word": "circumfús",
+      "wrongVariants": [
+        "circufús"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que està estès al voltant o envolta completament.",
+      "sentence": "Un silenci ___ va cobrir la sala durant el discurs."
+    },
+    {
+      "word": "circumgir",
+      "wrongVariants": [
+        "circugir"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Girar o moure's al voltant d'un eix.",
+      "sentence": "Els planetes ___ al voltant del sol."
+    },
+    {
+      "word": "somriure",
+      "wrongVariants": [
+        "sonriure"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Acció d'expressar alegria amb els llavis i la boca.",
+      "sentence": "El seu ___ em va alegrar el dia."
+    },
+    {
+      "word": "premsa",
+      "wrongVariants": [
+        "prensa"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Conjunt de mitjans de comunicació escrits.",
+      "sentence": "La ___ va cobrir l'esdeveniment amb molt de detall."
+    },
+    {
+      "word": "empremta",
+      "wrongVariants": [
+        "enpremta",
+        "emprenta"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Marca o rastre deixat per alguna cosa o algú.",
+      "sentence": "L'___ del dit va ser clau per identificar el sospitós."
+    },
+    {
+      "word": "somnàmbul",
+      "wrongVariants": [
+        "sonàmbul"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Persona que camina o fa accions mentre dorm.",
+      "sentence": "El nen ___ va sortir de l'habitació sense despertar-se."
+    },
+    {
+      "word": "mnemotècnic",
+      "wrongVariants": [
+        "nemotècnic"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Relatiu a tècniques per millorar la memòria.",
+      "sentence": "Un truc ___ m'ajuda a recordar l'ordre de les planetes."
+    },
+    {
+      "word": "somnolent",
+      "wrongVariants": [
+        "sonolent"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Que té son o està adormit.",
+      "sentence": "Després del dinar, es trobava molt ___."
+    },
+    {
+      "word": "submissió",
+      "wrongVariants": [
+        "suvmissió"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Acte de sotmetre's a l'autoritat d'algú altre.",
+      "sentence": "La seva actitud de ___ li va permetre evitar conflictes."
+    },
+    {
+      "word": "emmarcar",
+      "wrongVariants": [
+        "enmarcar"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Posar un marc a una fotografia o pintura.",
+      "sentence": "Vull ___ aquesta fotografia per la sala d'estar."
+    },
+    {
+      "word": "mnemònic",
+      "wrongVariants": [
+        "nemònic"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Relatiu a la memòria o a l'art de recordar.",
+      "sentence": "Va utilitzar un dispositiu ___ per memoritzar la llista."
+    },
+    {
+      "word": "ampliar",
+      "wrongVariants": [
+        "anpliar"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Fer més gran o extens alguna cosa.",
+      "sentence": "Volem ___ la sala per tenir més espai."
+    },
+    {
+      "word": "somatropina",
+      "wrongVariants": [
+        "sonatropina"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Hormona relacionada amb el creixement.",
+      "sentence": "L'ús de ___ ha estat regulat en competicions esportives."
+    },
+    {
+      "word": "amfibi",
+      "wrongVariants": [
+        "anfibi"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Animal que pot viure tant a terra com a l'aigua.",
+      "sentence": "Les granotes són un exemple d'___."
+    },
+    {
+      "word": "somnífer",
+      "wrongVariants": [
+        "sonífer"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Medicació que ajuda a dormir.",
+      "sentence": "El metge li va prescriure un ___ per combatre l'insomni."
+    },
+    {
+      "word": "convit",
+      "wrongVariants": [
+        "combit"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Acte de convidar algú o celebració on es convida gent.",
+      "sentence": "Vaig rebre un ___ per a la festa d'aniversari."
+    },
+    {
+      "word": "invent",
+      "wrongVariants": [
+        "imbent"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Creació o descoberta d'alguna cosa nova.",
+      "sentence": "L'___ de la bombeta va revolucionar la història."
+    },
+    {
+      "word": "canvi",
+      "wrongVariants": [
+        "cambi"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Acte de substituir una cosa per una altra.",
+      "sentence": "El ___ de temps va sorprendre a tothom."
+    },
+    {
+      "word": "enviar",
+      "wrongVariants": [
+        "embiar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Fer arribar alguna cosa a algú a través d'un mitjà.",
+      "sentence": "Vaig ___ el correu electrònic aquest matí."
+    },
+    {
+      "word": "envoltar",
+      "wrongVariants": [
+        "emboltar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Estar al voltant d'alguna cosa o algú.",
+      "sentence": "Els arbres ___ la casa al camp."
+    },
+    {
+      "word": "convençut",
+      "wrongVariants": [
+        "combencut"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Que està segur d'alguna cosa.",
+      "sentence": "Estic ___ que la seva teoria és correcta."
+    },
+    {
+      "word": "invisible",
+      "wrongVariants": [
+        "imbisible"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Que no es pot veure.",
+      "sentence": "El vent és ___ però en podem sentir la força."
+    },
+    {
+      "word": "invencible",
+      "wrongVariants": [
+        "imbencible"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Que no pot ser vençut o derrotat.",
+      "sentence": "L'exèrcit es considerava ___ davant dels seus enemics."
+    },
+    {
+      "word": "inventari",
+      "wrongVariants": [
+        "imbentari"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Llista ordenada d'objectes o béns.",
+      "sentence": "Va actualitzar l'___ de la botiga."
+    },
+    {
+      "word": "convenir",
+      "wrongVariants": [
+        "combenir"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Estar d'acord o ser oportú.",
+      "sentence": "Ens va ___ anar a peu en comptes d'agafar el cotxe."
+    },
+    {
+      "word": "Anna",
+      "wrongVariants": [
+        "Ana"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom propi femení.",
+      "sentence": "L'___ va arribar puntual a la festa."
+    },
+    {
+      "word": "innat",
+      "wrongVariants": [
+        "inat"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Qualitat o característica que es té des del naixement.",
+      "sentence": "Té un talent ___ per a la música."
+    },
+    {
+      "word": "annex",
+      "wrongVariants": [
+        "anex"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Document o part afegida a un altre.",
+      "sentence": "El contracte inclou un ___ amb les condicions detallades."
+    },
+    {
+      "word": "innocent",
+      "wrongVariants": [
+        "inocent"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Que no té culpa o és ingenu.",
+      "sentence": "Va ser declarat ___ després del judici."
+    },
+    {
+      "word": "connexió",
+      "wrongVariants": [
+        "conexió"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Relació o enllaç entre dues o més coses.",
+      "sentence": "La ___ a internet s'ha interromput."
+    },
+    {
+      "word": "perenne",
+      "wrongVariants": [
+        "perene"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Que dura per sempre o per molt de temps.",
+      "sentence": "Els arbres de fulla ___ no perden les fulles a l'hivern."
+    },
+    {
+      "word": "ennegrir",
+      "wrongVariants": [
+        "enegir"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Fer que alguna cosa es torni negra.",
+      "sentence": "El fum va ___ les parets de la casa."
+    },
+    {
+      "word": "innombrable",
+      "wrongVariants": [
+        "inombrable"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Que no es pot comptar de tants que són.",
+      "sentence": "Hi havia un nombre ___ d'estrelles al cel."
+    },
+    {
+      "word": "connatural",
+      "wrongVariants": [
+        "conatural"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Que és propi o inherent a una cosa.",
+      "sentence": "La curiositat és ___ a l'esperit humà."
+    },
+    {
+      "word": "innocència",
+      "wrongVariants": [
+        "inocència"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Qualitat de ser lliure de culpa o malícia.",
+      "sentence": "Va defensar la seva ___ amb fermesa."
+    },
+    {
+      "word": "conte",
+      "wrongVariants": [
+        "comte"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Narració breu, sovint amb elements de ficció o fantasia.",
+      "sentence": "La mare em va explicar un ___ abans d'anar a dormir."
+    },
+    {
+      "word": "comte",
+      "wrongVariants": [
+        "conte"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Títol nobiliari utilitzat a l'edat mitjana.",
+      "sentence": "El ___ Arnau és una figura llegendària de la història catalana."
+    },
+    {
+      "word": "compte",
+      "wrongVariants": [
+        "comte"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Registre o càlcul d'una quantitat, o compte bancari.",
+      "sentence": "He d'obrir un ___ corrent al banc."
+    },
+    {
+      "word": "en comptes de",
+      "wrongVariants": [
+        "en contes de"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Expressió que indica substitució d'una cosa per una altra.",
+      "sentence": "Aquest any anirem a la muntanya ___ la platja."
+    },
+    {
+      "word": "comptar",
+      "wrongVariants": [
+        "contar"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Enumerar o calcular el nombre d'elements d'un conjunt.",
+      "sentence": "Va començar a ___ les monedes que tenia a la mà."
+    },
+    {
+      "word": "descompte",
+      "wrongVariants": [
+        "desconte"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Reducció d'un preu o quantitat.",
+      "sentence": "Aprofita el ___ de l'estiu per comprar roba."
+    },
+    {
+      "word": "recompte",
+      "wrongVariants": [
+        "reconte"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Acció de tornar a comptar per verificar un càlcul.",
+      "sentence": "Van fer un ___ dels vots per assegurar el resultat."
+    },
+    {
+      "word": "comptador",
+      "wrongVariants": [
+        "contador"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Dispositiu que registra o mesura alguna cosa, com l'aigua o la llum.",
+      "sentence": "El ___ d'aigua s'ha d'inspeccionar anualment."
+    },
+    {
+      "word": "comptable",
+      "wrongVariants": [
+        "contable"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Persona que s'encarrega de la gestió dels comptes d'una organització.",
+      "sentence": "El ___ de l'empresa va preparar l'informe financer."
+    },
+    {
+      "word": "compte enrere",
+      "wrongVariants": [
+        "conte enrere"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Càlcul regressiu fins a arribar a un moment determinat.",
+      "sentence": "El ___ per al llançament del coet ja ha començat."
+    },
+    {
+      "word": "compte",
+      "wrongVariants": [
+        "conte"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Registre o càlcul d'una quantitat, o compte bancari.",
+      "sentence": "Va revisar el ___ bancari abans de fer el pagament."
+    },
+    {
+      "word": "temps",
+      "wrongVariants": [
+        "tems"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Durada o període que transcorre entre dos moments.",
+      "sentence": "Quin ___ fa avui? Espero que faci sol."
+    },
+    {
+      "word": "temptació",
+      "wrongVariants": [
+        "tentació"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Desig intens de fer o obtenir alguna cosa, especialment si és prohibit o no recomanable.",
+      "sentence": "Va resistir la ___ de menjar més pastís."
+    },
+    {
+      "word": "atemptat",
+      "wrongVariants": [
+        "atentat"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Acció violenta o delicte greu contra alguna persona o institució.",
+      "sentence": "L'___ va ser condemnat per tothom."
+    },
+    {
+      "word": "símptoma",
+      "wrongVariants": [
+        "símtona"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Manifestació d'una malaltia o condició.",
+      "sentence": "Un dels primers ___ de la grip és la febre."
+    },
+    {
+      "word": "redemptor",
+      "wrongVariants": [
+        "redentor"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Qui redimeix o allibera algú de culpa o opressió.",
+      "sentence": "La seva acció va ser vista com un gest ___."
+    },
+    {
+      "word": "temptar",
+      "wrongVariants": [
+        "temtar"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Provocar el desig d'alguna cosa.",
+      "sentence": "Els dolços sempre em fan ___, però intento resistir."
+    },
+    {
+      "word": "exempció",
+      "wrongVariants": [
+        "exemció"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Alliberament d'una obligació o càrrega.",
+      "sentence": "Va obtenir una ___ fiscal per la seva situació econòmica."
+    },
+    {
+      "word": "presumpció",
+      "wrongVariants": [
+        "presumció"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Acte de suposar alguna cosa com a certa sense tenir proves.",
+      "sentence": "La seva ___ va resultar ser errònia."
+    },
+    {
+      "word": "promptitud",
+      "wrongVariants": [
+        "prontitud"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Qualitat d'actuar amb rapidesa i eficàcia.",
+      "sentence": "Va resoldre el problema amb gran ___."
+    },
+    {
+      "word": "redempció",
+      "wrongVariants": [
+        "redenció",
+        "redemció"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Alliberament o salvació d'una situació negativa o de culpa.",
+      "sentence": "L'obra literària tracta de la ___ de l'ànima humana."
+    },
+    {
+      "word": "assumpció",
+      "wrongVariants": [
+        "asunció",
+        "asumció"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Acte d'acceptar una responsabilitat o una situació.",
+      "sentence": "Va fer la ___ del càrrec amb molta humilitat."
+    },
+    {
+      "word": "presumpció",
+      "wrongVariants": [
+        "presunció",
+        "presumció"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Acte de suposar alguna cosa com a certa sense proves suficients.",
+      "sentence": "La seva ___ era errònia, però es va rectificar a temps."
+    },
+    {
+      "word": "exempció",
+      "wrongVariants": [
+        "exenció",
+        "exemció"
+      ],
+      "level": 3,
+      "rule": 11,
+      "meaning": "Alliberament d'una obligació, especialment legal o fiscal.",
+      "sentence": "Va sol·licitar una ___ d'impostos per la seva situació econòmica."
+    },
+    {
+      "word": "redemptor",
+      "wrongVariants": [
+        "redentor"
+      ],
+      "level": 3,
+      "rule": 11,
+      "meaning": "Qui salva o allibera d'una situació negativa.",
+      "sentence": "El personatge principal és un heroi ___ que lluita per la llibertat."
+    },
+    {
+      "word": "assumpte",
+      "wrongVariants": [
+        "asunte",
+        "asumte"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Tema o qüestió que es tracta o es considera.",
+      "sentence": "L'___ de la reunió era molt important per a l'empresa."
+    },
+    {
+      "word": "presumpte",
+      "wrongVariants": [
+        "presunte"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Que es considera probable o suposat fins que es confirma.",
+      "sentence": "El ___ autor del delicte serà jutjat properament."
+    },
+    {
+      "word": "redempcions",
+      "wrongVariants": [
+        "redencions"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Actes d'alliberament o salvació en diferents contextos.",
+      "sentence": "Les múltiples ___ del personatge principal són inspiradores."
+    },
+    {
+      "word": "assumpcions",
+      "wrongVariants": [
+        "asuncions"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Actes d'acceptar responsabilitats o situacions.",
+      "sentence": "Les ___ fetes en el projecte eren realistes."
+    },
+    {
+      "word": "presumpciós",
+      "wrongVariants": [
+        "presunciós"
+      ],
+      "level": 3,
+      "rule": 11,
+      "meaning": "Que actua amb una actitud d'excessiva confiança o arrogància.",
+      "sentence": "El seu comportament ___ va molestar els seus companys."
+    }
+  ]
+}
