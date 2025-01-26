@@ -1,5 +1,11 @@
 {
-  "links": [],
+  "links": [
+    {
+      "title": "La grafia dels sons [p] i [b] a final de síl·laba",
+      "description": "Link extern a la normativa de l'IEC.",
+      "url": "https://oiec.iec.cat/textortografia/codi/2.7.1.2"
+    }
+  ],
   "rules": [
     {
       "id": 1,

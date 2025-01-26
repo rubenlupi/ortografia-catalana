@@ -1,0 +1,643 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "A final de mot, darrere vocal àtona o consonant, s’escriu c o g segons la lletra que presenten les formes flexives o els derivats.",
+      "rule": "c/g final segons derivats",
+      "ex": "estómac (cf. estomacal), fàrmac (cf. farmàcia), cartílag (cf. cartilaginós), llarg (cf. llargària)"
+    },
+    {
+      "id": 2,
+      "message": "A final de mot, darrere vocal o diftong tònics, s’escriu c independentment de les formes flexives o derivats.",
+      "rule": "c final darrere vocal/diftong tònic",
+      "ex": "atac, sac, sec, xic, amic (cf. amiga)"
+    },
+    {
+      "id": 3,
+      "message": "S’escriu g en alguns mots aguts de formació culta, procedents d’altres llengües o d’origen onomatopeic.",
+      "rule": "g final en cultismes i manlleus",
+      "ex": "demagog, estrateg, blog, grog"
+    },
+    {
+      "id": 4,
+      "message": "En baleàric i alguerès, la primera persona del singular del present d’indicatiu dels verbs de la primera conjugació amb radical acabat en consonant s’escriu amb g final.",
+      "rule": "g final primera persona (baleàric/alguerès)",
+      "ex": "amag (de amagar), freg (de fregar), jug, pag"
+    },
+    {
+      "id": 5,
+      "message": "En interior de mot, a final de síl·laba, s’escriu c davant de consonants sordes i g davant de consonants sonores.",
+      "rule": "c/g interior segons consonant següent",
+      "ex": "accent, actor, amígdala, fragment, regne"
+    },
+    {
+      "id": 6,
+      "message": "No segueixen les regles generals alguns cultismes i manlleus, escrits amb c o g segons l’etimologia.",
+      "rule": "excepcions en cultismes i manlleus",
+      "ex": "acne, estricnina, tècnic, pícnic, rugbi"
+    }
+  ],
+  "words": [
+    {
+      "word": "estómac",
+      "wrongVariants": [
+        "estómag"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Òrgan del sistema digestiu on es produeix la digestió inicial dels aliments.",
+      "sentence": "Vaig menjar massa i ara em fa mal l'___."
+    },
+    {
+      "word": "fàrmac",
+      "wrongVariants": [
+        "fàrmag"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Substància utilitzada per prevenir o tractar malalties.",
+      "sentence": "El metge em va prescriure un ___ per al dolor."
+    },
+    {
+      "word": "cartílag",
+      "wrongVariants": [
+        "cartílac"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Teixit connectiu flexible que recobreix les articulacions.",
+      "sentence": "El ___ del genoll és essencial per a la mobilitat."
+    },
+    {
+      "word": "llarg",
+      "wrongVariants": [
+        "llarc"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "De gran longitud o durada.",
+      "sentence": "El camí fins al cim era molt ___."
+    },
+    {
+      "word": "nàufrag",
+      "wrongVariants": [
+        "nàufrac"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Persona que ha sobreviscut a un naufragi.",
+      "sentence": "El ___ va ser rescatat després de dies al mar."
+    },
+    {
+      "word": "pràctic",
+      "wrongVariants": [
+        "pràctig"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Que és útil o funcional.",
+      "sentence": "Aquest consell és molt ___ per a la nostra feina."
+    },
+    {
+      "word": "corc",
+      "wrongVariants": [
+        "corg"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Insecte que s’alimenta de fusta o altres materials.",
+      "sentence": "El moble tenia algunes marques de ___."
+    },
+    {
+      "word": "sang",
+      "wrongVariants": [
+        "sanc"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Líquid que circula pels vasos sanguinis dels éssers vius.",
+      "sentence": "Va donar ___ per ajudar als pacients de l’hospital."
+    },
+    {
+      "word": "bosquet",
+      "wrongVariants": [
+        "bosguet"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Petit conjunt d'arbres.",
+      "sentence": "Ens vam asseure a l'ombra d'un ___."
+    },
+    {
+      "word": "dramatúrg",
+      "wrongVariants": [
+        "dramatúrc"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Autor o adaptador d'obres teatrals.",
+      "sentence": "El ___ va presentar una nova obra al festival."
+    },
+    {
+      "word": "atac",
+      "wrongVariants": [
+        "atag"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Acció d’agredir o ferir algú o alguna cosa.",
+      "sentence": "L'___ a la fortalesa va durar tota la nit."
+    },
+    {
+      "word": "sac",
+      "wrongVariants": [
+        "sag"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Recipient gran de tela o plàstic per transportar o emmagatzemar.",
+      "sentence": "Vaig omplir el ___ amb patates del camp."
+    },
+    {
+      "word": "sec",
+      "wrongVariants": [
+        "seg"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que no conté humitat.",
+      "sentence": "El riu estava completament ___."
+    },
+    {
+      "word": "xic",
+      "wrongVariants": [
+        "xig"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Petit o de mida reduïda.",
+      "sentence": "Aquest rellotge és massa ___ per al meu gust."
+    },
+    {
+      "word": "amic",
+      "wrongVariants": [
+        "amig"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Persona amb qui tens una relació d’afecte i confiança.",
+      "sentence": "El meu millor ___ sempre em dona bons consells."
+    },
+    {
+      "word": "ric",
+      "wrongVariants": [
+        "rig"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Que posseeix moltes riqueses o béns materials.",
+      "sentence": "El comerciant s'ha fet molt ___ gràcies al seu negoci."
+    },
+    {
+      "word": "caduc",
+      "wrongVariants": [
+        "cadug"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Que ha perdut la vigència o validesa.",
+      "sentence": "El seu carnet de conduir està ___."
+    },
+    {
+      "word": "plec",
+      "wrongVariants": [
+        "pleg"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Forma doblada d’un paper o material.",
+      "sentence": "Va fer un ___ per guardar el paper dins l’agenda."
+    },
+    {
+      "word": "foc",
+      "wrongVariants": [
+        "fog"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Fenomen de combustió que desprèn llum i calor.",
+      "sentence": "El ___ a la xemeneia donava escalfor a tota la casa."
+    },
+    {
+      "word": "aixopluc",
+      "wrongVariants": [
+        "aixoplug"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Lloc que serveix de refugi o protecció.",
+      "sentence": "Ens vam posar sota l’___ per evitar la pluja."
+    },
+    {
+      "word": "demagog",
+      "wrongVariants": [
+        "demagoc"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Persona que manipula les emocions del poble per aconseguir suport polític.",
+      "sentence": "El discurs del ___ va dividir l’opinió pública."
+    },
+    {
+      "word": "estrateg",
+      "wrongVariants": [
+        "estratec"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Persona experta en estratègia, especialment en l’àmbit militar o polític.",
+      "sentence": "L’___ va planificar cada moviment de l’exèrcit."
+    },
+    {
+      "word": "blog",
+      "wrongVariants": [
+        "bloc"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Pàgina web personal on es publiquen articles o reflexions.",
+      "sentence": "Va escriure un nou article al seu ___."
+    },
+    {
+      "word": "grog",
+      "wrongVariants": [
+        "groc"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Beguda alcohòlica calenta, típica dels mariners, feta amb rom, aigua i sucre.",
+      "sentence": "El capità del vaixell va oferir un got de ___ a la tripulació."
+    },
+    {
+      "word": "zig-zag",
+      "wrongVariants": [
+        "zig-zac"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Moviment o línia que alterna costats en forma d’una Z repetida.",
+      "sentence": "La carretera fa un recorregut en ___."
+    },
+    {
+      "word": "buldog",
+      "wrongVariants": [
+        "buldoc"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Raça de gos reconeguda pel seu aspecte musculat i robust.",
+      "sentence": "El ___ anglès és conegut pel seu caràcter tranquil."
+    },
+    {
+      "word": "nurag",
+      "wrongVariants": [
+        "nurac"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Estructura megalítica típica de l’illa de Sardenya.",
+      "sentence": "Els turistes van visitar un antic ___ sard."
+    },
+    {
+      "word": "mag",
+      "wrongVariants": [
+        "mac"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Persona que realitza trucs de màgia o actes sobrenaturals.",
+      "sentence": "El ___ va sorprendre tothom amb els seus trucs espectaculars."
+    },
+    {
+      "word": "reg",
+      "wrongVariants": [
+        "rec"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Acció de regar camps o jardins.",
+      "sentence": "El sistema de ___ automàtic facilita la feina dels agricultors."
+    },
+    {
+      "word": "alumag",
+      "wrongVariants": [
+        "alumac"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Estructura o peça metàl·lica utilitzada en construccions o eines.",
+      "sentence": "L’___ era una part essencial de l’aparell."
+    },
+    {
+      "word": "amag",
+      "wrongVariants": [
+        "amac"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'amagar', que significa posar una cosa fora de la vista.",
+      "sentence": "Sempre ___ els regals perquè siguin una sorpresa."
+    },
+    {
+      "word": "freg",
+      "wrongVariants": [
+        "frec"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'fregar', que significa netejar fregant una superfície.",
+      "sentence": "Cada matí ___ el terra de la cuina."
+    },
+    {
+      "word": "jug",
+      "wrongVariants": [
+        "juc"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'jugar', que significa participar en un joc.",
+      "sentence": "Després de dinar sempre ___ una estona amb els nens."
+    },
+    {
+      "word": "pag",
+      "wrongVariants": [
+        "pac"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'pagar', que significa donar diners a canvi d'un producte o servei.",
+      "sentence": "Cada mes ___ el lloguer puntualment."
+    },
+    {
+      "word": "pleg",
+      "wrongVariants": [
+        "plec"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'plegar', que significa acabar una activitat o jornada laboral.",
+      "sentence": "A les cinc de la tarda sempre ___ de la feina."
+    },
+    {
+      "word": "torreg",
+      "wrongVariants": [
+        "torrec"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'torrar', que significa escalfar un aliment fins que es dauri.",
+      "sentence": "Cada matí ___ el pa per esmorzar."
+    },
+    {
+      "word": "esteng",
+      "wrongVariants": [
+        "estenc"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'estendre', que significa desplegar o col·locar en una superfície.",
+      "sentence": "Sempre ___ la roba al sol perquè s’assequi ràpidament."
+    },
+    {
+      "word": "enceng",
+      "wrongVariants": [
+        "encenc"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'encendre', que significa iniciar un foc o activar un aparell.",
+      "sentence": "Cada nit ___ el llum del jardí abans de sopar."
+    },
+    {
+      "word": "cosseg",
+      "wrongVariants": [
+        "cossec"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'cosir', que significa unir amb fil i agulla.",
+      "sentence": "Sempre ___ a mà la roba que es trenca."
+    },
+    {
+      "word": "abrig",
+      "wrongVariants": [
+        "abric"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'abrigar', que significa protegir del fred amb roba.",
+      "sentence": "Cada matí ___ els nens abans de sortir al carrer."
+    },
+    {
+      "word": "accent",
+      "wrongVariants": [
+        "agsent"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Manera especial de pronunciar que caracteritza una regió o idioma.",
+      "sentence": "El seu ___ el delatava com a valencià."
+    },
+    {
+      "word": "actor",
+      "wrongVariants": [
+        "agtor"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Persona que interpreta un paper en una obra de teatre, cinema o televisió.",
+      "sentence": "L’___ va guanyar un premi per la seva interpretació."
+    },
+    {
+      "word": "amígdala",
+      "wrongVariants": [
+        "amícdala"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Órgan situat a la gola que forma part del sistema limfàtic.",
+      "sentence": "El metge li va extirpar una ___ infectada."
+    },
+    {
+      "word": "fragment",
+      "wrongVariants": [
+        "fradcment"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Part d’una cosa trencada o separada.",
+      "sentence": "Va trobar un ___ de ceràmica antiga al camp."
+    },
+    {
+      "word": "regne",
+      "wrongVariants": [
+        "recne"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Territori governat per un rei o una reina.",
+      "sentence": "El ___ va prosperar durant el seu mandat."
+    },
+    {
+      "word": "direcció",
+      "wrongVariants": [
+        "direccsió"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Camí o orientació que segueix algú o alguna cosa.",
+      "sentence": "L'auto anava en la ___ correcta."
+    },
+    {
+      "word": "augment",
+      "wrongVariants": [
+        "aucment"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Increment en quantitat o intensitat.",
+      "sentence": "Van demanar un ___ de sou als seus caps."
+    },
+    {
+      "word": "signe",
+      "wrongVariants": [
+        "sicne"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Representació gràfica o visual amb significat.",
+      "sentence": "El ___ matemàtic indica suma."
+    },
+    {
+      "word": "cactus",
+      "wrongVariants": [
+        "cagctus"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Planta amb espines que creix en zones àrides.",
+      "sentence": "El ___ del jardí va florir aquesta primavera."
+    },
+    {
+      "word": "magna",
+      "wrongVariants": [
+        "macna"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Que té gran importància o dimensió.",
+      "sentence": "Va ser una obra ___ en la història de l’art."
+    },
+    {
+      "word": "acne",
+      "wrongVariants": [
+        "agne"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Afecció de la pell caracteritzada per l’aparició de grans o espinilles.",
+      "sentence": "El dermatòleg li va recomanar un tractament per l’___."
+    },
+    {
+      "word": "estricnina",
+      "wrongVariants": [
+        "estrignina"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Substància tòxica utilitzada sovint com a raticida.",
+      "sentence": "La ___ és perillosa i s’ha d’utilitzar amb precaució."
+    },
+    {
+      "word": "tècnic",
+      "wrongVariants": [
+        "tègnic"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Persona experta en aspectes pràctics d’una activitat o disciplina.",
+      "sentence": "El ___ va reparar l’ordinador en menys d’una hora."
+    },
+    {
+      "word": "pícnic",
+      "wrongVariants": [
+        "pígnic"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Menjar a l’aire lliure, sovint en un entorn natural.",
+      "sentence": "Vam organitzar un ___ al parc diumenge passat."
+    },
+    {
+      "word": "rugbi",
+      "wrongVariants": [
+        "rucbi"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Esport d’equip que es juga amb una pilota ovalada.",
+      "sentence": "L’equip de ___ va guanyar el campionat."
+    },
+    {
+      "word": "icnografia",
+      "wrongVariants": [
+        "ignografia"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Estudi i representació gràfica d’objectes arquitectònics.",
+      "sentence": "El projecte incloïa una detallada ___."
+    },
+    {
+      "word": "bricbarca",
+      "wrongVariants": [
+        "brigbarca"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Vaixell amb dues veles quadrades i una àncora gran.",
+      "sentence": "El museu marítim exposa una antiga ___."
+    },
+    {
+      "word": "gàngster",
+      "wrongVariants": [
+        "gàcster"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Membre d’una organització criminal.",
+      "sentence": "La pel·lícula narra la vida d’un ___ americà."
+    },
+    {
+      "word": "tungstè",
+      "wrongVariants": [
+        "tuncstè"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Element químic metàl·lic, molt resistent a la calor.",
+      "sentence": "El filament de la bombeta està fet de ___."
+    },
+    {
+      "word": "Alcmeó",
+      "wrongVariants": [
+        "Algmeó"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Nom propi d’un filòsof i metge de l’antiguitat.",
+      "sentence": "___ va ser un dels primers en estudiar l’anatomia humana."
+    }
+  ]
+}
