@@ -1,0 +1,761 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "A final de mot, darrere vocal àtona o consonant, s’escriu t o d segons la lletra que presenten les formes flexives o els derivats.",
+      "rule": "t/d final segons derivats",
+      "ex": "crèdit (cf. creditor), vímet (cf. vimetera), art (cf. artístic), verd (cf. verda)"
+    },
+    {
+      "id": 2,
+      "message": "A final de mot, darrere vocal o diftong tònics, s’escriu t, independentment de la lletra que apareix en els derivats.",
+      "rule": "t final darrere vocal/diftong tònic",
+      "ex": "gat, plat, ciutat (cf. ciutadà), buit (cf. buida)"
+    },
+    {
+      "id": 3,
+      "message": "Per raons etimològiques, s’escriu d en alguns mots aguts de formació culta o procedents d’altres llengües.",
+      "rule": "d final en cultismes i manlleus",
+      "ex": "fred, covid, fluid, raid, Madrid, solitud"
+    },
+    {
+      "id": 4,
+      "message": "En baleàric i alguerès, la primera persona del singular del present d’indicatiu dels verbs de la primera conjugació amb el radical acabat en consonant s’escriu amb d final.",
+      "rule": "d final primera persona (baleàric/alguerès)",
+      "ex": "ajud, convid, crid, oblid"
+    },
+    {
+      "id": 5,
+      "message": "En interior de mot, a final de síl·laba, s’escriu d en el prefix històric ad‑.",
+      "rule": "d en interior amb prefix ad-",
+      "ex": "adjacent, adjectiu, administrar, advertir"
+    },
+    {
+      "id": 6,
+      "message": "S’escriu t en mots amb t a final de síl·laba que no han estat formats amb el prefix ad‑.",
+      "rule": "t interior sense prefix ad-",
+      "ex": "atlàntic, atles, atleta, futbol"
+    },
+    {
+      "id": 7,
+      "message": "El grup dd apareix en cultismes i derivats de noms propis o estrangers.",
+      "rule": "dd en cultismes i derivats",
+      "ex": "adduir, addició, addicte, luddisme"
+    },
+    {
+      "id": 8,
+      "message": "En interior de mot, a final de síl·laba, s’escriu generalment t, però s’escriu d en alguns cultismes i manlleus.",
+      "rule": "t/d interior segons context",
+      "ex": "atlàntic, Betlem, bàdminton, vodka"
+    },
+    {
+      "id": 9,
+      "message": "T a final de síl·laba forma grups consonàntics amb g, j, s, z, x, ll, l, m i n.",
+      "rule": "grups consonàntics amb t final",
+      "ex": "fetge, platja, dotze, ratlla, setmana"
+    }
+  ],
+  "words": [
+    {
+      "word": "crèdit",
+      "wrongVariants": [
+        "crèditd"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Conjunt de diners que una persona o institució deixa a algú amb l'obligació de tornar-los.",
+      "sentence": "Va demanar un ___ al banc per comprar un cotxe."
+    },
+    {
+      "word": "vímet",
+      "wrongVariants": [
+        "vímed"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Branca prima i flexible utilitzada per fer cistells i altres objectes.",
+      "sentence": "Va teixir un cistell de ___ molt resistent."
+    },
+    {
+      "word": "art",
+      "wrongVariants": [
+        "ard"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Expressió creativa que busca transmetre bellesa o idees.",
+      "sentence": "El museu exposa obres d'___ contemporani."
+    },
+    {
+      "word": "verd",
+      "wrongVariants": [
+        "verdt"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Color associat amb la vegetació.",
+      "sentence": "El prat estava ple d'herba ___."
+    },
+    {
+      "word": "text",
+      "wrongVariants": [
+        "texd"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Conjunt de paraules que formen un escrit o discurs.",
+      "sentence": "El professor va demanar que analitzéssim el ___."
+    },
+    {
+      "word": "vent",
+      "wrongVariants": [
+        "vend"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Moviment de l'aire.",
+      "sentence": "El ___ bufava amb força aquella tarda."
+    },
+    {
+      "word": "salt",
+      "wrongVariants": [
+        "sald"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Acció de desplaçar-se a l'aire aixecant-se del terra.",
+      "sentence": "El gat va fer un ___ espectacular per atrapar el ratolí."
+    },
+    {
+      "word": "sort",
+      "wrongVariants": [
+        "sord"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Circumstància favorable o desfavorable en esdeveniments.",
+      "sentence": "Va tenir molta ___ durant l'examen."
+    },
+    {
+      "word": "evident",
+      "wrongVariants": [
+        "evidendt"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Que és clar i no deixa lloc a dubtes.",
+      "sentence": "És ___ que s'ha esforçat molt per aconseguir aquest resultat."
+    },
+    {
+      "word": "malalt",
+      "wrongVariants": [
+        "malald"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Persona que té una malaltia.",
+      "sentence": "El ___ ha de reposar durant uns dies."
+    },
+    {
+      "word": "gat",
+      "wrongVariants": [
+        "gad"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Animal mamífer carnívor domèstic.",
+      "sentence": "El ___ dormia sota la taula."
+    },
+    {
+      "word": "plat",
+      "wrongVariants": [
+        "plad"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Recipient per menjar o servir aliments.",
+      "sentence": "Va posar el menjar en un ___ gran."
+    },
+    {
+      "word": "ciutat",
+      "wrongVariants": [
+        "ciutadd"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Conjunt d'edificis i carrers grans on viu molta gent.",
+      "sentence": "Barcelona és una ___ amb molta història."
+    },
+    {
+      "word": "buit",
+      "wrongVariants": [
+        "buid"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que no conté res al seu interior.",
+      "sentence": "El got estava completament ___."
+    },
+    {
+      "word": "pit",
+      "wrongVariants": [
+        "pid"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Part frontal del tronc, entre el coll i l'abdomen.",
+      "sentence": "Es va donar un cop al ___ mentre corria."
+    },
+    {
+      "word": "crit",
+      "wrongVariants": [
+        "crid"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "So fort emès per una persona o animal.",
+      "sentence": "El seu ___ es va sentir per tot el carrer."
+    },
+    {
+      "word": "vestit",
+      "wrongVariants": [
+        "vestid"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Peça de roba que cobreix el cos.",
+      "sentence": "Vaig comprar un ___ elegant per a la festa."
+    },
+    {
+      "word": "esperit",
+      "wrongVariants": [
+        "esperid"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Essència immaterial de l'ésser humà.",
+      "sentence": "El seu ___ sempre estarà amb nosaltres."
+    },
+    {
+      "word": "humit",
+      "wrongVariants": [
+        "humid"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Que conté aigua o està lleugerament moll.",
+      "sentence": "El terra estava ___ després de la pluja."
+    },
+    {
+      "word": "nebot",
+      "wrongVariants": [
+        "nebod"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Fill del germà o la germana d'una persona.",
+      "sentence": "El meu ___ va venir a visitar-me ahir."
+    },
+    {
+      "word": "fred",
+      "wrongVariants": [
+        "fret"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Absència o baixa temperatura.",
+      "sentence": "Aquest matí fa molt ___."
+    },
+    {
+      "word": "covid",
+      "wrongVariants": [
+        "covit"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Malaltia infecciosa causada pel coronavirus SARS-CoV-2.",
+      "sentence": "La pandèmia de ___ va canviar moltes coses al món."
+    },
+    {
+      "word": "fluid",
+      "wrongVariants": [
+        "fluit"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Substància capaç de fluir com un líquid o un gas.",
+      "sentence": "El ___ es mou pel conducte amb facilitat."
+    },
+    {
+      "word": "raid",
+      "wrongVariants": [
+        "rait"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Cursa o travessa d'esport o aventura, sovint amb vehicles.",
+      "sentence": "Van participar en un ___ pel desert."
+    },
+    {
+      "word": "Madrid",
+      "wrongVariants": [
+        "Madrit"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Capital d'Espanya.",
+      "sentence": "Hem visitat els museus de ___ aquest cap de setmana."
+    },
+    {
+      "word": "solitud",
+      "wrongVariants": [
+        "solitut"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Estat d'estar sol o sense companyia.",
+      "sentence": "Va trobar pau en la seva ___."
+    },
+    {
+      "word": "almud",
+      "wrongVariants": [
+        "almut"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Mesura antiga de capacitat per a líquids o grans.",
+      "sentence": "Van omplir l'___ amb blat."
+    },
+    {
+      "word": "bòlid",
+      "wrongVariants": [
+        "bòlit"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Vehicle de gran velocitat o objecte celeste que travessa l'atmosfera.",
+      "sentence": "El ___ va deixar un rastre de llum al cel."
+    },
+    {
+      "word": "fluid",
+      "wrongVariants": [
+        "fluit"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Substància que pot fluir, com un líquid o gas.",
+      "sentence": "El ___ circula pel sistema de refrigeració del motor."
+    },
+    {
+      "word": "quad",
+      "wrongVariants": [
+        "quat"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Vehicle tot terreny de quatre rodes.",
+      "sentence": "Van fer una excursió amb ___ per la muntanya."
+    },
+    {
+      "word": "ajud",
+      "wrongVariants": [
+        "ajut"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'ajudar' en present d'indicatiu.",
+      "sentence": "Sempre ___ els meus amics quan ho necessiten."
+    },
+    {
+      "word": "convid",
+      "wrongVariants": [
+        "convit"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'convidar' en present d'indicatiu.",
+      "sentence": "___ els meus veïns a sopar aquesta nit."
+    },
+    {
+      "word": "crid",
+      "wrongVariants": [
+        "crit"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'cridar' en present d'indicatiu.",
+      "sentence": "Sempre ___ als meus fills quan juguen fora."
+    },
+    {
+      "word": "oblid",
+      "wrongVariants": [
+        "oblit"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'oblidar' en present d'indicatiu.",
+      "sentence": "Mai ___ els bons moments que hem passat junts."
+    },
+    {
+      "word": "trob",
+      "wrongVariants": [
+        "trop"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'trobar' en present d'indicatiu.",
+      "sentence": "___ que aquest llibre és molt interessant."
+    },
+    {
+      "word": "arrib",
+      "wrongVariants": [
+        "arrip"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'arribar' en present d'indicatiu.",
+      "sentence": "Sempre ___ puntual a les cites importants."
+    },
+    {
+      "word": "mir",
+      "wrongVariants": [
+        "mit"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'mirar' en present d'indicatiu.",
+      "sentence": "___ les estrelles cada nit des del meu balcó."
+    },
+    {
+      "word": "cant",
+      "wrongVariants": [
+        "cand"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'cantar' en present d'indicatiu.",
+      "sentence": "___ cançons tradicionals amb la meva família."
+    },
+    {
+      "word": "esper",
+      "wrongVariants": [
+        "espet"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'esperar' en present d'indicatiu.",
+      "sentence": "___ que avui sigui un bon dia per a tothom."
+    },
+    {
+      "word": "salt",
+      "wrongVariants": [
+        "sald"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del verb 'saltar' en present d'indicatiu.",
+      "sentence": "___ cada vegada que veig una sorpresa."
+    },
+    {
+      "word": "adduir",
+      "wrongVariants": [
+        "aduir"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Presentar arguments o proves per justificar una afirmació.",
+      "sentence": "Va intentar ___ raons convincents per defensar la seva opinió."
+    },
+    {
+      "word": "addició",
+      "wrongVariants": [
+        "adició"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Operació aritmètica que consisteix a sumar.",
+      "sentence": "L'___ de dos nombres dona com a resultat un altre nombre."
+    },
+    {
+      "word": "addicte",
+      "wrongVariants": [
+        "adicte"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Persona que té una dependència a alguna substància o activitat.",
+      "sentence": "És ___ al cafè i no pot començar el dia sense prendre'n una tassa."
+    },
+    {
+      "word": "luddisme",
+      "wrongVariants": [
+        "ludisme"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Moviment històric contrari a la mecanització i la industrialització.",
+      "sentence": "El ___ va sorgir com una resposta a la revolució industrial."
+    },
+    {
+      "word": "additiu",
+      "wrongVariants": [
+        "aditiu"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Substància afegida per modificar o conservar les propietats d'un producte.",
+      "sentence": "Aquest aliment conté un ___ per millorar el seu sabor."
+    },
+    {
+      "word": "addenda",
+      "wrongVariants": [
+        "adenda"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Nota o suplement afegit al final d'un text.",
+      "sentence": "El contracte inclou una ___ amb les condicions addicionals."
+    },
+    {
+      "word": "addicció",
+      "wrongVariants": [
+        "adicció"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Dependència física o psicològica a una substància o activitat.",
+      "sentence": "L'___ al joc pot tenir conseqüències greus."
+    },
+    {
+      "word": "addicional",
+      "wrongVariants": [
+        "adicional"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Que s'afegeix a una cosa.",
+      "sentence": "Es va presentar informació ___ durant la reunió."
+    },
+    {
+      "word": "adducció",
+      "wrongVariants": [
+        "aducció"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Moviment que aproxima una part del cos al pla de simetria.",
+      "sentence": "L'___ del braç és un moviment bàsic en la fisioteràpia."
+    },
+    {
+      "word": "addenda",
+      "wrongVariants": [
+        "adenda"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Part afegida a un document, sovint amb informació suplementària.",
+      "sentence": "El professor va incloure una ___ al final de l'article per aclarir dubtes."
+    },
+    {
+      "word": "atlàntic",
+      "wrongVariants": [
+        "adlàntic"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Relatiu a l'oceà Atlàntic o les seves regions.",
+      "sentence": "El clima ___ és moderat durant tot l'any."
+    },
+    {
+      "word": "Betlem",
+      "wrongVariants": [
+        "Betlen"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Ciutat on, segons la tradició cristiana, va néixer Jesús.",
+      "sentence": "El poble de ___ és un lloc de pelegrinatge important."
+    },
+    {
+      "word": "bàdminton",
+      "wrongVariants": [
+        "bàtminton"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Esport que es juga amb raquetes i un volant.",
+      "sentence": "El torneig de ___ va tenir lloc al pavelló municipal."
+    },
+    {
+      "word": "vodka",
+      "wrongVariants": [
+        "votka"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Beguda alcohòlica forta originària de Rússia i Polònia.",
+      "sentence": "El ___ és sovint barrejat en còctels."
+    },
+    {
+      "word": "cadmi",
+      "wrongVariants": [
+        "catmi"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Element químic metàl·lic utilitzat en bateries.",
+      "sentence": "El ___ és tòxic i ha de ser manipulat amb precaució."
+    },
+    {
+      "word": "inlandsis",
+      "wrongVariants": [
+        "inlantis"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Gran massa de gel que cobreix una àrea extensa.",
+      "sentence": "L'___ de Groenlàndia s'està fonent ràpidament."
+    },
+    {
+      "word": "handbol",
+      "wrongVariants": [
+        "hatbol"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Esport jugat amb una pilota que es llança amb les mans.",
+      "sentence": "L'equip local va guanyar el partit d'___."
+    },
+    {
+      "word": "sandvitx",
+      "wrongVariants": [
+        "sanvitx"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Menjar format per dos trossos de pa amb farciment al mig.",
+      "sentence": "Vaig preparar un ___ de pernil i formatge."
+    },
+    {
+      "word": "Ariadna",
+      "wrongVariants": [
+        "Ariatna"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Nom propi femení d'origen grec.",
+      "sentence": "L'___ és un personatge important de la mitologia grega."
+    },
+    {
+      "word": "quòdlibet",
+      "wrongVariants": [
+        "quòtlibet"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Dissertació o debat sobre qualsevol tema.",
+      "sentence": "El filòsof va presentar un ___ durant el congrés acadèmic."
+    },
+    {
+      "word": "fetge",
+      "wrongVariants": [
+        "fedje"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Òrgan intern del cos responsable de moltes funcions vitals.",
+      "sentence": "El ___ és essencial per a la desintoxicació del cos."
+    },
+    {
+      "word": "platja",
+      "wrongVariants": [
+        "pladja"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Zona de sorra o pedres a la vora del mar.",
+      "sentence": "Aquest estiu anirem a la ___ per descansar."
+    },
+    {
+      "word": "dotze",
+      "wrongVariants": [
+        "dodze"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Número natural que ve després de l'onze.",
+      "sentence": "Hi ha ___ pomes a la cistella."
+    },
+    {
+      "word": "ratlla",
+      "wrongVariants": [
+        "radlla"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Línia traçada sobre una superfície.",
+      "sentence": "Va dibuixar una ___ vermella al paper."
+    },
+    {
+      "word": "setmana",
+      "wrongVariants": [
+        "sedmana"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Període de set dies.",
+      "sentence": "La propera ___ començarem un nou projecte."
+    },
+    {
+      "word": "esquitx",
+      "wrongVariants": [
+        "esquix"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Gotetes d’un líquid que salten en impactar.",
+      "sentence": "El nen va fer un gran ___ quan va saltar al bassal."
+    },
+    {
+      "word": "motlle",
+      "wrongVariants": [
+        "modlle"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Recipient amb una forma específica per donar forma a una substància.",
+      "sentence": "Vaig utilitzar un ___ per fer galetes en forma d'estrella."
+    },
+    {
+      "word": "ametlla",
+      "wrongVariants": [
+        "amedlla"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Fruit sec amb closca dura i comestible.",
+      "sentence": "El pastís porta ___ trossejada per sobre."
+    },
+    {
+      "word": "cotna",
+      "wrongVariants": [
+        "codna"
+      ],
+      "level": 3,
+      "rule": 9,
+      "meaning": "Part dura de la pell d'un porc.",
+      "sentence": "La ___ del pernil estava cruixent i deliciosa."
+    },
+    {
+      "word": "reguitnar",
+      "wrongVariants": [
+        "regidnar"
+      ],
+      "level": 3,
+      "rule": 9,
+      "meaning": "Moure’s o caminar amb certa força o insistència.",
+      "sentence": "El nen va començar a ___ per tota la casa."
+    }
+  ]
+}

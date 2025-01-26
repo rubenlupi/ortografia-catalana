@@ -1,0 +1,755 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "A final de mot, darrere vocal àtona o consonant, s’escriu p o b segons la lletra que presenten les formes flexives o els derivats.",
+      "rule": "p/b final segons derivats",
+      "ex": "etíop (cf. Etiòpia), príncep (cf. principat), àrab (cf. Aràbia), tomb (cf. tombar)"
+    },
+    {
+      "id": 2,
+      "message": "A final de mot, darrere vocal o diftong tònics, s’escriu p independentment dels derivats o formes flexives.",
+      "rule": "p final darrere vocal/diftong tònic",
+      "ex": "drap, cap (cf. cabut), llop (cf. lloba), concep (cf. concebre)"
+    },
+    {
+      "id": 3,
+      "message": "S’escriu b en noms deverbals, cultismes, arabismes, manlleus i mots onomatopeics.",
+      "rule": "b en deverbals, cultismes, arabismes",
+      "ex": "adob, cub, tub, Jacob, club, aljub, kebab, baobab, esnob"
+    },
+    {
+      "id": 4,
+      "message": "En baleàric i alguerès, la primera persona del singular del present d'indicatiu dels verbs de la primera conjugació amb radical acabat en consonant s’escriu amb b final.",
+      "rule": "b final primera persona (baleàric/alguerès)",
+      "ex": "acab, arrib, trob"
+    },
+    {
+      "id": 5,
+      "message": "En interior de mot, s’escriu b en les seqüències ab‑, ob‑ i sub‑, i s’escriu p en la síl·laba cap i en compostos de prop.",
+      "rule": "b/p en interior segons prefixos",
+      "ex": "abdicar, absolut, objectiu, submarí, capçal, proppassat"
+    },
+    {
+      "id": 6,
+      "message": "S’escriu p en mots com apnea o òptic que no han estat formats amb els prefixos ab‑ i ob‑.",
+      "rule": "p interior sense prefixos ab-/ob-",
+      "ex": "apnea, apte, òptic, òptim"
+    },
+    {
+      "id": 7,
+      "message": "En interior de mot, a final de síl·laba, s’escriu p davant de t, c, s i n, i s’escriu b davant de d.",
+      "rule": "p/b a final de síl·laba segons consonant següent",
+      "ex": "abrupt, recepta, concepte, cobdícia, lambda"
+    },
+    {
+      "id": 8,
+      "message": "S’escriuen amb b els mots dissabte, dubte i sobte, i llurs derivats.",
+      "rule": "b en dissabte, dubte, sobte",
+      "ex": "dissabte, dubtar, dubtós, sobtar, sobtadament"
+    }
+  ],
+  "words": [
+    {
+      "word": "etíop",
+      "wrongVariants": [
+        "etiob"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Relatiu o pertanyent a Etiòpia.",
+      "sentence": "L'ambaixador ___ va arribar ahir."
+    },
+    {
+      "word": "príncep",
+      "wrongVariants": [
+        "prínceb"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Fill d'un rei o persona de rang noble.",
+      "sentence": "El ___ va heretar el tron del seu pare."
+    },
+    {
+      "word": "tomb",
+      "wrongVariants": [
+        "tombb"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Acció o efecte de girar o donar una volta.",
+      "sentence": "Vaig fer un ___ pel parc abans de tornar a casa."
+    },
+    {
+      "word": "cresp",
+      "wrongVariants": [
+        "cresb"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Que és ondulat o arrissat.",
+      "sentence": "El cabell ___ és difícil de pentinar."
+    },
+    {
+      "word": "llamp",
+      "wrongVariants": [
+        "llamb"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Descàrrega elèctrica entre núvols o entre núvols i terra.",
+      "sentence": "El ___ va il·luminar tot el cel nocturn."
+    },
+    {
+      "word": "drap",
+      "wrongVariants": [
+        "drab"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Tros de tela utilitzat per netejar o cobrir alguna cosa.",
+      "sentence": "Va utilitzar un ___ per eixugar la taula."
+    },
+    {
+      "word": "cap",
+      "wrongVariants": [
+        "cab"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Part superior del cos que conté el cervell i els òrgans dels sentits.",
+      "sentence": "Portava un barret al ___."
+    },
+    {
+      "word": "llop",
+      "wrongVariants": [
+        "llob"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Mamífer carnívor semblant a un gos salvatge.",
+      "sentence": "El ___ udolava sota la llum de la lluna."
+    },
+    {
+      "word": "concep",
+      "wrongVariants": [
+        "conceb"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Comprendre o formar una idea.",
+      "sentence": "No ___ com és possible aquest error."
+    },
+    {
+      "word": "estrep",
+      "wrongVariants": [
+        "estreb"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Peça de la sella d'una muntura per recolzar el peu.",
+      "sentence": "Va perdre l'equilibri quan es va trencar l'___."
+    },
+    {
+      "word": "grup",
+      "wrongVariants": [
+        "grub"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Conjunt de persones o coses que estan reunides.",
+      "sentence": "El ___ d'estudiants es va organitzar per fer el treball."
+    },
+    {
+      "word": "xop",
+      "wrongVariants": [
+        "xob"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Completament mullat.",
+      "sentence": "Va arribar a casa ___ després de la pluja."
+    },
+    {
+      "word": "miop",
+      "wrongVariants": [
+        "miob"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Persona que té dificultat per veure objectes llunyans.",
+      "sentence": "El noi ___ va demanar unes ulleres noves."
+    },
+    {
+      "word": "galop",
+      "wrongVariants": [
+        "galob"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Pas ràpid d'un cavall.",
+      "sentence": "El cavall corria al ___ pel prat."
+    },
+    {
+      "word": "xarrup",
+      "wrongVariants": [
+        "xarrub"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Soroll o acció de beure un líquid en petites quantitats.",
+      "sentence": "Va prendre un ___ de cafè abans de marxar."
+    },
+    {
+      "word": "adob",
+      "wrongVariants": [
+        "adop"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Substància utilitzada per millorar la fertilitat de la terra.",
+      "sentence": "L'agricultor va escampar ___ als camps."
+    },
+    {
+      "word": "cub",
+      "wrongVariants": [
+        "cup"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Poliedre de sis cares quadrades iguals.",
+      "sentence": "Va construir un model de ___ amb fusta."
+    },
+    {
+      "word": "tub",
+      "wrongVariants": [
+        "tup"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Cilindre buit que serveix per conduir líquids o gasos.",
+      "sentence": "L'aigua flueix pel ___."
+    },
+    {
+      "word": "kebab",
+      "wrongVariants": [
+        "kepap"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Plat originari de la cuina oriental fet amb carn a la brasa.",
+      "sentence": "Vam anar a sopar un ___."
+    },
+    {
+      "word": "baobab",
+      "wrongVariants": [
+        "baobap"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Arbre africà conegut per la seva grandària i forma característica.",
+      "sentence": "El ___ és un símbol de la saviesa a l'Àfrica."
+    },
+    {
+      "word": "esnob",
+      "wrongVariants": [
+        "esnop"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Persona que imita costums o gustos considerats elitistes.",
+      "sentence": "Va ser acusat de comportar-se com un ___."
+    },
+    {
+      "word": "club",
+      "wrongVariants": [
+        "clup"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Associació de persones amb interessos comuns.",
+      "sentence": "El ___ esportiu va guanyar el campionat."
+    },
+    {
+      "word": "aljub",
+      "wrongVariants": [
+        "aljup"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Dipòsit subterrani per recollir aigua de pluja.",
+      "sentence": "L'___ es va construir al segle XVIII."
+    },
+    {
+      "word": "Jacob",
+      "wrongVariants": [
+        "Jacop"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Nom propi d'origen hebreu.",
+      "sentence": "___ és un personatge bíblic molt conegut."
+    },
+    {
+      "word": "Carib",
+      "wrongVariants": [
+        "Carip"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Regió formada per illes i costes al mar Carib.",
+      "sentence": "Van passar les vacances al ___."
+    },
+    {
+      "word": "acab",
+      "wrongVariants": [
+        "acap"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del present d'indicatiu del verb 'acabar'.",
+      "sentence": "___ de fer els deures ara mateix."
+    },
+    {
+      "word": "arrib",
+      "wrongVariants": [
+        "arrip"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del present d'indicatiu del verb 'arribar'.",
+      "sentence": "Sempre ___ puntual a les reunions."
+    },
+    {
+      "word": "trob",
+      "wrongVariants": [
+        "trop"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Primera persona del singular del present d'indicatiu del verb 'trobar'.",
+      "sentence": "No ___ el llibre que estava llegint."
+    },
+    {
+      "word": "canviab",
+      "wrongVariants": [
+        "canviap"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del present d'indicatiu del verb 'canviar'.",
+      "sentence": "___ d'opinió sovint quan escolto arguments nous."
+    },
+    {
+      "word": "col·laborab",
+      "wrongVariants": [
+        "col·laborap"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Primera persona del singular del present d'indicatiu del verb 'col·laborar'.",
+      "sentence": "___ amb una ONG durant els caps de setmana."
+    },
+    {
+      "word": "abdicar",
+      "wrongVariants": [
+        "apdicar"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Renunciar voluntàriament a un càrrec o posició, especialment una corona.",
+      "sentence": "El rei va decidir ___ en favor del seu fill."
+    },
+    {
+      "word": "submarí",
+      "wrongVariants": [
+        "supmarí"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Vehicle que es mou sota l'aigua.",
+      "sentence": "El ___ va explorar les profunditats de l'oceà."
+    },
+    {
+      "word": "objectiu",
+      "wrongVariants": [
+        "opjectiu"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Meta o finalitat que es vol aconseguir.",
+      "sentence": "El nostre ___ principal és millorar la qualitat del servei."
+    },
+    {
+      "word": "capçal",
+      "wrongVariants": [
+        "cabçal"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Part superior d'un llit o objecte.",
+      "sentence": "El ___ del llit estava decorat amb flors."
+    },
+    {
+      "word": "proppassat",
+      "wrongVariants": [
+        "propbassat"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Relatiu al temps immediatament anterior.",
+      "sentence": "L'any ___ es van celebrar moltes activitats culturals."
+    },
+    {
+      "word": "substituir",
+      "wrongVariants": [
+        "supstituir"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Posar una cosa o persona en el lloc d'una altra.",
+      "sentence": "Van haver de ___ el jugador lesionat a mitja partida."
+    },
+    {
+      "word": "absolut",
+      "wrongVariants": [
+        "apsolut"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Que no té limitacions o restriccions.",
+      "sentence": "El silenci en aquella habitació era ___."
+    },
+    {
+      "word": "captiu",
+      "wrongVariants": [
+        "cabtiu"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Que es troba en captivitat o empresonat.",
+      "sentence": "El lleó ___ vivia en un zoològic."
+    },
+    {
+      "word": "subministrar",
+      "wrongVariants": [
+        "supministrar"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Proveir algú del que necessita.",
+      "sentence": "L'empresa s'encarrega de ___ material escolar a les escoles."
+    },
+    {
+      "word": "capturar",
+      "wrongVariants": [
+        "cabturar"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Agafar o atrapar algú o alguna cosa.",
+      "sentence": "El pescador va aconseguir ___ un gran peix."
+    },
+    {
+      "word": "apnea",
+      "wrongVariants": [
+        "abnea"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Interrupció temporal de la respiració, especialment durant el son.",
+      "sentence": "L'___ nocturna pot provocar fatiga durant el dia."
+    },
+    {
+      "word": "apte",
+      "wrongVariants": [
+        "abte"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Que és adequat o idoni per a alguna cosa.",
+      "sentence": "Només els candidats ___ podran accedir a la segona fase del procés."
+    },
+    {
+      "word": "òptic",
+      "wrongVariants": [
+        "òbtic"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Relatiu a la vista o a la llum.",
+      "sentence": "Van dissenyar un sistema ___ per millorar la visió nocturna."
+    },
+    {
+      "word": "òptim",
+      "wrongVariants": [
+        "òbtim"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Que és excel·lent o el millor possible.",
+      "sentence": "Aquest és l'___ moment per prendre una decisió."
+    },
+    {
+      "word": "capítol",
+      "wrongVariants": [
+        "cabítol"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Cada una de les divisions principals d'un llibre o document.",
+      "sentence": "El ___ més interessant del llibre és el tercer."
+    },
+    {
+      "word": "epítet",
+      "wrongVariants": [
+        "ebítet"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Adjectiu que expressa una qualitat característica d'un substantiu.",
+      "sentence": "El poeta utilitza un ___ per descriure el paisatge."
+    },
+    {
+      "word": "escepticisme",
+      "wrongVariants": [
+        "escebticisme"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Actitud de dubte o desconfiança envers una cosa.",
+      "sentence": "El seu ___ davant les noves tecnologies era evident."
+    },
+    {
+      "word": "cripta",
+      "wrongVariants": [
+        "cribta"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Espai subterrani utilitzat com a lloc d'enterrament.",
+      "sentence": "Van descobrir una antiga ___ sota l'església."
+    },
+    {
+      "word": "apoteosi",
+      "wrongVariants": [
+        "aboteosi"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Exaltació o glorificació màxima d'alguna cosa o algú.",
+      "sentence": "L'espectacle va acabar amb una gran ___."
+    },
+    {
+      "word": "hipòtesi",
+      "wrongVariants": [
+        "hibòtesi"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Suposició que es fa per explicar alguna cosa.",
+      "sentence": "La seva ___ va ser confirmada amb les dades recollides."
+    },
+    {
+      "word": "abrupt",
+      "wrongVariants": [
+        "abrupp"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Que és brusc o violent.",
+      "sentence": "El camí tenia un pendent molt ___."
+    },
+    {
+      "word": "recepta",
+      "wrongVariants": [
+        "recebta"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Instruccions per preparar un plat o medicament.",
+      "sentence": "La ___ per fer el pastís és molt senzilla."
+    },
+    {
+      "word": "concepte",
+      "wrongVariants": [
+        "concebte"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Idea abstracta o general.",
+      "sentence": "És difícil explicar aquest ___ als nens."
+    },
+    {
+      "word": "cobdícia",
+      "wrongVariants": [
+        "copdícia"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Desig intens de posseir alguna cosa.",
+      "sentence": "La seva ___ el va portar a prendre decisions equivocades."
+    },
+    {
+      "word": "lambda",
+      "wrongVariants": [
+        "lambta"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Lletra de l'alfabet grec que es representa amb 'λ'.",
+      "sentence": "La constant ___ es fa servir en la física quàntica."
+    },
+    {
+      "word": "cripta",
+      "wrongVariants": [
+        "cribta"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Espai subterrani utilitzat com a lloc d'enterrament.",
+      "sentence": "Van descobrir una antiga ___ sota l'església."
+    },
+    {
+      "word": "reptil",
+      "wrongVariants": [
+        "rebtil"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Animal vertebrat de sang freda com el llangardaix.",
+      "sentence": "El zoològic té una secció dedicada als ___."
+    },
+    {
+      "word": "acceptar",
+      "wrongVariants": [
+        "acebtar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Estar d'acord en rebre o fer alguna cosa.",
+      "sentence": "Va decidir ___ l'oferta de feina."
+    },
+    {
+      "word": "ruptura",
+      "wrongVariants": [
+        "rubtura"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Acte de trencar alguna cosa, especialment una relació.",
+      "sentence": "La ___ entre els socis va ser inesperada."
+    },
+    {
+      "word": "voluptuós",
+      "wrongVariants": [
+        "volubtuós"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Que mostra un gran plaer o satisfacció.",
+      "sentence": "El quadre mostrava una figura femenina ___."
+    },
+    {
+      "word": "dissabte",
+      "wrongVariants": [
+        "dissapte"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Sisè dia de la setmana.",
+      "sentence": "Aquest ___ anirem d'excursió a la muntanya."
+    },
+    {
+      "word": "dubte",
+      "wrongVariants": [
+        "dupte"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Incertesa o manca de seguretat sobre alguna cosa.",
+      "sentence": "Tinc un ___ sobre la resposta correcta."
+    },
+    {
+      "word": "dubtar",
+      "wrongVariants": [
+        "duptar"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "No estar segur sobre alguna cosa.",
+      "sentence": "Vaig ___ molt abans de prendre aquesta decisió."
+    },
+    {
+      "word": "sobte",
+      "wrongVariants": [
+        "sopte"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "De manera inesperada o immediata.",
+      "sentence": "Tot va canviar de ___."
+    },
+    {
+      "word": "sobtar",
+      "wrongVariants": [
+        "soptar"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Causar sorpresa o impacte.",
+      "sentence": "La seva resposta em va ___."
+    },
+    {
+      "word": "dubtós",
+      "wrongVariants": [
+        "duptós"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Que genera dubtes o incertesa.",
+      "sentence": "El resultat de l'experiment és força ___."
+    },
+    {
+      "word": "sobtadament",
+      "wrongVariants": [
+        "soptadament"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "D'una manera inesperada o sobtada.",
+      "sentence": "Va sortir de l'habitació ___ sense dir res."
+    },
+    {
+      "word": "indubtable",
+      "wrongVariants": [
+        "induptable"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Que no admet dubte o incertesa.",
+      "sentence": "És ___ que va ser un èxit rotund."
+    },
+    {
+      "word": "sobtat",
+      "wrongVariants": [
+        "soptat"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Que ocorre de manera inesperada.",
+      "sentence": "Un moviment ___ va espantar el gat."
+    },
+    {
+      "word": "dubtosament",
+      "wrongVariants": [
+        "duptosament"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "De manera dubtosa o incerta.",
+      "sentence": "Va acceptar l'oferta ___."
+    }
+  ]
+}
