@@ -1,0 +1,1073 @@
+{
+  "links": [
+    {
+      "title": "La grafia h",
+      "description": "Link extern a la normativa de l'IEC.",
+      "url": "https://oiec.iec.cat/textortografia/codi/2.10.1"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "message": "En català, la h generalment no representa cap so i té valor etimològic. S’escriu en mots d’origen llatí.",
+      "rule": "h etimològica en mots d'origen llatí",
+      "ex": "hàbil, haver, herba, honest"
+    },
+    {
+      "id": 2,
+      "message": "La h es manté en mots presos d’altres llengües i en transcripcions de mots grecs amb esperit aspre.",
+      "rule": "h en manlleus i mots d'origen grec",
+      "ex": "hotel, hebreu, harmonia, hecatombe"
+    },
+    {
+      "id": 3,
+      "message": "S’escriuen amb h els mots construïts amb prefixos i radicals cultes, com hagi(o)-, halo-, hect(o)-, etc.",
+      "rule": "h en prefixos i radicals cultes",
+      "ex": "hectòmetre, heliotropi, hemorràgia, hepatòleg"
+    },
+    {
+      "id": 4,
+      "message": "Després del prefix ex-, s’escriu h en alguns mots com exhalar, exhaurir i llurs derivats.",
+      "rule": "h després del prefix ex- en casos específics",
+      "ex": "exhalar, exhaurir, exhiliar, exhaust"
+    },
+    {
+      "id": 5,
+      "message": "La h es conserva en cultismes que deriven de mots antics, tot i que es va perdre en el català patrimonial.",
+      "rule": "h conservada en cultismes d'origen antic",
+      "ex": "Hispània, hispànic, hispanoamericà, hirundínid"
+    },
+    {
+      "id": 6,
+      "message": "En alguns casos, cultismes que contenien h han evolucionat per perdre-la en català modern.",
+      "rule": "pèrdua de la h en cultismes moderns",
+      "ex": "cor, tesaurus, absenta, mamut"
+    },
+    {
+      "id": 7,
+      "message": "La h es manté en grafies arcaiques de noms de llinatge o cognoms.",
+      "rule": "h en grafies arcaiques de llinatges i cognoms",
+      "ex": "Santllehí, Vehí, Estruch, Folch"
+    },
+    {
+      "id": 8,
+      "message": "La h no es fa servir en mots patrimonials o moderns que ja han perdut la h etimològica.",
+      "rule": "mots patrimonials sense h",
+      "ex": "ordi, oreneta, Espanya, Joan"
+    },
+    {
+      "id": 9,
+      "message": "Determinats manlleus que s’havien escrit amb h tradicionalment ara s’escriuen sense.",
+      "rule": "h eliminada en manlleus moderns",
+      "ex": "lutier, gimcana, neandertal, tailandès"
+    },
+    {
+      "id": 10,
+      "message": "La h es fa servir en mots relacionats amb el prefix homo-, com homogeni o homòleg.",
+      "rule": "ús de h en mots amb prefix homo-",
+      "ex": "homogeni, homòleg, homònim, homosexual"
+    }
+  ],
+  "words": [
+    {
+      "word": "hàbil",
+      "wrongVariants": [
+        "àbil"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Que té capacitat o destresa per fer alguna cosa.",
+      "sentence": "És molt ___ amb les mans i arregla qualsevol cosa."
+    },
+    {
+      "word": "haver",
+      "wrongVariants": [
+        "aver"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Verb auxiliar utilitzat per formar temps compostos.",
+      "sentence": "Podríem ___ arribat abans si no hagués plogut."
+    },
+    {
+      "word": "herba",
+      "wrongVariants": [
+        "erba"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Planta petita amb tiges no llenyoses.",
+      "sentence": "El prat estava ple d'___ verda i fresca."
+    },
+    {
+      "word": "honest",
+      "wrongVariants": [
+        "onest"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Que diu la veritat i actua amb rectitud.",
+      "sentence": "És una persona molt ___ que sempre compleix la seva paraula."
+    },
+    {
+      "word": "humà",
+      "wrongVariants": [
+        "umà"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Relatiu a les persones o a la humanitat.",
+      "sentence": "Els drets ___ són fonamentals per a una societat justa."
+    },
+    {
+      "word": "hospital",
+      "wrongVariants": [
+        "ospital"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Centre on es presta assistència mèdica a les persones malaltes.",
+      "sentence": "Va anar a l'___ per fer-se unes proves mèdiques."
+    },
+    {
+      "word": "hora",
+      "wrongVariants": [
+        "ora"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Període de temps equivalent a seixanta minuts.",
+      "sentence": "Ens trobarem a la mateixa ___ de sempre."
+    },
+    {
+      "word": "hivern",
+      "wrongVariants": [
+        "ivern"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Estació de l'any més freda.",
+      "sentence": "Aquest ___ ha estat especialment fred."
+    },
+    {
+      "word": "història",
+      "wrongVariants": [
+        "istòria"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Disciplina que estudia el passat de la humanitat.",
+      "sentence": "Va estudiar ___ a la universitat."
+    },
+    {
+      "word": "hort",
+      "wrongVariants": [
+        "ort"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Terreny on es cultiven hortalisses.",
+      "sentence": "L'___ estava ple de tomàquets i pebrots."
+    },
+    {
+      "word": "hotel",
+      "wrongVariants": [
+        "otel"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Establiment on es pot allotjar i menjar durant un viatge.",
+      "sentence": "Ens vam allotjar en un ___ amb vistes al mar."
+    },
+    {
+      "word": "hebreu",
+      "wrongVariants": [
+        "ebreu"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Relatiu al poble o llengua hebrea.",
+      "sentence": "Està estudiant l'alfabet ___."
+    },
+    {
+      "word": "harmonia",
+      "wrongVariants": [
+        "armonia"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Combinació agradable i equilibrada d'elements.",
+      "sentence": "La decoració de l'habitació transmet una gran ___."
+    },
+    {
+      "word": "hecatombe",
+      "wrongVariants": [
+        "ecatombe"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Gran desastre o catàstrofe amb pèrdues massives.",
+      "sentence": "L'erupció volcànica va causar una autèntica ___."
+    },
+    {
+      "word": "hiena",
+      "wrongVariants": [
+        "iena"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Mamífer carnívor que viu a les sabanes i zones desèrtiques.",
+      "sentence": "La ___ és coneguda pel seu peculiar riure."
+    },
+    {
+      "word": "hèlix",
+      "wrongVariants": [
+        "èlix"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Objecte amb forma espiral que genera moviment rotatori.",
+      "sentence": "L'___ del vaixell es va aturar sobtadament."
+    },
+    {
+      "word": "hegemonia",
+      "wrongVariants": [
+        "egemonia"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Domini o supremacia d'un grup o estat sobre els altres.",
+      "sentence": "La ___ d'aquest imperi va durar diversos segles."
+    },
+    {
+      "word": "hipopòtam",
+      "wrongVariants": [
+        "ipopòtam"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Gran mamífer herbívor que viu en rius i llacs.",
+      "sentence": "El ___ passava la major part del dia submergit a l'aigua."
+    },
+    {
+      "word": "hèrnia",
+      "wrongVariants": [
+        "èrnia"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Protrusió d'un òrgan o teixit fora de la seva cavitat normal.",
+      "sentence": "Va haver de ser operat d'una ___ discal."
+    },
+    {
+      "word": "hipòtesi",
+      "wrongVariants": [
+        "ipòtesi"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Suposició que es fa com a punt de partida per a una investigació.",
+      "sentence": "L'estudi va confirmar la ___ inicial dels investigadors."
+    },
+    {
+      "word": "hectàrea",
+      "wrongVariants": [
+        "ectàrea"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Unitat de mesura de superfície equivalent a 10.000 metres quadrats.",
+      "sentence": "L'explotació agrícola ocupa més de deu ___."
+    },
+    {
+      "word": "heliocentrisme",
+      "wrongVariants": [
+        "eliocentrisme"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Teoria astronòmica que situa el sol al centre de l'univers.",
+      "sentence": "El ___ va ser proposat per Copèrnic al segle XVI."
+    },
+    {
+      "word": "hemorràgia",
+      "wrongVariants": [
+        "emorràgia"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Pèrdua de sang causada per la ruptura d'un vas sanguini.",
+      "sentence": "La ___ nasal va ser controlada amb un tractament ràpid."
+    },
+    {
+      "word": "hepatitis",
+      "wrongVariants": [
+        "epatitis"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Inflamació del fetge causada per virus, tòxics o altres factors.",
+      "sentence": "La vacunació pot prevenir alguns tipus d'___."
+    },
+    {
+      "word": "hematoma",
+      "wrongVariants": [
+        "ematoma"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Acumulació de sang sota la pell per un cop o lesió.",
+      "sentence": "Després de la caiguda, li va aparèixer un gran ___ al braç."
+    },
+    {
+      "word": "hipotèrmia",
+      "wrongVariants": [
+        "ipotèrmia"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Descens anormal de la temperatura corporal.",
+      "sentence": "La víctima va patir ___ després d'estar exposada al fred extrem."
+    },
+    {
+      "word": "hipnosi",
+      "wrongVariants": [
+        "ipnosi"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Estat mental alterat caracteritzat per una gran concentració.",
+      "sentence": "El terapeuta va utilitzar la ___ per ajudar el pacient."
+    },
+    {
+      "word": "hipòdrom",
+      "wrongVariants": [
+        "ipòdrom"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Pista on se celebren curses de cavalls.",
+      "sentence": "Van assistir a una emocionant cursa al ___."
+    },
+    {
+      "word": "hidrògen",
+      "wrongVariants": [
+        "idrògen"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Element químic gasós i el més lleuger de la taula periòdica.",
+      "sentence": "El ___ és un component fonamental de l'aigua."
+    },
+    {
+      "word": "holograma",
+      "wrongVariants": [
+        "olograma"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Imatge tridimensional obtinguda mitjançant tecnologia làser.",
+      "sentence": "L'___ projectat semblava tan real que sorprenia tothom."
+    },
+    {
+      "word": "exhalar",
+      "wrongVariants": [
+        "exalar"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Expulsar aire dels pulmons.",
+      "sentence": "Va ___ profundament per calmar-se abans de parlar."
+    },
+    {
+      "word": "exhaurir",
+      "wrongVariants": [
+        "exaurir"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Fer que alguna cosa s'acabi o es consumeixi totalment.",
+      "sentence": "Van ___ totes les entrades en menys d'una hora."
+    },
+    {
+      "word": "exhortar",
+      "wrongVariants": [
+        "exortar"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Animar o incitar algú a fer una acció amb convicció.",
+      "sentence": "El professor va ___ els alumnes a continuar estudiant amb esforç."
+    },
+    {
+      "word": "exhumar",
+      "wrongVariants": [
+        "exumar"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Treure un cadàver o restes del lloc on han estat enterrats.",
+      "sentence": "Es van veure obligats a ___ les restes per una investigació."
+    },
+    {
+      "word": "exhaust",
+      "wrongVariants": [
+        "exaust"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Completament consumit o esgotat.",
+      "sentence": "El treball constant va deixar-lo completament ___."
+    },
+    {
+      "word": "exhalació",
+      "wrongVariants": [
+        "exalació"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Acte d'expulsar aire o gas del cos o d'una substància.",
+      "sentence": "La ___ de gasos tòxics va causar una evacuació immediata."
+    },
+    {
+      "word": "exhauriment",
+      "wrongVariants": [
+        "exauriment"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Estat de quedar-se sense forces o recursos.",
+      "sentence": "L'atleta va caure per ___ després de la competició."
+    },
+    {
+      "word": "exhortació",
+      "wrongVariants": [
+        "exortació"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Discurs o recomanació feta amb insistència.",
+      "sentence": "La ___ del líder va motivar l'equip a treballar més dur."
+    },
+    {
+      "word": "exhumació",
+      "wrongVariants": [
+        "exumació"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Acte de desenterrar restes humanes.",
+      "sentence": "L'___ es va fer amb molt de respecte i discreció."
+    },
+    {
+      "word": "inexhaustible",
+      "wrongVariants": [
+        "inexaustible"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Que no es pot esgotar o consumir totalment.",
+      "sentence": "La seva energia semblava ___."
+    },
+    {
+      "word": "Hispània",
+      "wrongVariants": [
+        "Ispània"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Nom donat pels romans a la península Ibèrica.",
+      "sentence": "Els romans van conquerir ___ al segle III aC."
+    },
+    {
+      "word": "hispànic",
+      "wrongVariants": [
+        "ispànic"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Relatiu o pertanyent a Hispània o a la cultura hispana.",
+      "sentence": "El patrimoni ___ inclou influències romanes i visigòtiques."
+    },
+    {
+      "word": "hispanoamericà",
+      "wrongVariants": [
+        "ispanoamericà"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Relatiu als països d'Amèrica on es parla castellà.",
+      "sentence": "Els escriptors ___ tenen una gran presència en la literatura mundial."
+    },
+    {
+      "word": "hirundínid",
+      "wrongVariants": [
+        "irundínid"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Família d'ocells que inclou orenetes i altres espècies similars.",
+      "sentence": "Els ___ són coneguts per les seves habilitats de vol."
+    },
+    {
+      "word": "hordeació",
+      "wrongVariants": [
+        "ordeació"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Acció de disposar o organitzar alguna cosa de manera ordenada.",
+      "sentence": "L'___ de les tropes va ser essencial per a la victòria."
+    },
+    {
+      "word": "Hispanoamèrica",
+      "wrongVariants": [
+        "Ispanoamèrica"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Conjunt de països d'Amèrica de parla hispana.",
+      "sentence": "La història de ___ està marcada per la colonització espanyola."
+    },
+    {
+      "word": "hirundí",
+      "wrongVariants": [
+        "irundí"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Relatiu o pertanyent a les orenetes.",
+      "sentence": "La migració dels ___ anuncia l'arribada de la primavera."
+    },
+    {
+      "word": "hispanitat",
+      "wrongVariants": [
+        "ispanitat"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Conjunt de trets culturals i històrics dels pobles d'origen hispà.",
+      "sentence": "La ___ es celebra cada any el 12 d'octubre."
+    },
+    {
+      "word": "horde",
+      "wrongVariants": [
+        "orde"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Conjunt de persones que es mouen o actuen de manera desorganitzada.",
+      "sentence": "L'___ va travessar el territori amb rapidesa."
+    },
+    {
+      "word": "hirundines",
+      "wrongVariants": [
+        "irundines"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Nom científic utilitzat per referir-se a les orenetes.",
+      "sentence": "Les ___ són ocells insectívors de gran agilitat en vol."
+    },
+    {
+      "word": "cor",
+      "wrongVariants": [
+        "chor"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Conjunt de persones que canten de manera organitzada.",
+      "sentence": "El ___ de l'església va interpretar una peça clàssica."
+    },
+    {
+      "word": "tesaurus",
+      "wrongVariants": [
+        "thesaurus"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Diccionari que conté sinònims i paraules relacionades.",
+      "sentence": "Va consultar el ___ per enriquir el seu vocabulari."
+    },
+    {
+      "word": "absenta",
+      "wrongVariants": [
+        "habsenta"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Licor d'alta graduació elaborat amb extractes d'herbes.",
+      "sentence": "Els artistes bohemis del segle XIX sovint consumien ___."
+    },
+    {
+      "word": "mamut",
+      "wrongVariants": [
+        "hmamut"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Animal prehistòric similar a l'elefant, ara extint.",
+      "sentence": "Els ossos d'un ___ van ser descoberts durant una excavació."
+    },
+    {
+      "word": "lutier",
+      "wrongVariants": [
+        "hlutier"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Persona que construeix o repara instruments musicals de corda.",
+      "sentence": "El ___ va fabricar un violí d'una qualitat excepcional."
+    },
+    {
+      "word": "neandertal",
+      "wrongVariants": [
+        "hneandertal"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Espècie humana extingida que va viure a l'Europa prehistòrica.",
+      "sentence": "Els ___ compartien territoris amb els humans moderns durant milers d'anys."
+    },
+    {
+      "word": "braman",
+      "wrongVariants": [
+        "hbraman"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Sacerdot de la religió hindú.",
+      "sentence": "El ___ va liderar la cerimònia sagrada al temple."
+    },
+    {
+      "word": "tai",
+      "wrongVariants": [
+        "htai"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Relatiu o pertanyent a Tailàndia o la seva cultura.",
+      "sentence": "El menjar ___ és conegut per la seva combinació de sabors."
+    },
+    {
+      "word": "rin",
+      "wrongVariants": [
+        "rhin"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Nom d'un riu europeu que travessa diversos països.",
+      "sentence": "El ___ és un dels rius més importants d'Alemanya."
+    },
+    {
+      "word": "Afganistan",
+      "wrongVariants": [
+        "Hafganistan"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "País situat al sud d'Àsia Central.",
+      "sentence": "L'___ té una història marcada per diversos conflictes."
+    },
+    {
+      "word": "Santllehí",
+      "wrongVariants": [
+        "Santlleí"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Cognom d'origen català amb arrel arcaica.",
+      "sentence": "La família ___ és originària de la comarca del Bages."
+    },
+    {
+      "word": "Vehí",
+      "wrongVariants": [
+        "Veí"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Cognom català amb grafia antiga.",
+      "sentence": "En Joan ___ és un conegut arquitecte de Girona."
+    },
+    {
+      "word": "Estruch",
+      "wrongVariants": [
+        "Estruç"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Cognom d'origen català amb una h final arcaica.",
+      "sentence": "La senyora ___ va fundar una associació cultural al barri."
+    },
+    {
+      "word": "Folch",
+      "wrongVariants": [
+        "Foc"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Cognom antic amb arrel catalana.",
+      "sentence": "El doctor ___ ha publicat diversos estudis sobre medicina tradicional."
+    },
+    {
+      "word": "Dachs",
+      "wrongVariants": [
+        "Dacs"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Cognom català amb una grafia històrica singular.",
+      "sentence": "Els avantpassats de la família ___ eren comerciants de vins."
+    },
+    {
+      "word": "Cochs",
+      "wrongVariants": [
+        "Cocs"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Cognom antic que conserva la h en la seva forma escrita.",
+      "sentence": "La masia propietat dels ___ data del segle XVI."
+    },
+    {
+      "word": "Pujolvehí",
+      "wrongVariants": [
+        "Pujolveí"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Cognom compost d'origen català.",
+      "sentence": "Els germans ___ són coneguts per la seva empresa familiar."
+    },
+    {
+      "word": "Montlhery",
+      "wrongVariants": [
+        "Montlery"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Cognom d'origen occità amb influència catalana.",
+      "sentence": "La senyora ___ va donar suport a diverses iniciatives culturals."
+    },
+    {
+      "word": "Hortsavinyà",
+      "wrongVariants": [
+        "Ortsavinyà"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Topònim i cognom associat a una regió rural de Catalunya.",
+      "sentence": "Els habitants de ___ celebren cada any una festa tradicional."
+    },
+    {
+      "word": "Huguet",
+      "wrongVariants": [
+        "Uguet"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Cognom català amb arrels medievals.",
+      "sentence": "La família ___ va tenir un paper important en la història local."
+    },
+    {
+      "word": "ordi",
+      "wrongVariants": [
+        "hordi"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Cereal cultivat que s'utilitza per fer farina, cervesa, i pinso.",
+      "sentence": "El camp d'___ ja està a punt per a la collita."
+    },
+    {
+      "word": "oreneta",
+      "wrongVariants": [
+        "horeneta"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Ocell migratori petit conegut pel seu vol àgil.",
+      "sentence": "L'___ va construir el niu sota el balcó."
+    },
+    {
+      "word": "Espanya",
+      "wrongVariants": [
+        "Hespanya"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom del país situat al sud-oest d'Europa.",
+      "sentence": "Els turistes van visitar diverses regions d'___."
+    },
+    {
+      "word": "Joan",
+      "wrongVariants": [
+        "Jhoan"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom propi masculí d'origen hebreu.",
+      "sentence": "En ___ va decidir estudiar a la universitat de Barcelona."
+    },
+    {
+      "word": "Espanya",
+      "wrongVariants": [
+        "Hispània"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Nom modern de l'antiga Hispània.",
+      "sentence": "El recorregut històric d'___ inclou diverses civilitzacions."
+    },
+    {
+      "word": "Ermenegild",
+      "wrongVariants": [
+        "Hermenegild"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Nom propi masculí d'origen germànic.",
+      "sentence": "El bisbe ___ és una figura destacada en la història religiosa."
+    },
+    {
+      "word": "orxata",
+      "wrongVariants": [
+        "horxata"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Beguda dolça feta amb xufles, sucre i aigua.",
+      "sentence": "A l'estiu, m'agrada prendre un got d'___ ben fresca."
+    },
+    {
+      "word": "ostatge",
+      "wrongVariants": [
+        "hostatge"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Persona retinguda per forçar el compliment d'una demanda.",
+      "sentence": "El segrestador va deixar lliure l'___ després de les negociacions."
+    },
+    {
+      "word": "Ester",
+      "wrongVariants": [
+        "Hester"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom propi femení d'origen hebreu.",
+      "sentence": "L'___ és una de les protagonistes d'una història bíblica."
+    },
+    {
+      "word": "Rut",
+      "wrongVariants": [
+        "Hrut"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom propi femení d'origen bíblic.",
+      "sentence": "La ___ va decidir començar una nova etapa a l'estranger."
+    },
+    {
+      "word": "lutier",
+      "wrongVariants": [
+        "hlutier"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Persona que fabrica o repara instruments musicals de corda.",
+      "sentence": "El ___ va restaurar el violí antic amb gran cura."
+    },
+    {
+      "word": "gimcana",
+      "wrongVariants": [
+        "ghimcana"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Activitat o competició amb diverses proves d'habilitat o coneixement.",
+      "sentence": "Van organitzar una ___ per als nens del barri."
+    },
+    {
+      "word": "neandertal",
+      "wrongVariants": [
+        "hneandertal"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Espècie humana extingida que va viure a l'Europa prehistòrica.",
+      "sentence": "Els fòssils de ___ han ajudat a entendre l'evolució humana."
+    },
+    {
+      "word": "tailandès",
+      "wrongVariants": [
+        "htailandès"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Relatiu o pertanyent a Tailàndia o a la seva cultura.",
+      "sentence": "El menjar ___ és conegut pels seus sabors intensos."
+    },
+    {
+      "word": "mamut",
+      "wrongVariants": [
+        "hmamut"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Animal prehistòric similar a l'elefant, ara extint.",
+      "sentence": "Els ossos d'un ___ es van descobrir durant una excavació."
+    },
+    {
+      "word": "kan",
+      "wrongVariants": [
+        "khan"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Títol dels sobirans mongols o turcs en l'antiguitat.",
+      "sentence": "Genguis ___ va ser un dels líders més poderosos de la història."
+    },
+    {
+      "word": "braman",
+      "wrongVariants": [
+        "hbraman"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Sacerdot de la religió hindú.",
+      "sentence": "El ___ va conduir la cerimònia religiosa."
+    },
+    {
+      "word": "absenta",
+      "wrongVariants": [
+        "habsenta"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Licor d'alta graduació elaborat amb extractes d'herbes.",
+      "sentence": "L'___ va ser una beguda popular entre els artistes bohemis."
+    },
+    {
+      "word": "rin",
+      "wrongVariants": [
+        "rhin"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Nom d'un riu europeu que travessa diversos països.",
+      "sentence": "El ___ és conegut per les seves belles valls i castells."
+    },
+    {
+      "word": "afganès",
+      "wrongVariants": [
+        "hafganès"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Relatiu o pertanyent a l'Afganistan o als seus habitants.",
+      "sentence": "El poble ___ té una cultura rica i diversa."
+    },
+    {
+      "word": "homogeni",
+      "wrongVariants": [
+        "omogeni"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Que té les mateixes característiques o propietats en tot el conjunt.",
+      "sentence": "El líquid era ___ i no presentava cap separació de components."
+    },
+    {
+      "word": "homòleg",
+      "wrongVariants": [
+        "omòleg"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Que té una relació d'igualtat o correspondència amb una altra cosa.",
+      "sentence": "El ministre va reunir-se amb el seu ___ francès per discutir acords."
+    },
+    {
+      "word": "homònim",
+      "wrongVariants": [
+        "omònim"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Que té el mateix nom que una altra cosa o persona.",
+      "sentence": "El riu i el poble tenen un nom ___."
+    },
+    {
+      "word": "homosexual",
+      "wrongVariants": [
+        "omosexual"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Persona que sent atracció sexual o romàntica per persones del mateix sexe.",
+      "sentence": "L'associació defensa els drets de les persones ___."
+    },
+    {
+      "word": "homogènia",
+      "wrongVariants": [
+        "omogènia"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Qualitat de ser homogeni.",
+      "sentence": "La barreja va adquirir una ___ perfecta després de ser agitada."
+    },
+    {
+      "word": "homologar",
+      "wrongVariants": [
+        "omologar"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Reconèixer oficialment que una cosa compleix unes normes establertes.",
+      "sentence": "El títol universitari ha estat ___ per les autoritats competents."
+    },
+    {
+      "word": "homeopatia",
+      "wrongVariants": [
+        "omeopatia"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Sistema de medicina alternativa basat en l'ús de dosis molt petites de substàncies.",
+      "sentence": "Algunes persones prefereixen tractar-se amb ___."
+    },
+    {
+      "word": "homeòstasi",
+      "wrongVariants": [
+        "omeòstasi"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Capacitat d'un organisme per mantenir l'estabilitat interna malgrat els canvis externs.",
+      "sentence": "La ___ és essencial per al bon funcionament del cos humà."
+    },
+    {
+      "word": "homínid",
+      "wrongVariants": [
+        "omínid"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Família de primats que inclou els humans i els seus avantpassats directes.",
+      "sentence": "Els arqueòlegs van trobar fòssils d'un ___ a l'Àfrica."
+    },
+    {
+      "word": "homologació",
+      "wrongVariants": [
+        "omologació"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Procés d'aprovació oficial d'alguna cosa segons uns estàndards establerts.",
+      "sentence": "La ___ dels vehicles va ser ràpida i eficient."
+    }
+  ]
+}
