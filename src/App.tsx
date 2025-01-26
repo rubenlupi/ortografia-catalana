@@ -11,6 +11,7 @@ import oUWords from '../jsonWords/o-u.json'
 import mNWords from '../jsonWords/m-n.json'
 import sZWords from '../jsonWords/s-ss.json'
 import hWords from '../jsonWords/h.json'
+import gJWords from '../jsonWords/g-j.json'
 import type { Word, Rule, Link } from './components/WordPicker/WordPicker'
 
 interface User {
@@ -94,7 +95,7 @@ function App() {
     { id: "accent", title: "L'accent diacrític" },
   ];
 
-  const activeBoxIds = ["b-v", "a-e", "o-u", "m-n", "esses", "h"];
+  const activeBoxIds = ["b-v", "a-e", "o-u", "m-n", "esses", "h", "g-j"];
 
   const handleBoxClick = (boxId: string) => {
     setSelectedBox(boxId);
@@ -119,6 +120,8 @@ function App() {
         return sZWords;
       case "h":
         return hWords;
+      case "g-j":
+        return gJWords;
       default:
         return { words: [] as Word[], rules: [] as Rule[], links: [] as Link[] };
     }

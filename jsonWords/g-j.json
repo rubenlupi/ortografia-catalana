@@ -1,0 +1,822 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 10,
+      "message": "S'escriu 'g' davant de les vocals 'e' i 'i'. La seva pronúncia pot ser diferent segons la situació.",
+      "rule": "g -> g abans de e, i",
+      "ex": "autogestió, pagès, ingerir, gelat, girafa, imaginar, original, afegir"
+    },
+    {
+      "id": 11,
+      "message": "S'escriu 'j' davant de les vocals 'a', 'o' i 'u'.",
+      "rule": "j -> j abans de a, o, u",
+      "ex": "apujar, jaure, baixanada, barreja, joc, gàbia, monjo, jugar, adjunt, judo, conjugar"
+    },
+    {
+      "id": 1,
+      "message": "La g pot representar dos sons diferents: oclusiva velar sonora ([g]) o fricativa palatoalveolar sonora ([ʒ]) segons la vocal que la segueix.",
+      "rule": "sons de la g segons la vocal",
+      "ex": "gorra, guant, gel, girar"
+    },
+    {
+      "id": 2,
+      "message": "En català, la u entre [G i E] ó [G i I] és muda, però es pronuncia quan porta dièresi.",
+      "rule": "ús de dièresi en gue i gui",
+      "ex": "pingüí, aigües, llengüeta"
+    },
+    {
+      "id": 3,
+      "message": "Quan la g està en contacte amb la e o la i, adopta el mateix so que la j.",
+      "rule": "g i j amb so similar davant de e o i",
+      "ex": "gel, gira, gerra, jerarquia"
+    },
+    {
+      "id": 4,
+      "message": "Algunes paraules s’escriuen amb j encara que estiguin en contacte amb una e.",
+      "rule": "excepcions de j davant de e",
+      "ex": "jeure, jeroglífic, jerarquia"
+    },
+    {
+      "id": 5,
+      "message": "Els dígrafs tg i tj representen el so [d͡ʒ] i segueixen les mateixes normes ortogràfiques que la g i la j.",
+      "rule": "ús de tg i tj per representar [d͡ʒ]",
+      "ex": "fetge, jutge, metge, projecte"
+    },
+    {
+      "id": 6,
+      "message": "En mots cultes començats per adj-, el so [d͡ʒ] s’escriu amb dj.",
+      "rule": "ús de dj en mots cultes amb adj-",
+      "ex": "adjectiu, adjuntar, adjudicar"
+    },
+    {
+      "id": 7,
+      "message": "En noms geogràfics adaptats i derivats, el so [d͡ʒ] s’escriu amb dj.",
+      "rule": "ús de dj en noms geogràfics",
+      "ex": "Djibouti, Azerbaidjan, cambodjà"
+    },
+    {
+      "id": 8,
+      "message": "El so [t͡ʃ] es pot representar amb tx o ig, segons la posició i el context.",
+      "rule": "representació del so [t͡ʃ] amb tx o ig",
+      "ex": "faig, despatx, roig, caixa"
+    }
+  ],
+  "words": [
+    {
+      "word": "gel",
+      "wrongVariants": [
+        "jel"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Aigua solidificada per efecte del fred.",
+      "sentence": "El llac estava cobert de ___ a l'hivern."
+    },
+    {
+      "word": "girar",
+      "wrongVariants": [
+        "jirar"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Fer un moviment circular o canviar de direcció.",
+      "sentence": "Has de ___ a la dreta per arribar a casa meva."
+    },
+    {
+      "word": "guerra",
+      "wrongVariants": [
+        "jerra"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Conflicte armat entre països o grups.",
+      "sentence": "La ___ va durar molts anys i va causar destrucció."
+    },
+    {
+      "word": "general",
+      "wrongVariants": [
+        "jeneral"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Que afecta o inclou la major part o la totalitat.",
+      "sentence": "La reunió va tractar temes d'interès ___."
+    },
+    {
+      "word": "gigant",
+      "wrongVariants": [
+        "jigant"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Una figura o persona de dimensions extraordinàries.",
+      "sentence": "El conte parlava d'un ___ que vivia en una muntanya."
+    },
+    {
+      "word": "giny",
+      "wrongVariants": [
+        "jiny"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Aparell o artefacte ideat per a un ús específic.",
+      "sentence": "El científic va inventar un ___ per millorar la comunicació."
+    },
+    {
+      "word": "pingüí",
+      "wrongVariants": [
+        "pingui"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Ocell que no vola i viu en zones fredes.",
+      "sentence": "El ___ es va llençar a l’aigua gelada per pescar."
+    },
+    {
+      "word": "aigües",
+      "wrongVariants": [
+        "aigues"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Plural d’aigua, un líquid essencial per a la vida.",
+      "sentence": "Les ___ del riu baixaven ràpidament després de la pluja."
+    },
+    {
+      "word": "tranqüil",
+      "wrongVariants": [
+        "tranquil"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que està en calma o sense preocupacions.",
+      "sentence": "Després de l’examen, es va sentir més ___."
+    },
+    {
+      "word": "lingüista",
+      "wrongVariants": [
+        "linguista"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Persona que estudia les llengües i el seu funcionament.",
+      "sentence": "El ___ va fer una conferència sobre els dialectes catalans."
+    },
+    {
+      "word": "veratgües",
+      "wrongVariants": [
+        "veratges"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Crests o onades petites al mar causades pel vent.",
+      "sentence": "Les ___ es veien des del vaixell."
+    },
+    {
+      "word": "desagües",
+      "wrongVariants": [
+        "desagues"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Conductes per on s’evacua l’aigua.",
+      "sentence": "Els ___ de la cuina estan obstruïts."
+    },
+    {
+      "word": "lingüeta",
+      "wrongVariants": [
+        "lingueta"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Peça petita que sobresurt i serveix per ajustar alguna cosa.",
+      "sentence": "La ___ de la sabata s’ha trencat."
+    },
+    {
+      "word": "qüestió",
+      "wrongVariants": [
+        "questió"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Tema o assumpte que es planteja per debatre o resoldre.",
+      "sentence": "La reunió va tractar una ___ molt important per a l’empresa."
+    },
+    {
+      "word": "güelf",
+      "wrongVariants": [
+        "guelf"
+      ],
+      "level": 3,
+      "rule": 2,
+      "meaning": "Membre d’un antic partit polític medieval italià.",
+      "sentence": "Els ___ van defensar els interessos del papa."
+    },
+    {
+      "word": "autogestió",
+      "wrongVariants": [
+        "autojestió"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Sistema d'organització on les persones prenen decisions directament.",
+      "sentence": "L'empresa va implementar un model d'___."
+    },
+    {
+      "word": "pagès",
+      "wrongVariants": [
+        "pajès"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Persona que treballa al camp cultivant la terra.",
+      "sentence": "El ___ va collir les pomes del seu hort."
+    },
+    {
+      "word": "ingerir",
+      "wrongVariants": [
+        "injerir"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Introduir aliments o begudes a través de la boca.",
+      "sentence": "És important ___ prou aigua cada dia."
+    },
+    {
+      "word": "gelat",
+      "wrongVariants": [
+        "jelat"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Postres congelades fetes amb llet, sucre i altres ingredients.",
+      "sentence": "Vaig menjar un ___ de xocolata."
+    },
+    {
+      "word": "girafa",
+      "wrongVariants": [
+        "jirafa"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Animal alt amb coll llarg que viu a l'Àfrica.",
+      "sentence": "La ___ s’alimenta de les fulles dels arbres."
+    },
+    {
+      "word": "imaginar",
+      "wrongVariants": [
+        "imajinar"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Crear imatges o idees a la ment.",
+      "sentence": "És fàcil ___ un paisatge tranquil mentre escoltes música."
+    },
+    {
+      "word": "original",
+      "wrongVariants": [
+        "orijinal"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Que és nou, diferent o creatiu.",
+      "sentence": "La seva idea per decorar l'habitació és molt ___."
+    },
+    {
+      "word": "afegir",
+      "wrongVariants": [
+        "afejir"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Incloure o sumar alguna cosa més.",
+      "sentence": "Pots ___ més sal a la sopa si et sembla insípida."
+    },
+    {
+      "word": "geni",
+      "wrongVariants": [
+        "jeni"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Persona amb una intel·ligència o habilitat extraordinària.",
+      "sentence": "Albert Einstein és considerat un ___ de la física."
+    },
+    {
+      "word": "gent",
+      "wrongVariants": [
+        "jent"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Conjunt de persones en un lloc o context.",
+      "sentence": "Hi havia molta ___ al concert d’ahir."
+    },
+    {
+      "word": "apujar",
+      "wrongVariants": [
+        "agujar"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Elevar o fer pujar alguna cosa.",
+      "sentence": "Van decidir ___ el preu de les entrades."
+    },
+    {
+      "word": "jaure",
+      "wrongVariants": [
+        "gaure"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Estar estirat o ajagut.",
+      "sentence": "El gat sol ___ al costat de la llar de foc."
+    },
+    {
+      "word": "baixanada",
+      "wrongVariants": [
+        "baganada"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Cosa o situació sense importància o poc valuosa.",
+      "sentence": "Tot aquest debat és només una ___."
+    },
+    {
+      "word": "barreja",
+      "wrongVariants": [
+        "garreja"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Acció de combinar diferents coses.",
+      "sentence": "Aquesta recepta és una ___ de sabors dolços i salats."
+    },
+    {
+      "word": "joc",
+      "wrongVariants": [
+        "goc"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Activitat recreativa o competició amb regles.",
+      "sentence": "El ___ de cartes és molt popular entre els amics."
+    },
+    {
+      "word": "monjo",
+      "wrongVariants": [
+        "mongjo"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Persona religiosa que viu en un monestir.",
+      "sentence": "El ___ va dedicar la seva vida a la meditació."
+    },
+    {
+      "word": "jugar",
+      "wrongVariants": [
+        "gugar"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Participar en una activitat recreativa o esportiva.",
+      "sentence": "Els nens van sortir al carrer a ___."
+    },
+    {
+      "word": "adjunt",
+      "wrongVariants": [
+        "agdunt"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Que acompanya o s'afegeix a una cosa.",
+      "sentence": "Vaig enviar el document com a ___ en el correu electrònic."
+    },
+    {
+      "word": "judo",
+      "wrongVariants": [
+        "gudo"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Art marcial d'origen japonès.",
+      "sentence": "En Joan practica ___ des de fa cinc anys."
+    },
+    {
+      "word": "conjugar",
+      "wrongVariants": [
+        "congugar"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Modificar un verb segons la persona, el temps i el mode.",
+      "sentence": "Avui hem après a ___ verbs en present."
+    },
+    {
+      "word": "jeure",
+      "wrongVariants": [
+        "geure"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Estar estirat o descansant en una superfície.",
+      "sentence": "Va decidir ___ una estona a l'ombra."
+    },
+    {
+      "word": "jeroglífic",
+      "wrongVariants": [
+        "geroglífic"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Sistema d’escriptura utilitzat pels antics egipcis.",
+      "sentence": "Els arqueòlegs van trobar un antic ___ en una piràmide."
+    },
+    {
+      "word": "jerarquia",
+      "wrongVariants": [
+        "gerarquia"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Organització de persones o coses en diferents nivells d'importància.",
+      "sentence": "La ___ de l'empresa és molt estricta."
+    },
+    {
+      "word": "Jerusalem",
+      "wrongVariants": [
+        "Gerusalem"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Ciutat històrica del Pròxim Orient, considerada sagrada per diverses religions.",
+      "sentence": "Van visitar ___ durant el seu viatge a Israel."
+    },
+    {
+      "word": "jèster",
+      "wrongVariants": [
+        "gèster"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Antic bufó de la cort que entretenia amb humor i trucs.",
+      "sentence": "El ___ feia riure el rei amb els seus acudits."
+    },
+    {
+      "word": "jermà",
+      "wrongVariants": [
+        "germà"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Paraula arcaica per germà en algunes variants dialectals.",
+      "sentence": "El seu ___ gran era molt protector."
+    },
+    {
+      "word": "jeremiada",
+      "wrongVariants": [
+        "geremiada"
+      ],
+      "level": 3,
+      "rule": 4,
+      "meaning": "Discurs o lamentació exagerada i trist.",
+      "sentence": "Va fer una llarga ___ sobre els seus problemes."
+    },
+    {
+      "word": "jerarquia",
+      "wrongVariants": [
+        "gerarquia"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Sistema d'organització per nivells d'autoritat o importància.",
+      "sentence": "La ___ militar defineix clarament els rols de cada oficial."
+    },
+    {
+      "word": "jerseu",
+      "wrongVariants": [
+        "gerseu"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Peça de roba de punt que cobreix el tors.",
+      "sentence": "Portava un ___ gruixut durant l'hivern."
+    },
+    {
+      "word": "Jèssica",
+      "wrongVariants": [
+        "Gèssica"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Nom propi femení d'origen hebreu.",
+      "sentence": "La ___ és una de les millors amigues de la Maria."
+    },
+    {
+      "word": "fetge",
+      "wrongVariants": [
+        "fetxe"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Òrgan intern del cos humà que filtra les toxines de la sang.",
+      "sentence": "El metge va dir que el seu ___ estava en bon estat."
+    },
+    {
+      "word": "jutge",
+      "wrongVariants": [
+        "jutxe"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Persona encarregada d'administrar justícia en un tribunal.",
+      "sentence": "El ___ va dictar una sentència justa."
+    },
+    {
+      "word": "metge",
+      "wrongVariants": [
+        "metxe"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Professional de la salut encarregat de diagnosticar i tractar malalties.",
+      "sentence": "Va anar al ___ perquè tenia febre."
+    },
+    {
+      "word": "projecte",
+      "wrongVariants": [
+        "proyecte"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Pla detallat per aconseguir un objectiu específic.",
+      "sentence": "Estan treballant en un ___ de recerca científica."
+    },
+    {
+      "word": "objecte",
+      "wrongVariants": [
+        "obyecte"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Cosa concreta que es pot veure i tocar.",
+      "sentence": "L'___ estava sobre la taula."
+    },
+    {
+      "word": "rebutge",
+      "wrongVariants": [
+        "rebutxe"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Acció de no acceptar alguna cosa o algú.",
+      "sentence": "Va dir que ___ completament la proposta."
+    },
+    {
+      "word": "subjutge",
+      "wrongVariants": [
+        "subjutxe"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Dominar o sotmetre algú completament.",
+      "sentence": "Els invasors van ___ la població local."
+    },
+    {
+      "word": "adjectiu",
+      "wrongVariants": [
+        "adjecteiu"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Paraula que descriu o qualifica un substantiu.",
+      "sentence": "L'___ 'bonic' descriu una característica positiva."
+    },
+    {
+      "word": "adjuntar",
+      "wrongVariants": [
+        "adxuntar"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Incloure o afegir alguna cosa a un document o correu.",
+      "sentence": "Va ___ els arxius al correu electrònic."
+    },
+    {
+      "word": "adjudicar",
+      "wrongVariants": [
+        "adxudicar"
+      ],
+      "level": 3,
+      "rule": 5,
+      "meaning": "Atorgar alguna cosa a algú, especialment en un concurs o licitació.",
+      "sentence": "Van ___ el contracte a l'empresa guanyadora."
+    },
+    {
+      "word": "adjectiu",
+      "wrongVariants": [
+        "adgeciu"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Paraula que descriu o qualifica un substantiu.",
+      "sentence": "L'___ defineix la qualitat del substantiu."
+    },
+    {
+      "word": "adjuntar",
+      "wrongVariants": [
+        "adgeuntar"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Afegir un fitxer o document a un correu o missatge.",
+      "sentence": "He decidit ___ el document a l'email."
+    },
+    {
+      "word": "adjudicar",
+      "wrongVariants": [
+        "adgeudicar"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Atorgar alguna cosa formalment a algú.",
+      "sentence": "El jutge va ___ la propietat al demandant."
+    },
+    {
+      "word": "adjacent",
+      "wrongVariants": [
+        "adgeacent"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Que es troba al costat d'una altra cosa.",
+      "sentence": "La casa ___ està en obres."
+    },
+    {
+      "word": "adjudicació",
+      "wrongVariants": [
+        "adgeudicació"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Acte d'assignar alguna cosa, especialment per decisió formal.",
+      "sentence": "La ___ del premi es farà durant la cerimònia."
+    },
+    {
+      "word": "adjunt",
+      "wrongVariants": [
+        "adgeunt"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Que acompanya alguna cosa o algú en una tasca o funció.",
+      "sentence": "El document ___ explica els detalls."
+    },
+    {
+      "word": "adjudicador",
+      "wrongVariants": [
+        "adgeudicador"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Persona o entitat que assigna formalment alguna cosa.",
+      "sentence": "El comitè ___ va revisar totes les sol·licituds."
+    },
+    {
+      "word": "adjuntura",
+      "wrongVariants": [
+        "adgeuntura"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Unió o connexió entre dues parts.",
+      "sentence": "L'___ de les peces es va fer amb molta precisió."
+    },
+    {
+      "word": "adjectivació",
+      "wrongVariants": [
+        "adgectivació"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Procés de convertir una paraula en adjectiu.",
+      "sentence": "La ___ de noms és comuna en la literatura."
+    },
+    {
+      "word": "adjudicable",
+      "wrongVariants": [
+        "adgeudicable"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Que es pot assignar formalment a algú.",
+      "sentence": "Aquesta plaça és ___ per concurs públic."
+    },
+    {
+      "word": "Djibouti",
+      "wrongVariants": [
+        "Gibouti",
+        "Jibouti"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Un país situat a l'Àfrica oriental.",
+      "sentence": "___ és conegut pel seu port estratègic."
+    },
+    {
+      "word": "Azerbaidjan",
+      "wrongVariants": [
+        "Azerbaijan",
+        "Azerbadjan"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Un país localitzat entre Europa i Àsia, al Caucas.",
+      "sentence": "El ___ té una rica cultura històrica."
+    },
+    {
+      "word": "cambodjà",
+      "wrongVariants": [
+        "cambodja",
+        "cambotjà"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Relatiu a Cambodja, un país del sud-est asiàtic.",
+      "sentence": "El temple d'Angkor Wat és un símbol del patrimoni ___."
+    },
+    {
+      "word": "Tadjikistan",
+      "wrongVariants": [
+        "Tajikistan",
+        "Tadgikistan"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Un país muntanyós situat a l'Àsia central.",
+      "sentence": "El ___ és famós per les seves rutes de muntanya."
+    },
+    {
+      "word": "Adjarà",
+      "wrongVariants": [
+        "Ajarà",
+        "Adjara"
+      ],
+      "level": 3,
+      "rule": 7,
+      "meaning": "Una regió autònoma de Geòrgia.",
+      "sentence": "___ és coneguda per les seves platges i paisatges."
+    },
+    {
+      "word": "faig",
+      "wrongVariants": [
+        "fatx"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Primera persona del singular del verb 'fer' en present.",
+      "sentence": "Sempre ___ els deures abans de sopar."
+    },
+    {
+      "word": "despatx",
+      "wrongVariants": [
+        "despach"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Habitació o espai destinat al treball d'oficina.",
+      "sentence": "Treballa al seu ___ fins tard."
+    },
+    {
+      "word": "roig",
+      "wrongVariants": [
+        "roch"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Color que s'associa amb el foc o la sang.",
+      "sentence": "El cel era ___ durant la posta de sol."
+    },
+    {
+      "word": "caixa",
+      "wrongVariants": [
+        "caxa"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Objecte de forma generalment quadrada o rectangular per guardar coses.",
+      "sentence": "Vaig posar els llibres en una ___."
+    },
+    {
+      "word": "estratègic",
+      "wrongVariants": [
+        "estratellic"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Relatiu a una estratègia o pla important.",
+      "sentence": "Van prendre una decisió molt ___ per al futur de l'empresa."
+    }
+  ]
+}
