@@ -1,0 +1,689 @@
+{
+  "links": [],
+  "rules": [
+    {
+      "id": 1,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb al·l-.",
+      "rule": "al·l- inicial",
+      "ex": "al·lèrgia, al·licient, al·lusió, al·ludir, al·lucinar"
+    },
+    {
+      "id": 2,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb il·l-.",
+      "rule": "il·l- inicial",
+      "ex": "il·lusió, il·legal, il·lès, il·luminar"
+    },
+    {
+      "id": 3,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb col·l-.",
+      "rule": "col·l- inicial",
+      "ex": "col·legi, col·loqui, col·lapse, col·laborar, col·lecció, col·lega, col·locar"
+    },
+    {
+      "id": 4,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb gal·l-.",
+      "rule": "gal·l- inicial",
+      "ex": "gal·lès, gal·licisme"
+    },
+    {
+      "id": 5,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb mil·l-.",
+      "rule": "mil·l- inicial",
+      "ex": "mil·lenari, mil·lèsima, mil·límetre"
+    },
+    {
+      "id": 6,
+      "message": "S’escriuen amb ela geminada (l·l) els mots començats amb sil·l-.",
+      "rule": "sil·l- inicial",
+      "ex": "sil·logisme, síl·laba, sil·labari"
+    },
+    {
+      "id": 7,
+      "message": "S’escriuen amb ela geminada (l·l) els mots acabats en -el·la.",
+      "rule": "-el·la final",
+      "ex": "novel·la, aquarel·la, varicel·la, franel·la, mortadel·la, parcel·la"
+    },
+    {
+      "id": 8,
+      "message": "S’escriuen amb ela geminada (l·l) els mots acabats en -il·la.",
+      "rule": "-il·la final",
+      "ex": "goril·la, clorofil·la, tranquil·la, til·la, Camil·la"
+    },
+    {
+      "id": 9,
+      "message": "S’escriuen amb ela geminada (l·l) els mots acabats en -il·lar.",
+      "rule": "-il·lar final",
+      "ex": "destil·lar, cavil·lar, vacil·lar, oscil·lar"
+    },
+    {
+      "id": 10,
+      "message": "S’escriuen amb ela geminada (l·l) els mots acabats en -el·lir.",
+      "rule": "-el·lir final",
+      "ex": "impel·lir, expel·lir, repel·lir"
+    },
+    {
+      "id": 11,
+      "message": "S’escriuen amb ela geminada (l·l) paraules emparentades amb d’altres que porten ll.",
+      "rule": "relació amb ll",
+      "ex": "all > al·liaci, cabell > capil·lar, cervell > cerebel·lós, cristall > cristal·lí"
+    },
+    {
+      "id": 12,
+      "message": "Les paraules següents no duen ela geminada (l·l).",
+      "rule": "paraules sense l·l",
+      "ex": "alegria, antelació, celebrar, colador, colònia, milió, molècula"
+    }
+  ],
+  "words": [
+    {
+      "word": "al·lèrgia",
+      "wrongVariants": [
+        "alergia"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Reacció del sistema immunitari a substàncies inofensives.",
+      "sentence": "La Maria té ___ al pol·len."
+    },
+    {
+      "word": "al·licient",
+      "wrongVariants": [
+        "alicient"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Cosa que estimula o motiva a fer alguna cosa.",
+      "sentence": "Un bon sou és un gran ___ per acceptar la feina."
+    },
+    {
+      "word": "al·lusió",
+      "wrongVariants": [
+        "alusió"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Referència indirecta a una persona o cosa.",
+      "sentence": "Va fer una ___ subtil al seu error."
+    },
+    {
+      "word": "al·ludir",
+      "wrongVariants": [
+        "aludir"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Fer referència a alguna cosa de manera indirecta.",
+      "sentence": "En el discurs va voler ___ a un tema delicat."
+    },
+    {
+      "word": "al·lucinar",
+      "wrongVariants": [
+        "alucinar"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Veure o sentir coses que no són reals.",
+      "sentence": "Estava tan cansat que va començar a ___."
+    },
+    {
+      "word": "il·lusió",
+      "wrongVariants": [
+        "ilusió"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Esperança o entusiasme per alguna cosa que es desitja.",
+      "sentence": "Em fa molta ___ preparar aquesta sorpresa."
+    },
+    {
+      "word": "il·legal",
+      "wrongVariants": [
+        "ilegal"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que no està permès per la llei.",
+      "sentence": "És ___ estacionar en aquesta zona."
+    },
+    {
+      "word": "il·lès",
+      "wrongVariants": [
+        "ilès"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Que no ha patit cap dany o lesió.",
+      "sentence": "Malgrat l'accident, tothom va sortir ___."
+    },
+    {
+      "word": "il·luminar",
+      "wrongVariants": [
+        "iluminar"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Donar llum a un lloc o objecte.",
+      "sentence": "El fanal serveix per ___ el carrer a la nit."
+    },
+    {
+      "word": "il·lustrar",
+      "wrongVariants": [
+        "ilustrar"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Acompanyar un text amb imatges o donar exemples per fer més clar un tema.",
+      "sentence": "El llibre està molt ben ___ amb dibuixos."
+    },
+    {
+      "word": "col·legi",
+      "wrongVariants": [
+        "colegi"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Institució educativa on s'ensenyen coneixements a nens i joves.",
+      "sentence": "El meu fill estudia en un ___ prop de casa."
+    },
+    {
+      "word": "col·loqui",
+      "wrongVariants": [
+        "coloqui"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Conversa o debat sobre un tema específic.",
+      "sentence": "El professor va organitzar un ___ sobre literatura."
+    },
+    {
+      "word": "col·lapse",
+      "wrongVariants": [
+        "colapse"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Parada sobtada d'una activitat o funcionament.",
+      "sentence": "Hi va haver un ___ al trànsit durant hores."
+    },
+    {
+      "word": "col·laborar",
+      "wrongVariants": [
+        "colaborar"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Treballar conjuntament amb altres per aconseguir un objectiu.",
+      "sentence": "Volem ___ amb altres empreses per millorar el servei."
+    },
+    {
+      "word": "col·lecció",
+      "wrongVariants": [
+        "colecció"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Conjunt d'objectes recopilats per un mateix interès o tema.",
+      "sentence": "Té una gran ___ de monedes antigues."
+    },
+    {
+      "word": "gal·lès",
+      "wrongVariants": [
+        "galès"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Relatiu o pertanyent a Gal·les o als seus habitants.",
+      "sentence": "El rugbi és un esport molt popular entre el poble ___."
+    },
+    {
+      "word": "gal·licisme",
+      "wrongVariants": [
+        "gallicisme"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Paraula o expressió manllevada del francès.",
+      "sentence": "El mot 'garatge' és un exemple de ___."
+    },
+    {
+      "word": "gal·líc",
+      "wrongVariants": [
+        "galic"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Relatiu o pertanyent a la Gàl·lia, antiga regió de l'Imperi Romà.",
+      "sentence": "Els pobles ___ van tenir una gran influència en la història d'Europa."
+    },
+    {
+      "word": "gal·leria",
+      "wrongVariants": [
+        "galeria"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Passadís o espai amb finestres grans sovint utilitzat per exposicions.",
+      "sentence": "La ___ d'art exposava quadres impressionistes."
+    },
+    {
+      "word": "gal·ló",
+      "wrongVariants": [
+        "galó"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Adorn fet amb una tira de fil o passamaneria.",
+      "sentence": "El vestit estava decorat amb un ___ daurat."
+    },
+    {
+      "word": "mil·lenari",
+      "wrongVariants": [
+        "milenari"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Que té mil anys o que dura mil anys.",
+      "sentence": "El roure ___ és un símbol del poble."
+    },
+    {
+      "word": "mil·lèsima",
+      "wrongVariants": [
+        "milesima"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Part que resulta de dividir una unitat en mil parts iguals.",
+      "sentence": "Només quedava una ___ part de l'aigua al vas."
+    },
+    {
+      "word": "mil·límetre",
+      "wrongVariants": [
+        "milimetre"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Unitat de longitud igual a la mil·lèsima part d'un metre.",
+      "sentence": "La distància entre les línies és d'un ___."
+    },
+    {
+      "word": "mil·lígram",
+      "wrongVariants": [
+        "miligram"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Unitat de massa igual a la mil·lèsima part d'un gram.",
+      "sentence": "El medicament es pren en dosis de 5 ___."
+    },
+    {
+      "word": "mil·límetrat",
+      "wrongVariants": [
+        "milimetrat"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Que ha estat mesurat o ajustat amb precisió al mil·límetre.",
+      "sentence": "El treball estava ___ per garantir la seva exactitud."
+    },
+    {
+      "word": "sil·logisme",
+      "wrongVariants": [
+        "silogisme"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Raonament deductiu format per tres proposicions.",
+      "sentence": "El professor va explicar un ___ senzill durant la classe de lògica."
+    },
+    {
+      "word": "síl·laba",
+      "wrongVariants": [
+        "silaba"
+      ],
+      "level": 1,
+      "rule": 6,
+      "meaning": "Cada una de les divisions fonètiques d'una paraula.",
+      "sentence": "La paraula 'casa' té dues ___."
+    },
+    {
+      "word": "sil·labari",
+      "wrongVariants": [
+        "silabari"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Conjunt de síl·labes utilitzat en un sistema d'escriptura.",
+      "sentence": "L'alfabet japonès inclou un ___ per escriure sons."
+    },
+    {
+      "word": "sil·lueta",
+      "wrongVariants": [
+        "silueta"
+      ],
+      "level": 2,
+      "rule": 6,
+      "meaning": "Contorn o forma que destaca sobre un fons.",
+      "sentence": "A la llum de la lluna es podia veure la seva ___."
+    },
+    {
+      "word": "sil·lucidar",
+      "wrongVariants": [
+        "silucidar"
+      ],
+      "level": 3,
+      "rule": 6,
+      "meaning": "Explicar o aclarir un tema amb detall.",
+      "sentence": "El ponent va voler ___ els punts més difícils del discurs."
+    },
+    {
+      "word": "novel·la",
+      "wrongVariants": [
+        "novella"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Obra literària narrativa de certa extensió.",
+      "sentence": "Estic llegint una ___ molt emocionant."
+    },
+    {
+      "word": "aquarel·la",
+      "wrongVariants": [
+        "aquarella"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Pintura feta amb colors diluïts en aigua.",
+      "sentence": "La ___ representava un paisatge tranquil."
+    },
+    {
+      "word": "varicel·la",
+      "wrongVariants": [
+        "varicella"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Malaltia contagiosa que causa erupcions a la pell.",
+      "sentence": "Els nens petits solen tenir la ___."
+    },
+    {
+      "word": "franel·la",
+      "wrongVariants": [
+        "franella"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Teixit suau utilitzat per fer roba càlida.",
+      "sentence": "Va comprar una camisa de ___ per a l'hivern."
+    },
+    {
+      "word": "mortadel·la",
+      "wrongVariants": [
+        "mortadella"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Embotit italià fet de carn de porc i espècies.",
+      "sentence": "Vaig preparar un entrepà de ___ per dinar."
+    },
+    {
+      "word": "parcel·la",
+      "wrongVariants": [
+        "parcella"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Part d'un terreny dividit en porcions.",
+      "sentence": "Van comprar una ___ per construir-hi una casa."
+    },
+    {
+      "word": "goril·la",
+      "wrongVariants": [
+        "gorilla"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Un gran primat que viu a les selves d'Àfrica.",
+      "sentence": "El ___ estava assegut tranquil sota l'arbre."
+    },
+    {
+      "word": "clorofil·la",
+      "wrongVariants": [
+        "clorofilla"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Substància verda de les plantes que permet la fotosíntesi.",
+      "sentence": "La ___ dóna el color verd a les fulles."
+    },
+    {
+      "word": "tranquil·la",
+      "wrongVariants": [
+        "tranquilla"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Que està en calma, sense preocupacions.",
+      "sentence": "La nit era molt ___ i silenciosa."
+    },
+    {
+      "word": "til·la",
+      "wrongVariants": [
+        "tilla"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Infusió feta amb flors de l'arbre de la til·ler.",
+      "sentence": "Va prendre una tassa de ___ per relaxar-se."
+    },
+    {
+      "word": "Camil·la",
+      "wrongVariants": [
+        "Camilla"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Nom propi d'una persona.",
+      "sentence": "La ___ va arribar a la festa amb un somriure."
+    },
+    {
+      "word": "destil·lar",
+      "wrongVariants": [
+        "destillar"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Separar substàncies per mitjà de l'evaporació i la condensació.",
+      "sentence": "Per obtenir aigua pura, cal ___-la."
+    },
+    {
+      "word": "cavil·lar",
+      "wrongVariants": [
+        "cavilar"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Pensar intensament sobre alguna cosa.",
+      "sentence": "Va passar hores ___ sobre la solució al problema."
+    },
+    {
+      "word": "vacil·lar",
+      "wrongVariants": [
+        "vacilar"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Dubtar o mostrar inseguretat en prendre una decisió.",
+      "sentence": "Va ___ abans de donar una resposta definitiva."
+    },
+    {
+      "word": "oscil·lar",
+      "wrongVariants": [
+        "oscilar"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Moure's d'un costat a l'altre repetidament.",
+      "sentence": "El pèndol del rellotge no deixa d'___."
+    },
+    {
+      "word": "instil·lar",
+      "wrongVariants": [
+        "instilar"
+      ],
+      "level": 3,
+      "rule": 9,
+      "meaning": "Introduir gradualment un sentiment o idea.",
+      "sentence": "Va voler ___ en els alumnes un esperit de cooperació."
+    },
+    {
+      "word": "impel·lir",
+      "wrongVariants": [
+        "impelir"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Empènyer o impulsar una cosa cap endavant.",
+      "sentence": "La força del vent va ___ la barca cap a la riba."
+    },
+    {
+      "word": "expel·lir",
+      "wrongVariants": [
+        "expelir"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Fer fora alguna cosa d'un lloc o cos.",
+      "sentence": "El volcà va ___ una gran quantitat de cendres."
+    },
+    {
+      "word": "repel·lir",
+      "wrongVariants": [
+        "repelir"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Rebutjar o resistir una cosa o persona.",
+      "sentence": "Van aconseguir ___ l'atac de l'enemic."
+    },
+    {
+      "word": "compel·lir",
+      "wrongVariants": [
+        "compelir"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Forçar algú a fer alguna cosa.",
+      "sentence": "Els fets el van ___ a prendre una decisió ràpida."
+    },
+    {
+      "word": "propel·lir",
+      "wrongVariants": [
+        "propelir"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Impulsar cap endavant mitjançant una força.",
+      "sentence": "El motor té la capacitat de ___ el vaixell a gran velocitat."
+    },
+    {
+      "word": "al·liaci",
+      "wrongVariants": [
+        "aliaci"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Relatiu a les plantes del gènere Allium, com l'all o la ceba.",
+      "sentence": "L'all és una planta de la família dels ___."
+    },
+    {
+      "word": "capil·lar",
+      "wrongVariants": [
+        "capilar"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Relatiu als cabells o als vasos sanguinis més petits.",
+      "sentence": "L'acció del líquid es deu a la força ___."
+    },
+    {
+      "word": "cerebel·lós",
+      "wrongVariants": [
+        "cerebelós"
+      ],
+      "level": 3,
+      "rule": 11,
+      "meaning": "Relatiu al cerebel, part del cervell.",
+      "sentence": "Una lesió ___ pot afectar la coordinació motora."
+    },
+    {
+      "word": "cristal·lí",
+      "wrongVariants": [
+        "cristalí"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Que és transparent o clar com un cristall.",
+      "sentence": "L'aigua del riu era tan ___ que es veien les pedres del fons."
+    },
+    {
+      "word": "pel·lícula",
+      "wrongVariants": [
+        "pelicula"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Film cinematogràfic o capa fina que cobreix una superfície.",
+      "sentence": "Ahir vam veure una ___ molt interessant al cinema."
+    },
+    {
+      "word": "alegria",
+      "wrongVariants": [
+        "al·legria"
+      ],
+      "level": 1,
+      "rule": 12,
+      "meaning": "Sentiment de felicitat intensa.",
+      "sentence": "L'___ de retrobar-se amb els amics era evident."
+    },
+    {
+      "word": "antelació",
+      "wrongVariants": [
+        "an·telació"
+      ],
+      "level": 2,
+      "rule": 12,
+      "meaning": "Fet de fer alguna cosa abans del temps necessari.",
+      "sentence": "Va preparar l'examen amb molta ___."
+    },
+    {
+      "word": "celebrar",
+      "wrongVariants": [
+        "cel·lebrar"
+      ],
+      "level": 1,
+      "rule": 12,
+      "meaning": "Commemorar un esdeveniment amb alegria.",
+      "sentence": "Dissabte celebrem l'aniversari de la Maria."
+    },
+    {
+      "word": "colònia",
+      "wrongVariants": [
+        "col·lònia"
+      ],
+      "level": 1,
+      "rule": 12,
+      "meaning": "Grup de persones establertes fora del seu país d'origen o perfum líquid.",
+      "sentence": "Van fundar una ___ a Amèrica del Sud."
+    },
+    {
+      "word": "milió",
+      "wrongVariants": [
+        "mil·lió"
+      ],
+      "level": 1,
+      "rule": 12,
+      "meaning": "Nombre que representa mil vegades mil.",
+      "sentence": "El vídeo ha rebut més d'un ___ de visites."
+    }
+  ]
+}
