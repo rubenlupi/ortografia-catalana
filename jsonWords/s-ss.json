@@ -1,0 +1,879 @@
+{
+  "links": [
+    {
+      "title": "Les esses: s, ss, c, ç, z",
+      "description": "Link extern al consorci per la normalització lingüística.",
+      "url": "https://www.cpnl.cat/gramatica/15/5-les-esses-s-ss-c-c-z"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "message": "Hi ha dos sons diferents de la essa: el de la essa sorda i el de la essa sonora. Quan pronunciem la essa sorda, les cordes vocals no vibren; quan pronunciem una essa sonora sí.",
+      "rule": "diferenciació de sons: essa sorda i essa sonora",
+      "ex": "sopa (essa sorda), rosa (essa sonora)"
+    },
+    {
+      "id": 2,
+      "message": "El so de essa sorda es pot representar amb les grafies s, ss, c, ç.",
+      "rule": "representació de la essa sorda amb s, ss, c, ç",
+      "ex": "sabata, supressió, cel, braços"
+    },
+    {
+      "id": 3,
+      "message": "El so de essa sonora es pot representar amb les grafies s, z.",
+      "rule": "representació de la essa sonora amb s, z",
+      "ex": "casa, zebra, pinzell"
+    },
+    {
+      "id": 4,
+      "message": "Les esses (s o ss) i les ces (c o ç) formen dues famílies diferents que no es barregen mai. Quan una paraula s’escriu amb s o ss, els seus derivats també ho fan.",
+      "rule": "famílies de s/ss i c/ç no es barregen",
+      "ex": "casa > caseta, casolà; llaç > llaçada, llacet"
+    },
+    {
+      "id": 5,
+      "message": "Per saber si una paraula amb so sord s’ha d’escriure amb s (o ss) o bé amb c (o ç), es pot tenir en compte la correspondència amb altres llengües romàniques.",
+      "rule": "correspondència entre llengües romàniques per escriure essa sorda",
+      "ex": "nación > nació; comission > comissió"
+    },
+    {
+      "id": 6,
+      "message": "Hi ha paraules en català amb s o ss, encara que altres llengües romàniques utilitzin c, ç, o z.",
+      "rule": "ús de s/ss en català, diferent d’altres llengües romàniques",
+      "ex": "desembre, alzina"
+    },
+    {
+      "id": 7,
+      "message": "Hi ha paraules especials que no segueixen les regles comunes i s’escriuen amb s o ss, segons el context.",
+      "rule": "casos especials d'ús de s/ss",
+      "ex": "assaltar, dessalar, ressò"
+    },
+    {
+      "id": 8,
+      "message": "Hi ha mots cultes on la z representa una essa sonora entre vocals.",
+      "rule": "ús de z per representar essa sonora en mots cultes",
+      "ex": "amazona, trapezi, bizantí"
+    },
+    {
+      "id": 9,
+      "message": "Hi ha paraules femenines acabades en -essa que es pronuncien amb essa sorda.",
+      "rule": "essa sorda en paraules femenines acabades en -essa",
+      "ex": "abadessa, metgessa"
+    },
+    {
+      "id": 10,
+      "message": "En alguns mots cultes o compostos, la z es troba a inici de paraula.",
+      "rule": "ús de z a l'inici de mots cultes",
+      "ex": "zero, zebra"
+    },
+    {
+      "id": 11,
+      "message": "Les paraules en català amb z diferencien alguns mots respecte a altres llengües romàniques.",
+      "rule": "ús de z en català amb variació romànica",
+      "ex": "pinzell, alzina"
+    }
+  ],
+  "words": [
+    {
+      "word": "sopa",
+      "wrongVariants": [
+        "zopa"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Menjar líquid fet amb aigua, verdures i altres ingredients.",
+      "sentence": "Per sopar hem preparat una bona ___ calenta."
+    },
+    {
+      "word": "rosa",
+      "wrongVariants": [
+        "rossa"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Flor d'un arbust amb pètals de colors, habitualment vermells o roses.",
+      "sentence": "Va regalar una ___ vermella a la seva parella."
+    },
+    {
+      "word": "casa",
+      "wrongVariants": [
+        "cassa"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Lloc on viu una persona o una família.",
+      "sentence": "Van construir una ___ al costat del riu."
+    },
+    {
+      "word": "mossa",
+      "wrongVariants": [
+        "mosa"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Noia jove o dona jove.",
+      "sentence": "La ___ treballava de cambrera al bar."
+    },
+    {
+      "word": "zebra",
+      "wrongVariants": [
+        "sebra"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Animal amb ratlles negres i blanques que viu a les sabanes.",
+      "sentence": "La ___ corria ràpidament per evitar els depredadors."
+    },
+    {
+      "word": "música",
+      "wrongVariants": [
+        "mússica"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Art de combinar sons per crear composicions harmòniques.",
+      "sentence": "Escoltar ___ relaxa la ment."
+    },
+    {
+      "word": "esbós",
+      "wrongVariants": [
+        "essbos"
+      ],
+      "level": 2,
+      "rule": 1,
+      "meaning": "Dibuix o text preliminar per planificar una obra final.",
+      "sentence": "Va fer un ___ abans de començar el quadre."
+    },
+    {
+      "word": "zodíac",
+      "wrongVariants": [
+        "sodíac"
+      ],
+      "level": 3,
+      "rule": 1,
+      "meaning": "Cinturó celeste dividit en dotze parts corresponents als signes astrològics.",
+      "sentence": "L'astrologia es basa en els signes del ___."
+    },
+    {
+      "word": "salut",
+      "wrongVariants": [
+        "zalut"
+      ],
+      "level": 1,
+      "rule": 1,
+      "meaning": "Estat de benestar físic i mental.",
+      "sentence": "La pràctica d'esport ajuda a mantenir una bona ___."
+    },
+    {
+      "word": "sabata",
+      "wrongVariants": [
+        "zabata"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Peça de calçat que cobreix i protegeix el peu.",
+      "sentence": "Vaig comprar una nova ___ per a l'hivern."
+    },
+    {
+      "word": "supressió",
+      "wrongVariants": [
+        "supresió"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Acció d'eliminar o treure alguna cosa.",
+      "sentence": "La ___ de l'impost va ser ben rebuda per la població."
+    },
+    {
+      "word": "cel",
+      "wrongVariants": [
+        "zel"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Espai atmosfèric visible sobre la terra.",
+      "sentence": "El ___ estava blau i sense núvols."
+    },
+    {
+      "word": "braços",
+      "wrongVariants": [
+        "brassos"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Extremitats superiors del cos humà.",
+      "sentence": "Va obrir els ___ per saludar el seu amic."
+    },
+    {
+      "word": "mossa",
+      "wrongVariants": [
+        "moza"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Noia jove o dona jove.",
+      "sentence": "La ___ portava un vestit molt elegant."
+    },
+    {
+      "word": "cirera",
+      "wrongVariants": [
+        "zirera"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Fruit petit i vermellós d'un arbre.",
+      "sentence": "Aquestes ___ són dolces i sucoses."
+    },
+    {
+      "word": "traçat",
+      "wrongVariants": [
+        "trazat"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Disseny o configuració d'una línia o estructura.",
+      "sentence": "El ___ del camí és molt sinuós."
+    },
+    {
+      "word": "forçut",
+      "wrongVariants": [
+        "forzut"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Persona que té molta força física.",
+      "sentence": "El treballador del magatzem és molt ___."
+    },
+    {
+      "word": "importància",
+      "wrongVariants": [
+        "importànzia"
+      ],
+      "level": 2,
+      "rule": 2,
+      "meaning": "Rellevància o valor significatiu d'alguna cosa.",
+      "sentence": "La ___ d'aquest descobriment és enorme."
+    },
+    {
+      "word": "ciència",
+      "wrongVariants": [
+        "ziència"
+      ],
+      "level": 1,
+      "rule": 2,
+      "meaning": "Conjunt de coneixements obtinguts a través de l'estudi i l'experimentació.",
+      "sentence": "La ___ ens ajuda a comprendre el món que ens envolta."
+    },
+    {
+      "word": "casa",
+      "wrongVariants": [
+        "cassa"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Lloc on viu una persona o una família.",
+      "sentence": "Van construir una ___ al costat del riu."
+    },
+    {
+      "word": "zebra",
+      "wrongVariants": [
+        "sebra"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Animal amb ratlles negres i blanques que viu a les sabanes.",
+      "sentence": "La ___ és un dels animals més característics de l'Àfrica."
+    },
+    {
+      "word": "pinzell",
+      "wrongVariants": [
+        "pinsell"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Instrument utilitzat per pintar o aplicar pintura.",
+      "sentence": "Va agafar un ___ per fer els detalls del quadre."
+    },
+    {
+      "word": "música",
+      "wrongVariants": [
+        "mússica"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Art de combinar sons d'una manera harmònica i expressiva.",
+      "sentence": "Escoltar ___ clàssica em relaxa molt."
+    },
+    {
+      "word": "zona",
+      "wrongVariants": [
+        "sona"
+      ],
+      "level": 1,
+      "rule": 3,
+      "meaning": "Part d'una superfície o lloc delimitat per alguna característica.",
+      "sentence": "Van habilitar una ___ de jocs per als nens."
+    },
+    {
+      "word": "esbós",
+      "wrongVariants": [
+        "esbos"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Dibuix o esborrany preliminar per planificar una obra.",
+      "sentence": "L'artista va fer un ___ abans de començar el quadre."
+    },
+    {
+      "word": "nazisme",
+      "wrongVariants": [
+        "nasisme"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Doctrina política associada amb el règim de Hitler.",
+      "sentence": "El ___ va marcar una època fosca de la història."
+    },
+    {
+      "word": "amazona",
+      "wrongVariants": [
+        "amasona"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Dona guerrera de la mitologia grega o habitant de la regió de l'Amazones.",
+      "sentence": "La llegenda de l'___ és fascinant."
+    },
+    {
+      "word": "bizantí",
+      "wrongVariants": [
+        "bisantí"
+      ],
+      "level": 3,
+      "rule": 3,
+      "meaning": "Relatiu a l'Imperi Bizantí o a la seva cultura.",
+      "sentence": "L'art ___ és conegut per les seves icones religioses."
+    },
+    {
+      "word": "bronze",
+      "wrongVariants": [
+        "bronce"
+      ],
+      "level": 2,
+      "rule": 3,
+      "meaning": "Aliatge de coure i estany utilitzat per fabricar objectes.",
+      "sentence": "El monument estava fet de ___."
+    },
+    {
+      "word": "caseta",
+      "wrongVariants": [
+        "casseta"
+      ],
+      "level": 1,
+      "rule": 4,
+      "meaning": "Petita casa, sovint utilitzada com a refugi o cabana.",
+      "sentence": "Vam passar el cap de setmana en una ___ al bosc."
+    },
+    {
+      "word": "casolà",
+      "wrongVariants": [
+        "cassolà"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Relatiu a casa o fet a casa.",
+      "sentence": "Aquest pa és ___, fet amb les nostres pròpies mans."
+    },
+    {
+      "word": "llaçada",
+      "wrongVariants": [
+        "llassada"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Acció de lligar o l'objecte que resulta de lligar un llaç.",
+      "sentence": "La ___ al cabell era perfecta per a l'ocasió."
+    },
+    {
+      "word": "llacet",
+      "wrongVariants": [
+        "llazet"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Llaç petit utilitzat com a decoració o distintiu.",
+      "sentence": "El ___ vermell simbolitza la lluita contra la sida."
+    },
+    {
+      "word": "impressió",
+      "wrongVariants": [
+        "impreció"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Imatge o opinió formada en la ment d'algú.",
+      "sentence": "La seva manera de parlar em va deixar una bona ___."
+    },
+    {
+      "word": "aparença",
+      "wrongVariants": [
+        "aparenessa"
+      ],
+      "level": 2,
+      "rule": 4,
+      "meaning": "Aspecte extern d'una persona o cosa.",
+      "sentence": "L'___ enganyava, semblava nou però era antic."
+    },
+    {
+      "word": "relació",
+      "wrongVariants": [
+        "relasió"
+      ],
+      "level": 1,
+      "rule": 5,
+      "meaning": "Vincle o interacció entre persones, coses o idees.",
+      "sentence": "La seva ___ amb els companys de feina era molt bona."
+    },
+    {
+      "word": "decisió",
+      "wrongVariants": [
+        "desisió"
+      ],
+      "level": 2,
+      "rule": 5,
+      "meaning": "Acte de prendre una determinació o elecció entre diferents opcions.",
+      "sentence": "Va ser una ___ difícil, però necessària."
+    },
+    {
+      "word": "assaltar",
+      "wrongVariants": [
+        "asaltar"
+      ],
+      "level": 1,
+      "rule": 7,
+      "meaning": "Atacar algú o alguna cosa amb la intenció de prendre o danyar.",
+      "sentence": "Els bandits van intentar ___ una diligència a la muntanya."
+    },
+    {
+      "word": "dessalar",
+      "wrongVariants": [
+        "desalar"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Treure la sal d'un aliment o substància.",
+      "sentence": "Cal ___ el bacallà abans de cuinar-lo."
+    },
+    {
+      "word": "ressò",
+      "wrongVariants": [
+        "reso"
+      ],
+      "level": 2,
+      "rule": 7,
+      "meaning": "Repercussió o eco d'un so o d'una acció.",
+      "sentence": "Les seves paraules van tenir un gran ___ entre el públic."
+    },
+    {
+      "word": "amazona",
+      "wrongVariants": [
+        "amasona"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Dona guerrera de la mitologia grega o habitant de la regió de l'Amazones.",
+      "sentence": "La llegenda de l'___ encara fascina molts historiadors."
+    },
+    {
+      "word": "trapezi",
+      "wrongVariants": [
+        "trapesi"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Figura geomètrica amb dues bases paral·leles o estructura per fer exercici.",
+      "sentence": "L'acròbata es va llançar des del ___."
+    },
+    {
+      "word": "bizantí",
+      "wrongVariants": [
+        "bisantí"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Relatiu a l'Imperi Bizantí o a la seva cultura.",
+      "sentence": "Els mosaics ___ són coneguts arreu del món."
+    },
+    {
+      "word": "nazisme",
+      "wrongVariants": [
+        "nasisme"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Doctrina política associada al règim d'Adolf Hitler.",
+      "sentence": "El ___ va causar una de les èpoques més fosques de la història."
+    },
+    {
+      "word": "protozou",
+      "wrongVariants": [
+        "protosou"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Organisme unicel·lular que forma part del regne protista.",
+      "sentence": "El ___ es troba habitualment en ambients aquàtics."
+    },
+    {
+      "word": "ozó",
+      "wrongVariants": [
+        "osó"
+      ],
+      "level": 1,
+      "rule": 8,
+      "meaning": "Gas format per tres àtoms d'oxigen, essencial per a la capa protectora de la Terra.",
+      "sentence": "La capa d'___ protegeix el planeta dels raigs ultraviolats."
+    },
+    {
+      "word": "topazi",
+      "wrongVariants": [
+        "topasi"
+      ],
+      "level": 2,
+      "rule": 8,
+      "meaning": "Pedra preciosa de diversos colors utilitzada en joieria.",
+      "sentence": "El collar portava un ___ de color blau al centre."
+    },
+    {
+      "word": "espermatozoide",
+      "wrongVariants": [
+        "espermatosoide"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Cèl·lula masculina responsable de la fecundació en animals.",
+      "sentence": "L'___ és una de les cèl·lules més petites del cos humà."
+    },
+    {
+      "word": "bizantisme",
+      "wrongVariants": [
+        "bisantisme"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Característica o tendència pròpia de l'Imperi Bizantí.",
+      "sentence": "El ___ és un exemple d'arquitectura i art elaborat."
+    },
+    {
+      "word": "paleozoic",
+      "wrongVariants": [
+        "paleosoic"
+      ],
+      "level": 3,
+      "rule": 8,
+      "meaning": "Era geològica que va començar fa aproximadament 541 milions d'anys.",
+      "sentence": "Durant el ___ es van formar les primeres formes de vida complexes."
+    },
+    {
+      "word": "abadessa",
+      "wrongVariants": [
+        "abadesa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Dona que és superior d'un monestir o una abadia.",
+      "sentence": "L'___ va rebre els nous visitants amb hospitalitat."
+    },
+    {
+      "word": "metgessa",
+      "wrongVariants": [
+        "metgesa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Dona que exerceix la medicina.",
+      "sentence": "La ___ va diagnosticar ràpidament la malaltia."
+    },
+    {
+      "word": "comtessa",
+      "wrongVariants": [
+        "comtesa"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Dona amb el títol nobiliari de comte o esposa d'un comte.",
+      "sentence": "La ___ va assistir al ball amb un vestit elegant."
+    },
+    {
+      "word": "diablessa",
+      "wrongVariants": [
+        "diablesa"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Dona que simbolitza un diable o esperit maligne.",
+      "sentence": "La ___ era una figura destacada de la festa tradicional."
+    },
+    {
+      "word": "hostessa",
+      "wrongVariants": [
+        "hostesa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Dona que atén els passatgers en un avió o altres mitjans de transport.",
+      "sentence": "L'___ va oferir begudes durant el vol."
+    },
+    {
+      "word": "poetessa",
+      "wrongVariants": [
+        "poetesa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Dona que escriu poesia.",
+      "sentence": "La ___ va recitar un dels seus poemes més famosos."
+    },
+    {
+      "word": "profetessa",
+      "wrongVariants": [
+        "profetesa"
+      ],
+      "level": 2,
+      "rule": 9,
+      "meaning": "Dona que prediu el futur o anuncia missatges divins.",
+      "sentence": "La ___ va advertir sobre els perills imminents."
+    },
+    {
+      "word": "sacerdotessa",
+      "wrongVariants": [
+        "sacerdotesa"
+      ],
+      "level": 3,
+      "rule": 9,
+      "meaning": "Dona que exerceix funcions religioses o rituals.",
+      "sentence": "La ___ conduïa el ritual al temple antic."
+    },
+    {
+      "word": "deessa",
+      "wrongVariants": [
+        "deesa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Divinitat femenina d'una religió o mitologia.",
+      "sentence": "La ___ de la saviesa era adorada pels antics grecs."
+    },
+    {
+      "word": "princesa",
+      "wrongVariants": [
+        "princessa"
+      ],
+      "level": 1,
+      "rule": 9,
+      "meaning": "Filla d'un rei o d'una reina, o dona amb títol de princesa.",
+      "sentence": "La ___ va visitar el poble durant les festivitats locals."
+    },
+    {
+      "word": "zero",
+      "wrongVariants": [
+        "sero"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Nombre que representa l'absència de quantitat.",
+      "sentence": "La temperatura ha baixat fins a ___ graus aquesta nit."
+    },
+    {
+      "word": "zebra",
+      "wrongVariants": [
+        "sebra"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Animal amb ratlles blanques i negres que viu a les sabanes.",
+      "sentence": "La ___ es va refugiar sota l'ombra d'un arbre."
+    },
+    {
+      "word": "zodíac",
+      "wrongVariants": [
+        "sodíac"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Cinturó celeste dividit en dotze parts corresponents als signes astrològics.",
+      "sentence": "La seva predicció estava basada en els signes del ___."
+    },
+    {
+      "word": "zenit",
+      "wrongVariants": [
+        "senit"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Punt més alt al cel directament sobre l'observador.",
+      "sentence": "El sol es trobava al ___ al migdia."
+    },
+    {
+      "word": "zinc",
+      "wrongVariants": [
+        "sinc"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Element químic metàl·lic utilitzat en aliatges i recobriments.",
+      "sentence": "El sostre estava cobert de plaques de ___."
+    },
+    {
+      "word": "zodíac",
+      "wrongVariants": [
+        "sodíac"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Divisió del cel en dotze parts utilitzades en l'astrologia.",
+      "sentence": "Va consultar el seu signe al ___."
+    },
+    {
+      "word": "zoòleg",
+      "wrongVariants": [
+        "soòleg"
+      ],
+      "level": 2,
+      "rule": 10,
+      "meaning": "Científic que estudia els animals.",
+      "sentence": "El ___ va descobrir una nova espècie de rèptil."
+    },
+    {
+      "word": "zona",
+      "wrongVariants": [
+        "sona"
+      ],
+      "level": 1,
+      "rule": 10,
+      "meaning": "Espai o àrea delimitada per una característica específica.",
+      "sentence": "Van habilitar una ___ recreativa per als nens."
+    },
+    {
+      "word": "zoòlogic",
+      "wrongVariants": [
+        "soòlogic"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Relatiu a la ciència que estudia els animals.",
+      "sentence": "Va assistir a una conferència sobre estudis ___."
+    },
+    {
+      "word": "zèfir",
+      "wrongVariants": [
+        "sèfir"
+      ],
+      "level": 3,
+      "rule": 10,
+      "meaning": "Vent suau i agradable.",
+      "sentence": "Un ___ refrescant bufava entre els arbres."
+    },
+    {
+      "word": "pinzell",
+      "wrongVariants": [
+        "pinsell"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Instrument utilitzat per aplicar pintura o dibuixar.",
+      "sentence": "Va fer servir un ___ fi per als detalls del quadre."
+    },
+    {
+      "word": "alzina",
+      "wrongVariants": [
+        "alsina"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Arbre perenne de fulla dura i verd fosc.",
+      "sentence": "L'___ proporciona una ombra agradable a l'estiu."
+    },
+    {
+      "word": "bronze",
+      "wrongVariants": [
+        "bronce"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Aliatge de coure i estany utilitzat en escultures i eines.",
+      "sentence": "La campana està feta de ___."
+    },
+    {
+      "word": "catorze",
+      "wrongVariants": [
+        "catorce"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Nombre que segueix el tretze.",
+      "sentence": "Hi havia ___ cadires al menjador."
+    },
+    {
+      "word": "dotze",
+      "wrongVariants": [
+        "doce"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Nombre que segueix l'onze.",
+      "sentence": "El rellotge marcava les ___ en punt."
+    },
+    {
+      "word": "onze",
+      "wrongVariants": [
+        "once"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Nombre que segueix el deu.",
+      "sentence": "L'autobús arribarà a les ___ del matí."
+    },
+    {
+      "word": "setze",
+      "wrongVariants": [
+        "seize"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Nombre que segueix el quinze.",
+      "sentence": "A la classe hi ha ___ alumnes."
+    },
+    {
+      "word": "tretze",
+      "wrongVariants": [
+        "trece"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Nombre que segueix el dotze.",
+      "sentence": "Han convidat ___ persones a la festa."
+    },
+    {
+      "word": "zinc",
+      "wrongVariants": [
+        "cinc"
+      ],
+      "level": 1,
+      "rule": 11,
+      "meaning": "Element químic metàl·lic de color blau platejat.",
+      "sentence": "El recipient està fet de ___."
+    },
+    {
+      "word": "bizantí",
+      "wrongVariants": [
+        "bisantí"
+      ],
+      "level": 2,
+      "rule": 11,
+      "meaning": "Relatiu a l'Imperi Bizantí o a la seva cultura.",
+      "sentence": "Els mosaics ___ són admirats per la seva complexitat."
+    }
+  ]
+}

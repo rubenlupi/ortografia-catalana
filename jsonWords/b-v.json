@@ -517,7 +517,8 @@
     {
       "word": "dissabte",
       "wrongVariants": [
-        "dissavte"
+        "dissavte",
+        "dissapte"
       ],
       "level": 1,
       "rule": 4,
@@ -527,7 +528,8 @@
     {
       "word": "objecte",
       "wrongVariants": [
-        "ovjecte"
+        "ovjecte",
+        "opjecte"
       ],
       "level": 2,
       "rule": -1,
@@ -607,7 +609,8 @@
     {
       "word": "subtil",
       "wrongVariants": [
-        "suvtil"
+        "suvtil",
+        "suptil"
       ],
       "level": 3,
       "rule": 2,
@@ -657,7 +660,8 @@
     {
       "word": "absolut",
       "wrongVariants": [
-        "avsolut"
+        "avsolut",
+        "apsolut"
       ],
       "level": 2,
       "rule": 4,
@@ -779,7 +783,7 @@
       "word": "observador",
       "wrongVariants": [
         "obserbador",
-        "ovservador"
+        "opservador"
       ],
       "level": 3,
       "rule": -1,
@@ -851,7 +855,8 @@
     {
       "word": "subministrar",
       "wrongVariants": [
-        "suvministrar"
+        "suvministrar",
+        "supministrar"
       ],
       "level": 2,
       "rule": 2,
@@ -881,7 +886,8 @@
     {
       "word": "subratllar",
       "wrongVariants": [
-        "suvratllar"
+        "suvratllar",
+        "supbrallar"
       ],
       "level": 2,
       "rule": 2,
@@ -923,7 +929,7 @@
     {
       "word": "subvertir",
       "wrongVariants": [
-        "subbertir",
+        "supbertir",
         "suvvertir"
       ],
       "level": 3,
@@ -944,7 +950,8 @@
     {
       "word": "substitució",
       "wrongVariants": [
-        "suvstitució"
+        "suvstitució",
+        "supstitució"
       ],
       "level": 2,
       "rule": 2,
@@ -985,7 +992,8 @@
     {
       "word": "sobtat",
       "wrongVariants": [
-        "sovtat"
+        "sovtat",
+        "soptat"
       ],
       "level": 2,
       "rule": -1,
@@ -1025,7 +1033,8 @@
     {
       "word": "subjugar",
       "wrongVariants": [
-        "suvjugar"
+        "suvjugar",
+        "supjugar"
       ],
       "level": 3,
       "rule": 2,
